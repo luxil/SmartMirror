@@ -1,0 +1,6 @@
+<div style="background-color:yellow;
+            width:  400px;
+            height: 100px;
+">
+INHALT
+</div>
