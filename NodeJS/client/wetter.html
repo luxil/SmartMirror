@@ -13,7 +13,7 @@
 	font-family:Verdana,Arial,Helvetica,sans-serif;
 	font-size:20px;
 	font-weight:normal;
-	border: 2px dashed #ccc;
+
 	
 }
 </style>
@@ -68,7 +68,7 @@ var tempCels = json.main.temp - 273.15; //Default in Kelvin - Umrechnung in Cels
 tempCels = tempCels.toFixed(1);			//Beschränkung von einer Nachkommastelle
  
 document.getElementById('makeMeDraggable').innerHTML =
-    city + '<br/>' + tempCels + "°" + '<br/>' + beschr;
+    city + '<br/>' + '<br/>' + tempCels + "°" + '<br/>' + beschr;
 	
 /* Alte Darstellung
 document.write(city + '<br/>' + tempCels + "°" + '<br/>');
