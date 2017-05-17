@@ -45,16 +45,21 @@ function startTime() {
     var s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
+	var y = today.getFullYear();
+	var mo = today.getMonth()+1;
+	var t = today.getDate();
+	
     document.getElementById('makeMeDraggable').innerHTML =
-    h + ":" + m + ":" + s;
+    h + ":" + m + ":" + s + '</Br>' + t + "." + mo + "." + y;
     var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
 }
+
 </script>
- 
+
 </head>
 <body onload="startTime()">
 

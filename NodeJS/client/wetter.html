@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<style>
+#makeMeDraggable { 
+	width: 150px; 
+	height: 100px; 
+	position: absolute;
+	left: 50%;
+	top: 50%; 
+	margin-left: -200px;
+	margin-top: -100px;	
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	border: 2px dashed #ccc;
+	
+}
+</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+<script type="text/javascript">
+ 
+$( init );
+ function init() {
+  $("#header").load("header.html");
+  $('#makeMeDraggable').draggable();
+ }
+  
+</script>
+
+<script>
+      
+function getJSON(yourUrl) {
+  var Httpreq = new XMLHttpRequest(); // a new request
+  Httpreq.open("GET",yourUrl,false);
+  Httpreq.send(null);
+  return Httpreq.responseText;          
+}
+                
+</script>
+
+</head>
+        
+<body> 
+<div id="header"></div>
+<div id="content" style="height: 400px;">
+  <div id="makeMeDraggable"> </div>
+</div>   
+
+<script>
+
+var city = "Hamburg"
+var source = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=";
+var appId = "8a33c4e62d48218b75a9adcdf31375e8"
+
+var address = source + appId;
+    
+var json = JSON.parse(getJSON(address));
+var beschr = json.weather[0].description;
+if (beschr == "clear sky")
+{	
+	beschr = "klar";
+}
+
+var tempCels = json.main.temp - 273.15; //Default in Kelvin - Umrechnung in Celsius
+tempCels = tempCels.toFixed(1);			//Beschränkung von einer Nachkommastelle
+ 
+document.getElementById('makeMeDraggable').innerHTML =
+    city + '<br/>' + tempCels + "°" + '<br/>' + beschr;
+	
+/* Alte Darstellung
+document.write(city + '<br/>' + tempCels + "°" + '<br/>');
+document.write(beschr + '<br/>');
+*/
+//document.write("Windgeschwindigkeit: " + json.wind.speed + " km/h");
+//document.write("Sonnenaufgang: " + json.sys.sunrise);
+//document.write("Sonnenuntergang: " + json.sys.sunset);
+//document.write("Das Wetter in " + city + ": " + json.weather[0].description);
+
+
+console.log(json)
+
+</script>
+
+</body>
+</html>
