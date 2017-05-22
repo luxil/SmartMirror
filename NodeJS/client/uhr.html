@@ -47,8 +47,19 @@ function startTime() {
 	var mo = today.getMonth()+1;
 	var t = today.getDate();
 	
+	var weekday = new Array(7);
+    weekday[0] = "Sonntag";
+    weekday[1] = "Montag";
+    weekday[2] = "Dienstag";
+    weekday[3] = "Mittwoch";
+    weekday[4] = "Donnerstag";
+    weekday[5] = "Freitag";
+    weekday[6] = "Samstag";
+
+    var n = weekday[today.getDay()];
+	
     document.getElementById('makeMeDraggable').innerHTML =
-    h + ":" + m + ":" + s + '</Br>' + t + "." + mo + "." + y;
+    h + ":" + m + ":" + s + '</Br>' + n + '</Br>' + t + "." + mo + "." + y;
     var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
