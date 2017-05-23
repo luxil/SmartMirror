@@ -75,7 +75,7 @@ var beschr = json.weather[0].description;
 var tempCels = json.main.temp - 273.15; //Default in Kelvin - Umrechnung in Celsius
 tempCels = tempCels.toFixed(1);			//Beschränkung von einer Nachkommastelle
 
-var icohtml = '<img src=' + '\"' + 'http://openweathermap.org/img/w/' + json.weather[0].icon + '.png"' + 'height="70" width="70"' + '>';
+var icohtml = '<img src=' + '\"' + 'http://openweathermap.org/img/w/' + json.weather[0].icon + '.png"' + 'height="90" width="90"' + '>';
 
 
 var icon = json.weather[0].icon;
