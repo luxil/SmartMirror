@@ -45,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wetter.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wetter.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/wetter.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -65,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kalender.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kalender.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/css/kalender.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -286,12 +286,12 @@
       <updated>1494936973699</updated>
       <workItem from="1494936975129" duration="101000" />
       <workItem from="1495031218229" duration="1891000" />
-      <workItem from="1495527393956" duration="1710000" />
+      <workItem from="1495527393956" duration="1972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3702000" />
+    <option name="totallyTimeSpent" value="3964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -466,14 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/wetter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/design.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -494,6 +486,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="64" lean-forward="false" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/wetter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding />
         </state>
       </provider>
