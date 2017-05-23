@@ -3,16 +3,18 @@
 <head>
 <style>
 #makeMeDraggable { 
-	width: 200px; 
-	height: 100px; 
+	width: 400px; 
+	height: 200px; 
 	position: absolute;
 	left: 50%;
 	top: 50%; 
 	margin-left: -200px;
 	margin-top: -100px;	
-	font-family:Verdana,Arial,Helvetica,sans-serif;
-	font-size:20px;
+	font-family:Garamond,Verdana,Arial,Helvetica,sans-serif;
+	font-size:40px;
 	font-weight:normal;
+
+	
 }
 .left    { text-align: left; }
 .center  { text-align: center; }
@@ -52,16 +54,19 @@ function getJSON(yourUrl) {
 <script>
 
 var city = "Hamburg"
-var source = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=";
-//var source = "http://api.openweathermap.org/data/2.5/find?lang=de/weather?q=" + city + "&appid=";
+var lang = "de"
+var source = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&lang" +"&appid=";
+//var source = "http://api.openweathermap.org/data/2.5/weather?q=hamburg&appid=8a33c4e62d48218b75a9adcdf31375e8" + "&lang=de";
+var lang = "de"
 var appId = "8a33c4e62d48218b75a9adcdf31375e8"
 
 
 var address = source + appId;
+//var address = source;
     
 var json = JSON.parse(getJSON(address));
 var beschr = json.weather[0].description;
-var rain = json.weather[0].main;
+//var rain = json.forecast.io;
 /*if (beschr == "clear sky")
 {	
 	beschr = "klar";
@@ -79,7 +84,7 @@ var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
 
 
 document.getElementById('makeMeDraggable').innerHTML =
-    city + '<br/>' + tempCels + "°" +  icohtml + '<br/>' + beschr + '<br/>' + rain;
+    city + '<br/>' + tempCels + "°" +  icohtml + '<br/>' + beschr + '<br/>';
 
 
 console.log(json)
