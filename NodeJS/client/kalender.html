@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/kalender.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <!--<style>-->
+        <!--#makeMeDraggable { width: 400px; height: 200px; background: grey; float: right;-->
+            <!--margin: 90px;}-->
+    <!--</style>-->
+
+
+
+    <script type="text/javascript">
+
+        $( init );
+
+        function init() {
+            $("#header").load("header.html");
+            $('#makeMeDraggable').draggable();
+        }
+
+    </script>
+
+</head>
+<body>
+<div id="header"></div>
+<div id="content" style="height: 400px;">
+    <div id="makeMeDraggable"> </div>
+</div>
+
+</body>
+</html>
