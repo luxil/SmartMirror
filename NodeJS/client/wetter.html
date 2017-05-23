@@ -53,6 +53,7 @@ function getJSON(yourUrl) {
 
 var city = "Hamburg"
 var source = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=";
+//var source = "http://api.openweathermap.org/data/2.5/find?lang=de/weather?q=" + city + "&appid=";
 var appId = "8a33c4e62d48218b75a9adcdf31375e8"
 
 
@@ -60,6 +61,7 @@ var address = source + appId;
     
 var json = JSON.parse(getJSON(address));
 var beschr = json.weather[0].description;
+var rain = json.weather[0].main;
 /*if (beschr == "clear sky")
 {	
 	beschr = "klar";
@@ -77,7 +79,7 @@ var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
 
 
 document.getElementById('makeMeDraggable').innerHTML =
-    city + '<br/>' + tempCels + "°" +  icohtml + '<br/>' + beschr + '<br/>' ;
+    city + '<br/>' + tempCels + "°" +  icohtml + '<br/>' + beschr + '<br/>' + rain;
 
 
 console.log(json)
