@@ -1,7 +1,29 @@
 {
-"name":"hello-world",
-"verson":"0.0.0",
-"dependencies":{
-   "express":4,15.2"
-   }
+  "name": "smart-mirror",
+  "verson": "0.0.0",
+  "dependencies": {
+    "express": "4.15.2",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^19.0.0",
+    "sockjs": "^0.3.18"
+  },
+  "version": "0.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxil/SmartMirror.git"
+  },
+  "keywords": [
+    "mirror"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luxil/SmartMirror/issues"
+  },
+  "homepage": "https://github.com/luxil/SmartMirror#readme",
+  "description": ""
 }

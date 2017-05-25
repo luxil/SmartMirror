@@ -1,58 +1,170 @@
- <!DOCTYPE html>
-<html>
-<head>
-	<link href="design.css" rel="stylesheet">
-	
-<style>
+<!doctype html>
+<html><head>
+    <link href="design.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/sockjs/1.0.1/sockjs.min.js"></script>
+    <style>
+        .box {
+            width: 300px;
+            float: left;
+            margin: 0 20px 0 20px;
+        }
+        .box div, .box input {
+            border: 1px solid;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            width: 100%;
+            padding: 0px;
+            margin: 5px;
+        }
+        .box div {
+            border-color: grey;
+            height: 300px;
+            overflow: auto;
+        }
+        .box input {
+            height: 30px;
+        }
+        h1 {
+            margin-left: 30px;
+        }
+        body {
+            background-color: #F0F0F0;
+            font-family: "Arial";
+        }
+    </style>
+</head><body lang="en">
+<h1>SockJS Express example</h1>
 
-</style>
-</head>
-<body>
+<div id="first" class="box">
+    <div></div>
+    <form><input autocomplete="off" value="Type here..."></input></form>
+</div>
 <h2 class="heading">Smart Mirror</h2><br><br>
 
 
 <div class="dropdown">
 <button onclick="myFunction()" class="dropbtn">Elemente</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="uhr.html">Uhr</a>
-	<a href="kalender.html">Kalender</a>
-    <a href="wetter.html">Wetter</a>
-    <a href="nachrichten.html">Nachrichten</a>
-  </div>
+<div id="myDropdown" class="dropdown-content">
+<a href="uhr.html">Uhr</a>
+<a href="kalender.html">Kalender</a>
+<a href="wetter.html">Wetter</a>
+<a href="nachrichten.html">Nachrichten</a>
+</div>
 </div>
 
 
-<script type="text/javascript">
-$( init );
-function init() {
-  $("#header").load("header.html");
- }
- 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+<script>
+    var sockjs_url = '/echo';
+    var sockjs = new SockJS(sockjs_url);
+    $('#first input').focus();
+    var div  = $('#first div');
+    var inp  = $('#first input');
+    var form = $('#first form');
+    var print = function(m, p) {
+        p = (p === undefined) ? '' : JSON.stringify(p);
+        div.append($("<code>").text(m + ' ' + p));
+        div.append($("<br>"));
+        div.scrollTop(div.scrollTop()+10000);
+    };
+    sockjs.onopen    = function()  {print('[*] open', sockjs.protocol);};
+    sockjs.onmessage = function(e) {print('[.] message', e.data);};
+    sockjs.onclose   = function()  {print('[*] close');};
+    form.submit(function() {
+        print('[ ] sending', inp.val());
+        sockjs.send(inp.val());
+        inp.val('');
+        return false;
+    });
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
+    $( init );
+    function init() {
+        $("#header").load("header.html");
     }
-  }
-}
 
+    /* When the user clicks on the button,
+     toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
 
 
 </script>
+</body></html>
 
 
-</body>
-</html>
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+	<!--<link href="design.css" rel="stylesheet">-->
+	<!---->
+<!--<style>-->
+
+<!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<h2 class="heading">Smart Mirror</h2><br><br>-->
+
+
+<!--<div class="dropdown">-->
+<!--<button onclick="myFunction()" class="dropbtn">Elemente</button>-->
+  <!--<div id="myDropdown" class="dropdown-content">-->
+    <!--<a href="uhr.html">Uhr</a>-->
+	<!--<a href="kalender.html">Kalender</a>-->
+    <!--<a href="wetter.html">Wetter</a>-->
+    <!--<a href="nachrichten.html">Nachrichten</a>-->
+  <!--</div>-->
+<!--</div>-->
+
+
+<!--<script type="text/javascript">-->
+<!--$( init );-->
+<!--function init() {-->
+  <!--$("#header").load("header.html");-->
+ <!--}-->
+ <!---->
+<!--/* When the user clicks on the button, -->
+<!--toggle between hiding and showing the dropdown content */-->
+<!--function myFunction() {-->
+    <!--document.getElementById("myDropdown").classList.toggle("show");-->
+<!--}-->
+
+<!--// Close the dropdown if the user clicks outside of it-->
+<!--window.onclick = function(event) {-->
+  <!--if (!event.target.matches('.dropbtn')) {-->
+
+    <!--var dropdowns = document.getElementsByClassName("dropdown-content");-->
+    <!--var i;-->
+    <!--for (i = 0; i < dropdowns.length; i++) {-->
+      <!--var openDropdown = dropdowns[i];-->
+      <!--if (openDropdown.classList.contains('show')) {-->
+        <!--openDropdown.classList.remove('show');-->
+      <!--}-->
+    <!--}-->
+  <!--}-->
+<!--}-->
+
+
+
+<!--</script>-->
+
+
+<!--</body>-->
+<!--</html>-->
