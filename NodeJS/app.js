@@ -6,7 +6,6 @@ const clientDirectory= path.join(__dirname, 'client');
 
 // 1. Echo sockjs server
 var sockjs_opts = {sockjs_url: "http://cdn.jsdelivr.net/sockjs/1.0.1/sockjs.min.js"};
-
 var sockjs_echo = sockjs.createServer(sockjs_opts);
 sockjs_echo.on('connection', function(conn) {
     conn.on('data', function(message) {
@@ -16,22 +15,20 @@ sockjs_echo.on('connection', function(conn) {
 
 // 2. Express server
 var app = express();
+var server = http.createServer(app);
+
+sockjs_echo.installHandlers(server, {prefix:'/echo'});
+// app.use("/css", express.static(__dirname + '/client/css'));
+// app.use("/js", express.static(__dirname + '/client/js'));
 app.use('/', express.static(clientDirectory));
-sockjs_echo.installHandlers(app, {prefix:'/echo'});
-
-// console.log(' [*] Listening on 0.0.0.0:3000' );
-// app.listen(3000, '0.0.0.0');
-
-// app.get('/', function (req, res) {
-//     res.sendFile(__dirname + '/client/index.html');
+// app.get('/', (req, res) => {
+// 	res.send('Hallo Node.js!!');
 // });
 
-app.get('/', (req, res) => {
-	res.send('Hallo Node.js!!');
-
+app.get('/', function (req, res) {
+    res.sendFile(__dirname + '/client/index.html');
 });
 
-const server = http.createServer(app);
 server.listen(3000, () => {
 	console.log('Server listen on port 3000.');
 });
@@ -60,4 +57,12 @@ server.listen(3000, () => {
 //
 // server.listen(3000, () => {
 // 	console.log('Server listen on port 3000.');
+// });
+
+
+// console.log(' [*] Listening on 0.0.0.0:3000' );
+// app.listen(3000, '0.0.0.0');
+
+// app.get('/', function (req, res) {
+//     res.sendFile(__dirname + '/client/index.html');
 // });
