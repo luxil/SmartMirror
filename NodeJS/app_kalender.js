@@ -1,11 +1,8 @@
-/**
- * Created by Linh Do on 17.05.2017.
- */
-
 var fs = require('fs');
 var readline = require('readline');
 var google = require('googleapis');
 var googleAuth = require('google-auth-library');
+var eventInfos = [];
 
 // If modifying these scopes, delete your previously saved credentials
 // at ~/.credentials/calendar-nodejs-quickstart.json
@@ -15,15 +12,33 @@ var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
 var TOKEN_PATH = TOKEN_DIR + 'calendar-nodejs-quickstart.json';
 
 // Load client secrets from a local file.
-fs.readFile('client_secret.json', function processClientSecrets(err, content) {
-    if (err) {
-        console.log('Error loading client secret file: ' + err);
-        return;
-    }
-    // Authorize a client with the loaded credentials, then call the
-    // Google Calendar API.
-    authorize(JSON.parse(content), listEvents);
-});
+function load_events(callback) {
+    console.log("First");
+    fs.readFile('client_secret.json', function processClientSecrets(err, content) {
+        if (err) {
+            console.log('Error loading client secret file: ' + err);
+            return;
+        }
+        // Authorize a client with the loaded credentials, then call the
+        // Google Calendar API.
+        authorize(JSON.parse(content), listEventsToClient, callback);
+    });
+}
+
+
+// Load client secrets from a local file.
+function load_client_secrets() {
+    fs.readFile('client_secret.json', function processClientSecrets(err, content) {
+        if (err) {
+            console.log('Error loading client secret file: ' + err);
+            return;
+        }
+        // Authorize a client with the loaded credentials, then call the
+        // Google Calendar API.
+        authorize(JSON.parse(content), listEvents);
+    });
+}
+
 
 /**
  * Create an OAuth2 client with the given credentials, and then execute the
@@ -32,7 +47,7 @@ fs.readFile('client_secret.json', function processClientSecrets(err, content) {
  * @param {Object} credentials The authorization client credentials.
  * @param {function} callback The callback to call with the authorized client.
  */
-function authorize(credentials, callback) {
+function authorize(credentials, callback, callback2) {
     var clientSecret = credentials.installed.client_secret;
     var clientId = credentials.installed.client_id;
     var redirectUrl = credentials.installed.redirect_uris[0];
@@ -40,12 +55,12 @@ function authorize(credentials, callback) {
     var oauth2Client = new auth.OAuth2(clientId, clientSecret, redirectUrl);
 
     // Check if we have previously stored a token.
-    fs.readFile(TOKEN_PATH, function(err, token) {
+    fs.readFile(TOKEN_PATH, function (err, token) {
         if (err) {
             getNewToken(oauth2Client, callback);
         } else {
             oauth2Client.credentials = JSON.parse(token);
-            callback(oauth2Client);
+            callback(oauth2Client, callback2);
         }
     });
 }
@@ -68,9 +83,9 @@ function getNewToken(oauth2Client, callback) {
         input: process.stdin,
         output: process.stdout
     });
-    rl.question('Enter the code from that page here: ', function(code) {
+    rl.question('Enter the code from that page here: ', function (code) {
         rl.close();
-        oauth2Client.getToken(code, function(err, token) {
+        oauth2Client.getToken(code, function (err, token) {
             if (err) {
                 console.log('Error while trying to retrieve access token', err);
                 return;
@@ -100,7 +115,7 @@ function storeToken(token) {
 }
 
 /**
- * Lists the next 10 events on the user's primary calendar.
+ * Lists the next 5 events on the user's primary calendar.
  *
  * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
  */
@@ -110,10 +125,10 @@ function listEvents(auth) {
         auth: auth,
         calendarId: 'primary',
         timeMin: (new Date()).toISOString(),
-        maxResults: 10,
+        maxResults: 5,
         singleEvents: true,
         orderBy: 'startTime'
-    }, function(err, response) {
+    }, function (err, response) {
         if (err) {
             console.log('The API returned an error: ' + err);
             return;
@@ -122,7 +137,7 @@ function listEvents(auth) {
         if (events.length == 0) {
             console.log('No upcoming events found.');
         } else {
-            console.log('Upcoming 10 events:');
+            console.log('Upcoming 5 events:');
             for (var i = 0; i < events.length; i++) {
                 var event = events[i];
                 var start = event.start.dateTime || event.start.date;
@@ -131,3 +146,57 @@ function listEvents(auth) {
         }
     });
 }
+
+function listEventsToClient(auth ,callback) {
+
+    var calendar = google.calendar('v3');
+    calendar.events.list({
+        auth: auth,
+        calendarId: 'primary',
+        timeMin: (new Date()).toISOString(),
+        maxResults: 5,
+        singleEvents: true,
+        orderBy: 'startTime'
+    }, function (err, response) {
+        if (err) {
+            console.log('The API returned an error: ' + err);
+            eventInfos.push('The API returned an error: ' + err);
+            return;
+        }
+        var events = response.items;
+        if (events.length == 0) {
+            console.log('No upcoming events found.');
+            eventInfos.push('No upcoming events found.');
+        } else {
+            console.log('Upcoming 5 events:');
+            eventInfos.push('Upcoming 5 events:');
+            console.log(eventInfos);
+            for (var i = 0; i < events.length; i++) {
+                var event = events[i];
+                var start = event.start.dateTime || event.start.date;
+                console.log('%s - %s', start, event.summary);
+                eventInfos.push(start + " - " + event.summary);
+            }
+        }
+        console.log("listEventsToClient");
+        if(callback) callback(JSON.stringify(eventInfos));
+    });
+}
+
+function returnEventInfos(callback){
+    console.log("Second");
+    if(callback) callback(JSON.stringify(eventInfos));
+    //return JSON.stringify(eventInfos);
+}
+
+module.exports = {
+    load_client_secrets: function () {
+        load_client_secrets()
+    },
+    load_events: function (callback) {
+        load_events(callback);
+    },
+    returnEventInfos: function (callback) {
+        returnEventInfos(callback);
+    }
+};

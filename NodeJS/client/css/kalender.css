@@ -1,2 +1,4 @@
-#makeMeDraggable { width: 400px; height: 400px; background: blue; float: right;
-    margin: 90px;}
+.contentBox {
+    width: 200px; height: 400px; background: blue; float: right;
+    margin: 90px;
+}
