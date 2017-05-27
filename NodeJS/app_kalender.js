@@ -12,6 +12,7 @@ var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
 var TOKEN_PATH = TOKEN_DIR + 'calendar-nodejs-quickstart.json';
 
 // Load client secrets from a local file.
+// dadurch erhält er auch die events
 function load_events(callback) {
     console.log("First");
     fs.readFile('client_secret.json', function processClientSecrets(err, content) {
@@ -22,20 +23,6 @@ function load_events(callback) {
         // Authorize a client with the loaded credentials, then call the
         // Google Calendar API.
         authorize(JSON.parse(content), listEventsToClient, callback);
-    });
-}
-
-
-// Load client secrets from a local file.
-function load_client_secrets() {
-    fs.readFile('client_secret.json', function processClientSecrets(err, content) {
-        if (err) {
-            console.log('Error loading client secret file: ' + err);
-            return;
-        }
-        // Authorize a client with the loaded credentials, then call the
-        // Google Calendar API.
-        authorize(JSON.parse(content), listEvents);
     });
 }
 
@@ -119,33 +106,7 @@ function storeToken(token) {
  *
  * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
  */
-function listEvents(auth) {
-    var calendar = google.calendar('v3');
-    calendar.events.list({
-        auth: auth,
-        calendarId: 'primary',
-        timeMin: (new Date()).toISOString(),
-        maxResults: 5,
-        singleEvents: true,
-        orderBy: 'startTime'
-    }, function (err, response) {
-        if (err) {
-            console.log('The API returned an error: ' + err);
-            return;
-        }
-        var events = response.items;
-        if (events.length == 0) {
-            console.log('No upcoming events found.');
-        } else {
-            console.log('Upcoming 5 events:');
-            for (var i = 0; i < events.length; i++) {
-                var event = events[i];
-                var start = event.start.dateTime || event.start.date;
-                console.log('%s - %s', start, event.summary);
-            }
-        }
-    });
-}
+
 
 function listEventsToClient(auth ,callback) {
 
@@ -168,6 +129,7 @@ function listEventsToClient(auth ,callback) {
             console.log('No upcoming events found.');
             eventInfos.push('No upcoming events found.');
         } else {
+            eventInfos = [];
             console.log('Upcoming 5 events:');
             eventInfos.push('Upcoming 5 events:');
             console.log(eventInfos);
