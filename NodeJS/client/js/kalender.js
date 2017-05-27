@@ -19,19 +19,22 @@ function addCalEvents(){
     };
 
     sockjs.onmessage = function(e) {
-        console.log('message', e.data);
         //prüfe, ob vom Server wirklich eine message gesendet wurde, die die Kalenderevents beinhaltet
         if(JSON.parse(e.data)[0]=="getCalInfos") {
-            //console.log('message', typeof (JSON.parse(e.data)[0]));
-            console.log('message e.data0'+ JSON.parse(e.data)[0]);
             var calendarEvents = JSON.parse(e.data);
             var div = $('#calendarBox');
             //entfernt den bisherigen Text des div Elements
             div.contents().filter(function () {
                 return this.nodeType === 3; // Text nodes only
             }).remove();
+            //Kalender Events in die div auflisten lassen
             for (var i = 1; i < calendarEvents.length; i++) {
-                div.append($("<code>").text(calendarEvents[i]));
+                var event = calendarEvents[i];
+                if(event[10]=='T'){
+                    //formatiere datum, uhrzeit, eventname
+                    event = event.substring(0,10) + ' ' + event.substring(11,19) + event.substring(25,event.length);
+                }
+                div.append($("<code>").text(event));
                 div.append($("<br>"));
             }
         }

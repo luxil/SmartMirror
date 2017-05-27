@@ -14,7 +14,6 @@ var TOKEN_PATH = TOKEN_DIR + 'calendar-nodejs-quickstart.json';
 // Load client secrets from a local file.
 // dadurch erhält er auch die events
 function load_events(callback) {
-    console.log("First");
     fs.readFile('client_secret.json', function processClientSecrets(err, content) {
         if (err) {
             console.log('Error loading client secret file: ' + err);
@@ -106,8 +105,6 @@ function storeToken(token) {
  *
  * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
  */
-
-
 function listEventsToClient(auth ,callback) {
 
     var calendar = google.calendar('v3');
@@ -140,13 +137,11 @@ function listEventsToClient(auth ,callback) {
                 eventInfos.push(start + " - " + event.summary);
             }
         }
-        console.log("listEventsToClient");
         if(callback) callback(JSON.stringify(eventInfos));
     });
 }
 
 function returnEventInfos(callback){
-    console.log("Second");
     if(callback) callback(JSON.stringify(eventInfos));
     //return JSON.stringify(eventInfos);
 }
