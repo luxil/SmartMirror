@@ -1,28 +1,43 @@
-.box {
-    width: 300px;
-    float: left;
-    margin: 0 20px 0 20px;
+.button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
-.box div, .box input {
-    border: 1px solid;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    width: 100%;
-    padding: 0px;
-    margin: 5px;
+
+#addContentBox{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 20px;
 }
-.box div {
-    border-color: grey;
-    height: 300px;
-    overflow: auto;
+
+.button {
+    cursor: pointer;
 }
-.box input {
-    height: 30px;
+
+.button:hover, .button:focus {
+    background-color: #7cbdff;
 }
-h1 {
-    margin-left: 30px;
+.dropdownBoxOptions {
+    position: fixed;
+    left: 0px;
+    top: 20px;
+    background-color: black;
+    color: white;
+    /*min-width: 160px;*/
+    /*overflow: auto;*/
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    /*z-index: 1;*/
+
 }
-body {
-    background-color: #F0F0F0;
-    font-family: "Arial";
+
+.dropdownBoxOptions a, .dropdownBoxOptions button{
+    display: table-cell;
+    vertical-align:middle;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 16px;
+    text-decoration: none;
 }
