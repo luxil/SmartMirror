@@ -19,6 +19,21 @@ $("#addCalendarBox").click(function() {
     $(".dropdownBoxOptions").toggle();
 });
 
+$("#addWatchBox").click(function() {
+    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='watchBox'> test</div>");
+    $(".watchBox").draggable();
+    startTime(aC_ButtonIndex);
+    aC_ButtonIndex++;
+    $(".dropdownBoxOptions").toggle();
+});
+
+$("#addWeatherBox").click(function() {
+    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='weatherBox'> test</div>");
+    $(".weatherBox").draggable();
+    addWeaher(aC_ButtonIndex);
+    aC_ButtonIndex++;
+    $(".dropdownBoxOptions").toggle();
+});
 
 function addCalEvents(aC_ButtonIndex){
     var sockjs_url = '/echo';
@@ -58,6 +73,67 @@ function addCalEvents(aC_ButtonIndex){
 }
 
 
+function startTime(aC_ButtonIndex) {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+	var y = today.getFullYear();
+	var mo = today.getMonth()+1;
+	var t = today.getDate();
+	
+	var weekday = new Array(7);
+    weekday[0] = "Sonntag";
+    weekday[1] = "Montag";
+    weekday[2] = "Dienstag";
+    weekday[3] = "Mittwoch";
+    weekday[4] = "Donnerstag";
+    weekday[5] = "Freitag";
+    weekday[6] = "Samstag";
+
+    var n = weekday[today.getDay()];
+	
+    document.getElementById('contentBox'+aC_ButtonIndex).innerHTML =
+    h + ":" + m + ":" + s + '</Br>' + n + '</Br>' + t + "." + mo + "." + y;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+
+var myVar = setInterval(addWeaher, 3000);
+function addWeaher(aC_ButtonIndex){
+	
+function getJSON(yourUrl) {
+	var Httpreq = new XMLHttpRequest(); // a new request
+		Httpreq.open("GET",yourUrl,false);
+		Httpreq.send(null);
+	return Httpreq.responseText;   
+}	
+	var city = "Hamburg"
+	var source = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&lang" +"&appid=";
+	var lang = "de"
+	var appId = "8a33c4e62d48218b75a9adcdf31375e8"
+
+	var address = source + appId;
+    
+	var json = JSON.parse(getJSON(address));
+	var beschr = json.weather[0].description;
+	var tempCels = json.main.temp - 273.15; //Default in Kelvin - Umrechnung in Celsius
+		tempCels = tempCels.toFixed(1);			//Beschränkung von einer Nachkommastelle
+	var icohtml = '<img src=' + '\"' + 'http://openweathermap.org/img/w/' + json.weather[0].icon + '.png"' + 'height="100" width="100"' + '>';
+	var icon = json.weather[0].icon;
+		icon = icon.replace("\"","");
+	var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+
+	document.getElementById('contentBox'+aC_ButtonIndex).innerHTML =
+    city + '<br/>' + tempCels + "°" +  icohtml + '<br/>' + beschr + '<br/>';
+
+	console.log(json)
+}
 
 /* When the user clicks on the button,
  toggle between hiding and showing the dropdown content */

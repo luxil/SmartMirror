@@ -41,3 +41,17 @@
     padding: 12px 16px;
     text-decoration: none;
 }
+
+.watchBox{
+	background-color: black;
+	font-size: 35px;
+	width: 140px;
+	
+}
+
+.weatherBox{
+	background-color: black;
+	font-size: 35px;
+	width: 300px;
+	
+}
