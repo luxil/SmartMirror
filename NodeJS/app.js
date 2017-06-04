@@ -40,14 +40,10 @@ var server = http.createServer(app);
 sockjs_echo.installHandlers(server, {prefix:'/echo'});
 
 app.use('/', express.static(clientDirectory));
-app.use("/mobile/", express.static(path.resolve(__dirname + '/../SmartMirrorAppProject/')));
+app.use("/mobile", express.static(path.resolve(__dirname + '/../SmartMirrorAppProject/www')));
 
 app.get('/', function (req, res) {
     res.sendFile(__dirname + '/client/index.html');
-});
-
-app.get('/loe', function (req, res) {
-    res.sendFile(__dirname + '/client/Uhr.html');
 });
 
 app.get('/mobile', function (req, res) {
