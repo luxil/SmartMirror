@@ -3,6 +3,7 @@
  */
 
 var aC_ButtonIndex = 0;
+
 $("#addContentBox").draggable({cancel:false});
 $(".dropdownBoxOptions").hide();
 
@@ -28,9 +29,9 @@ $("#addWatchBox").click(function() {
 });
 
 $("#addWeatherBox").click(function() {
-    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='weatherBox'> test</div>");
+    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='weatherBox'> </div>");
     $(".weatherBox").draggable();
-    addWeaher(aC_ButtonIndex);
+    addWeather(aC_ButtonIndex);
     aC_ButtonIndex++;
     $(".dropdownBoxOptions").toggle();
 });
@@ -72,7 +73,6 @@ function addCalEvents(aC_ButtonIndex){
     };
 }
 
-
 function startTime(aC_ButtonIndex) {
     var today = new Date();
     var h = today.getHours();
@@ -104,15 +104,17 @@ function checkTime(i) {
     return i;
 }
 
-var myVar = setInterval(addWeaher, 3000);
-function addWeaher(aC_ButtonIndex){
-	
-function getJSON(yourUrl) {
-	var Httpreq = new XMLHttpRequest(); // a new request
-		Httpreq.open("GET",yourUrl,false);
-		Httpreq.send(null);
-	return Httpreq.responseText;   
-}	
+var myVar = setInterval(addWeather, 3000);
+function addWeather(aC_ButtonIndex){
+
+    var div = $("#contentBox"+aC_ButtonIndex);
+
+    function getJSON(yourUrl) {
+        var Httpreq = new XMLHttpRequest(); // a new request
+            Httpreq.open("GET",yourUrl,false);
+            Httpreq.send(null);
+        return Httpreq.responseText;
+    }
 	var city = "Hamburg"
 	var source = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&lang" +"&appid=";
 	var lang = "de"
@@ -129,10 +131,17 @@ function getJSON(yourUrl) {
 		icon = icon.replace("\"","");
 	var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
 
-	document.getElementById('contentBox'+aC_ButtonIndex).innerHTML =
-    city + '<br/>' + tempCels + "°" +  icohtml + '<br/>' + beschr + '<br/>';
+    div.append($("<code>").text(city));
+    div.append($("<br>"));
+    div.append($("<code>").text(tempCels + "°"));
+    div.append($(icohtml));
+    div.append($("<br>"));
+    div.append($("<code>").text(beschr));
+    div.append($("<br>"));
+    // document.getElementById('contentBox'+aC_ButtonIndex).innerHTML =
+    // city + '<br/>' + tempCels + "°" +  icohtml + '<br/>' + beschr + '<br/>';
 
-	console.log(json)
+	//console.log(json)
 }
 
 /* When the user clicks on the button,
