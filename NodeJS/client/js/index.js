@@ -23,7 +23,7 @@ $("#addCalendarBox").click(function() {
 $("#addWatchBox").click(function() {
     $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='watchBox'> test</div>");
     $(".watchBox").draggable();
-    startTime(aC_ButtonIndex);
+    addTime(aC_ButtonIndex);
     aC_ButtonIndex++;
     $(".dropdownBoxOptions").toggle();
 });
@@ -73,35 +73,38 @@ function addCalEvents(aC_ButtonIndex){
     };
 }
 
-function startTime(aC_ButtonIndex) {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-	var y = today.getFullYear();
-	var mo = today.getMonth()+1;
-	var t = today.getDate();
-	
-	var weekday = new Array(7);
-    weekday[0] = "Sonntag";
-    weekday[1] = "Montag";
-    weekday[2] = "Dienstag";
-    weekday[3] = "Mittwoch";
-    weekday[4] = "Donnerstag";
-    weekday[5] = "Freitag";
-    weekday[6] = "Samstag";
+function addTime(aC_ButtonIndex){
+    startTime(aC_ButtonIndex);
+    function startTime(aC_ButtonIndex) {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        var y = today.getFullYear();
+        var mo = today.getMonth()+1;
+        var t = today.getDate();
 
-    var n = weekday[today.getDay()];
-	
-    document.getElementById('contentBox'+aC_ButtonIndex).innerHTML =
-    h + ":" + m + ":" + s + '</Br>' + n + '</Br>' + t + "." + mo + "." + y;
-    var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-    return i;
+        var weekday = new Array(7);
+        weekday[0] = "Sonntag";
+        weekday[1] = "Montag";
+        weekday[2] = "Dienstag";
+        weekday[3] = "Mittwoch";
+        weekday[4] = "Donnerstag";
+        weekday[5] = "Freitag";
+        weekday[6] = "Samstag";
+
+        var n = weekday[today.getDay()];
+
+        document.getElementById('contentBox'+aC_ButtonIndex).innerHTML =
+            h + ":" + m + ":" + s + '</Br>' + n + '</Br>' + t + "." + mo + "." + y;
+        var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+    }
 }
 
 var myVar = setInterval(addWeather, 3000);
@@ -151,6 +154,11 @@ function myFunction() {
 }
 
 // Close the dropdown if the user clicks outside of it
+
+/**
+ *
+ * //muss noch überarbeitet werden für jquery!!!!!!!!!!!!!!
+ */
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
