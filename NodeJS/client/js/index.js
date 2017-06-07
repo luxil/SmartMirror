@@ -1,6 +1,21 @@
 /**
  * Created by Linh Do on 25.05.2017.
  */
+$( init );
+function init() {
+    var sockjs_url = '/echo';
+    var sockjs = new SockJS(sockjs_url);
+
+    sockjs.onopen = function() {
+        console.log('resetConnections');
+        sockjs.send('resetConnections');
+        sockjs.close();
+    };
+
+    sockjs.onmessage = function(e)  {};
+    sockjs.onclose = function() {};
+    var ChangeIndexTest = changeIndexTest();
+}
 
 var aC_ButtonIndex = 0;
 
@@ -40,7 +55,6 @@ function addCalEvents(aC_ButtonIndex){
     var sockjs_url = '/echo';
     var sockjs = new SockJS(sockjs_url);
     sockjs.onopen = function() {
-        console.log('open client');
         sockjs.send('getCalEvents');
     };
 
@@ -69,7 +83,6 @@ function addCalEvents(aC_ButtonIndex){
     };
 
     sockjs.onclose = function() {
-        console.log('close');
     };
 }
 
@@ -145,6 +158,28 @@ function addWeather(aC_ButtonIndex){
     // city + '<br/>' + tempCels + "°" +  icohtml + '<br/>' + beschr + '<br/>';
 
 	//console.log(json)
+}
+
+function changeIndexTest(){
+    var sockjs_url = '/echo';
+    var sockjs = new SockJS(sockjs_url);
+
+    sockjs.onopen = function() {
+        console.log('open client changeIndexTest');
+        sockjs.send('newConnName: IndexConn');
+    };
+
+    sockjs.onmessage = function(e)  {
+        //prüfe, ob vom Server wirklich eine message gesendet wurde, die die Kalenderevents beinhaltet
+        console.log("Indexconn:" + e.data);
+        // console.log("hi von app von Sm_app");
+        //div.scrollTop(div.scrollTop()+10000);
+
+    };
+
+    sockjs.onclose = function() {
+        console.log('close');
+    };
 }
 
 /* When the user clicks on the button,
