@@ -35,16 +35,16 @@ sockjs_echo.on('connection', function(conn) {
         if (message == 'testIndexChange') {
             //conn.write("testIndexChange");
         }
-        if (message.indexOf('ToConn:')!= -1) {
-            console.log(connections.length);
-            for (var ii=0; ii < connections.length; ii++) {
-                console.log(message.substring(8,message.length));
-                if(connections[ii].connName = "IndexConn"){
-                    connections[ii].conn.write(message.substring(8,message.length));
-                }
-                // connections[ii].write("User " + number + " has disconnected");
-            }
-        }
+        // if (message.indexOf('ToConn:')!= -1) {
+        //     console.log(connections.length);
+        //     for (var ii=0; ii < connections.length; ii++) {
+        //         console.log(message.substring(8,message.length));
+        //         if(connections[ii].connName = "IndexConn"){
+        //             connections[ii].conn.write(message.substring(8,message.length));
+        //         }
+        //         // connections[ii].write("User " + number + " has disconnected");
+        //     }
+        // }
 
         var messageobj = safelyParseJSON(message);
         if (messageobj != undefined){
@@ -59,9 +59,9 @@ sockjs_echo.on('connection', function(conn) {
                 console.log('ToConn: ' + messageobj.toConn + ", function: " + messageobj.function);
                 for (var ii=0; ii < connections.length; ii++) {
                     if(connections[ii].connName = messageobj.toConn){
+                        console.log('messageToConnfunc' + messageobj.function);
                         connections[ii].conn.write(messageobj.function);
                     }
-                    // connections[ii].write("User " + number + " has disconnected");
                 }
             }
         }

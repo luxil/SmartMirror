@@ -16,6 +16,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+$("#ipConnectWindow").show();
+$(".contextBoxPanel").hide();
+$("#editMirrorWindow").hide();
+
+var sockjs;
+var sockjs_url;
 var app = {
     // Application Constructor
     initialize: function() {
@@ -58,23 +65,66 @@ $("#okIp").click(function() {
     editServerSmartMirror(ipString);
 });
 
-function editServerSmartMirror(ipString){
-    var sockjs_url = 'http://'+ipString+':3000/echo';
-    var sockjs = new SockJS(sockjs_url);
+$("#addWatchBox").click(function() {
+    console.log("addWatch");
+    $(".contextBoxPanel").toggle();
+    sockjs = new SockJS(sockjs_url);
     sockjs.onopen = function() {
-        console.log('open client mobile');
-        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'indexEditMode'};
+        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'addWatchBox'};
         var message = JSON.stringify(messageobj);
         sockjs.send(message);
         // console.log( "sm app sockjs onopen"+sockjs);
     };
+});
+
+$("#addCalendarBox").click(function() {
+    console.log("addWatch");
+    $(".contextBoxPanel").toggle();
+    sockjs = new SockJS(sockjs_url);
+    sockjs.onopen = function() {
+        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'addCalendarBox'};
+        var message = JSON.stringify(messageobj);
+        sockjs.send(message);
+        // console.log( "sm app sockjs onopen"+sockjs);
+    };
+});
+
+$("#addWeatherBox").click(function() {
+    console.log("addWeatherBox");
+    $(".contextBoxPanel").toggle();
+    sockjs = new SockJS(sockjs_url);
+    sockjs.onopen = function() {
+        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'addWeatherBox'};
+        var message = JSON.stringify(messageobj);
+        sockjs.send(message);
+        // console.log( "sm app sockjs onopen"+sockjs);
+    };
+});
+
+$(".addContentBox").click(function() {
+    $(".contextBoxPanel").toggle();
+});
+
+function editServerSmartMirror(ipString){
+    sockjs_url = 'http://'+ipString+':3000/echo';
+    sockjs = new SockJS(sockjs_url);
+    sockjs.onopen = function() {
+        console.log('open client mobile');
+        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'indexEditMode'};
+        var message = JSON.stringify(messageobj);
+        console.log(message);
+        sockjs.send(message);
+        // console.log( "sm app sockjs onopen"+sockjs);
+    };
     $("#ipConnectWindow").hide();
+    $("#editMirrorWindow").show();
 }
 
 function testIndexChange(){
     // var sockjs_url = '/echo';
     // var sockjs = new SockJS(sockjs_url);
     var sockjs = new SockJS('http://192.168.0.72:3000/echo');
+
     sockjs.onopen = function() {
         console.log('open client mobile');
         sockjs.send('ToConn: Hallo');
@@ -82,32 +132,9 @@ function testIndexChange(){
     };
 
     sockjs.onmessage = function(e) {
-        // console.log( "sm app onmessage "+e.data);
-        // console.log( "sm app sockjs onmessage"+sockjs);
-        // //prüfe, ob vom Server wirklich eine message gesendet wurde, die die Kalenderevents beinhaltet
-        // if(JSON.parse(e.data)[0]=="getCalInfos") {
-        //     var calendarEvents = JSON.parse(e.data);
-        //     var div = $('#calendarBox');
-        //     //entfernt den bisherigen Text des div Elements
-        //     div.contents().filter(function () {
-        //         return this.nodeType === 3; // Text nodes only
-        //     }).remove();
-        //     //Kalender Events in die div auflisten lassen
-        //     for (var i = 1; i < calendarEvents.length; i++) {
-        //         var event = calendarEvents[i];
-        //         if(event[10]=='T'){
-        //             //formatiere datum, uhrzeit, eventname
-        //             event = event.substring(0,10) + ' ' + event.substring(11,19) + event.substring(25,event.length);
-        //         }
-        //         div.append($("<code>").text(event));
-        //         div.append($("<br>"));
-        //     }
-        // }
-        // //div.scrollTop(div.scrollTop()+10000);
         // sockjs.close();
-
-
     };
+
     // sockjs.onclose = function() {
     //     console.log('close');
     // };

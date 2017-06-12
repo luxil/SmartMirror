@@ -56,8 +56,6 @@
         <!--<script src="http://cdn.jsdelivr.net/sockjs/1.0.1/sockjs.min.js"></script>-->
         <script src="js/External_Libs/sockjs.min.js"></script>
         <script src="js/External_Libs/angular.min.js"></script>
-
-
     </head>
     <body>
         <!--ipConnectWindow-->
@@ -68,19 +66,27 @@
                 <p class="event received">Device is Ready</p>
             </div>
             <h2>Bitte IP des Rechners eingeben. Z.B.: 192.168.0.1</h2>
-            <input type="text" id="myInputField" value="192.168.0.72" name="feld" />
+            <!--<input type="text" id="myInputField" value="192.168.0.72" name="feld" />-->
+            <input type="text" id="myInputField" value="192.168.188.20" name="feld" />
             <button id = "okIp">OK</button>
 			<button id = "test">TEST</button>
         </div>
 
         <!--editMirrorWindow-->
-        <div class="app" id="editMirrorWindow">
-            <h1>Smart Mirror App</h1>
+        <div id="editMirrorWindow" >
+            <!--<h1>Smart Mirror App</h1>-->
             <h2>Hier ändern</h2>
-        </div>
+            <button class="addContentBox">+</button>
+            <div class="contextBoxPanel">
+                <button class ="contentBoxPanelBA ui-mini ui-shadow" id = "addWatchBox">Wetter</button>
+                <button class = "contentBoxPanelBA" id = "addCalendarBox">Kalender</button>
+                <button class = "contentBoxPanelBA" id = "addWeatherBox">Wetter</button>
+            </div>
 
+        </div>
 
         <script type="text/javascript" src="cordova.js"></script>
         <script src="js/SM_App.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
     </body>
 </html>
