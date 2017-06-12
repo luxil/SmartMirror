@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "cz.blocshop.socketsforcordova": {
+            "PACKAGE_NAME": "io.cordova.smartmirrorapp"
         }
     },
     "dependent_plugins": {}

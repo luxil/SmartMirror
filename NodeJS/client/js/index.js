@@ -175,7 +175,7 @@ function changeIndexTest(){
 
     sockjs.onmessage = function(e)  {
         //prüfe, ob vom Server wirklich eine message gesendet wurde, die die Kalenderevents beinhaltet
-        console.log("Indexconn:" + e.data);
+        console.log("IndexConn:" + e.data);
         // console.log("hi von app von Sm_app");
         //div.scrollTop(div.scrollTop()+10000);
 

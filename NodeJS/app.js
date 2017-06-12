@@ -46,13 +46,23 @@ sockjs_echo.on('connection', function(conn) {
             }
         }
 
-        if (safelyParseJSON(message) != undefined){
-            if (safelyParseJSON(message).messagetype == 'newConn') {
+        var messageobj = safelyParseJSON(message);
+        if (messageobj != undefined){
+            if (messageobj.messagetype == 'newConn') {
                 console.log("New Connection with name " + JSON.parse(message).connName);
                 var connection = {conn: conn, connName: JSON.parse(message).connName};
                 connections.push(connection);
                 console.log("connections:" );
                 console.log(connections);
+            }
+            if (messageobj.messagetype == 'messageToConn') {
+                console.log('ToConn: ' + messageobj.toConn + ", function: " + messageobj.function);
+                for (var ii=0; ii < connections.length; ii++) {
+                    if(connections[ii].connName = messageobj.toConn){
+                        connections[ii].conn.write(messageobj.toConn + " got message");
+                    }
+                    // connections[ii].write("User " + number + " has disconnected");
+                }
             }
         }
 

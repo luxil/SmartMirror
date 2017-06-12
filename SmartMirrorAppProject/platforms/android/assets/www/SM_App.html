@@ -28,7 +28,9 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+
+        <!--Erstmal auskommentiert, da viele Komplikationen. Vielleicht später nochmal überarbeiten, da eigentlich sicherer-->
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: http://192.168.0.72:* ws://192.168.0.72:* https://ssl.gstatic.com ws://localhost:3000 'unsafe-eval' ; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -40,7 +42,7 @@
 
         <!-- Include jQuery Mobile stylesheets -->
         <!--<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">-->
-        <link rel="stylesheet" href="js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" href="js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.min.css">
 
         <!-- Include the jQuery library -->
         <!--<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>-->
@@ -48,7 +50,13 @@
 
         <!-- Include the jQuery Mobile library -->
         <!--<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
-        <script src="js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.js"></script>
+        <script src="js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.min.js"></script>
+
+        <!-- Include the sockjs library -->
+        <!--<script src="http://cdn.jsdelivr.net/sockjs/1.0.1/sockjs.min.js"></script>-->
+        <script src="js/External_Libs/sockjs.min.js"></script>
+        <script src="js/External_Libs/angular.min.js"></script>
+
 
     </head>
     <body>

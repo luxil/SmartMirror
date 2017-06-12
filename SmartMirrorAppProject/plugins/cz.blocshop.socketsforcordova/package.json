@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cz.blocshop.socketsforcordova",
+        "scope": null,
+        "escapedName": "cz.blocshop.socketsforcordova",
+        "name": "cz.blocshop.socketsforcordova",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Linh Do\\Dropbox\\UnikramVomTab\\Projekte\\SmartMirror\\SmartMirrorAppProject\\node_modules"
+    ]
+  ],
+  "_from": "cz.blocshop.socketsforcordova@latest",
+  "_id": "cz.blocshop.socketsforcordova@1.1.0",
+  "_inCache": true,
+  "_location": "/cz.blocshop.socketsforcordova",
+  "_nodeVersion": "5.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cz.blocshop.socketsforcordova-1.1.0.tgz_1484087301290_0.46530804224312305"
+  },
+  "_npmUser": {
+    "name": "br007",
+    "email": "br007@mail.com"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cz.blocshop.socketsforcordova",
+    "scope": null,
+    "escapedName": "cz.blocshop.socketsforcordova",
+    "name": "cz.blocshop.socketsforcordova",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cz.blocshop.socketsforcordova/-/cz.blocshop.socketsforcordova-1.1.0.tgz",
+  "_shasum": "acedfdcd82f6658bde6b77c45083f99623a76e67",
+  "_shrinkwrap": null,
+  "_spec": "cz.blocshop.socketsforcordova",
+  "_where": "C:\\Users\\Linh Do\\Dropbox\\UnikramVomTab\\Projekte\\SmartMirror\\SmartMirrorAppProject\\node_modules",
+  "cordova_name": "SocketsForCordova",
+  "dependencies": {},
+  "description": "\r\n\t\tThis Cordova plugin provides JavaScript API, that allows you to communicate with server through TCP protocol.\r\n\t\tCurrently we support these platforms: iOS, Android, WP8.\r\n\t",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "acedfdcd82f6658bde6b77c45083f99623a76e67",
+    "tarball": "https://registry.npmjs.org/cz.blocshop.socketsforcordova/-/cz.blocshop.socketsforcordova-1.1.0.tgz"
+  },
+  "engines": [],
+  "keywords": [
+    "socket",
+    "sockets",
+    "network",
+    "tcp",
+    "cordova"
+  ],
+  "license": "Apache 2.0",
+  "maintainers": [
+    {
+      "name": "br007",
+      "email": "br007@mail.com"
+    }
+  ],
+  "name": "cz.blocshop.socketsforcordova",
+  "optionalDependencies": {},
+  "platforms": [
+    "android",
+    "ios",
+    "wp8"
+  ],
+  "readme": "sockets-for-cordova\r\n===================\r\nThis Cordova plugin provides JavaScript API, that allows you to communicate with server through TCP protocol.\r\n\r\nCurrently we support these platforms: iOS, Android, WP8.\r\n\r\n## Installation\r\n\r\nInstall this plugin simply by:\r\n\r\n`cordova plugin add cz.blocshop.socketsforcordova`\r\n\r\nor you can use GIT repository for most recent version:\r\n\r\n`cordova plugin add https://github.com/blocshop/sockets-for-cordova`\r\n\r\n## Sample usage\r\nHere is simple example of how to connect to remote server, consume data from it and close the connection.\r\n\r\nCreate instance of Socket type:\r\n```\r\nvar socket = new Socket();\r\n```\r\n\r\nSet data consumer, error and close handlers:\r\n```\r\nsocket.onData = function(data) {\r\n  // invoked after new batch of data is received (typed array of bytes Uint8Array)\r\n};\r\nsocket.onError = function(errorMessage) {\r\n  // invoked after error occurs during connection\r\n};\r\nsocket.onClose = function(hasError) {\r\n  // invoked after connection close\r\n};\r\n```\r\nConnect to server someremoteserver.com, with port 1234:\r\n```\r\nsocket.open(\r\n  \"someremoteserver.com\",\r\n  1234,\r\n  function() {\r\n    // invoked after successful opening of socket\r\n  },\r\n  function(errorMessage) {\r\n    // invoked after unsuccessful opening of socket\r\n  });\r\n```\r\n\r\nSend \"Hello world\" to server:\r\n```\r\nvar dataString = \"Hello world\";\r\nvar data = new Uint8Array(dataString.length);\r\nfor (var i = 0; i < data.length; i++) {\r\n  data[i] = dataString.charCodeAt(i);\r\n}\r\nsocket.write(data);\r\n```\r\n\r\nClose the connection gracefully by sending FIN to server:\r\n```\r\nsocket.shutdownWrite();  \r\n```\r\n\r\nor close the connection immediately:\r\n```\r\nsocket.close();\r\n```\r\n\r\n## API\r\n### Event handlers\r\n#### `onData: (data: Uint8Array) => void`\r\nInvoked after new batch of data is received by the client. Data are represented as typed array of bytes (`Uint8Array`).\r\n\r\n#### `onClose: (hasError: boolean) => void`\r\nInvoked after connection close. Native resources are released after this handler is invoked. Parameter `hasError` indicates whether connection was closed as a result of some error.\r\n\r\n#### `onError: (message: string) => void`\r\nInvoked when some error occurs during connection.\r\n\r\n### Properties\r\n#### `state: Socket.State`\r\nProvides state of the socket. It can have 4 values represented by `Socket.State` enum:\r\n- `Socket.State.CLOSED`\r\n- `Socket.State.OPENING`\r\n- `Socket.State.OPENED`\r\n- `Socket.State.CLOSING`\r\n\r\nInitial state of socket is CLOSED. Invoking `open` method changes state to OPENING. If it's successfuly opened, it goes to OPENED state. If opening fails, it goes back to CLOSED. Socket goes to CLOSING state immediately after `close` method is called. When socket is closed (by the server or by calling close method), it goes to CLOSED state.\r\n\r\n##### Example\r\nCheck if socket is connected:\r\n```\r\nif (socket.state == Socket.State.OPENED) {\r\n  console.log(\"Socket is opened\");\r\n}\r\n```\r\n\r\n### Methods\r\n#### `open(host, port, onSuccess?, onError?): void`\r\nEstablishes connection with the remote host.\r\n\r\n| parameter   | type          | description |\r\n| ----------- |-----------------------------|--------------|\r\n| `host`      | `string`                    | Remote host/ip address |\r\n| `port`      | `number`                    | Tcp port number |\r\n| `onSuccess` | `() => void`                | Success callback - called after successfull connection to the remote host. (optional)|\r\n| `onError`   | `(message: string) => void` | Error callback - called when some error occurs during connecting to the remote host. (optional)|\r\n\r\n#### `write(data, onSuccess?, onError?): void`\r\nSends data to remote host.\r\n\r\n| parameter   | type          | description |\r\n| ----------- |-----------------------------|--------------|\r\n| `data`      | `Uint8Array`                | Typed array of bytes, that will be written to output stream. |\r\n| `onSuccess` | `() => void`                | Success callback - called after data are successfully written to the output stream. (optional)|\r\n| `onError`   | `(message: string) => void` | Error callback - called when some error occurs during writing of data to the output stream. (optional)|\r\n\r\n#### `shutdownWrite(onSuccess?, onError?): void`\r\nSends `FIN` to remote host and finishes data sending. You cannot call `write` method after you call `shutdownWrite`, otherwise `onError` callback (of `write` method) will be called.\r\n\r\n| parameter   | type          | description |\r\n| ----------- |-----------------------------|--------------|\r\n| `onSuccess` | `() => void`                | Success callback - called after sending of data is finished. (optional)|\r\n| `onError`   | `(message: string) => void` | Error callback - called when some error occurs during this procedure. (optional)|\r\n\r\n#### `close(onSuccess?, onError?): void`\r\nCloses the connection. `onClose` event handler is called when connection is successfuly closed.\r\n\r\n| parameter   | type          | description |\r\n| ----------- |-----------------------------|--------------|\r\n| `onSuccess` | `() => void`                | Success callback, called after connection is successfully closed. `onClose` event handler is called before that callback. (optional)|\r\n| `onError`   | `(message: string) => void` | Error callback, called when some error occurs during this procedure. (optional)|\r\n",
+  "readmeFilename": "README.md",
+  "scripts": {},
+  "version": "1.1.0"
+}

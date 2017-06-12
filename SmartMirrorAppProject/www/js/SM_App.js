@@ -51,15 +51,39 @@ $("#test").click(function() {
     testIndexChange();
 });
 
-function testIndexChange(){
-    var sockjs_url = '/echo';
+$("#okIp").click(function() {
+    console.log("OKIP");
+    var ipString =  $("#myInputField").val().toString();
+    $("#okIp").append($("<code>").text(ipString));
+    editServerSmartMirror(ipString);
+});
+
+function editServerSmartMirror(ipString){
+    var sockjs_url = 'http://'+ipString+':3000/echo';
     var sockjs = new SockJS(sockjs_url);
     sockjs.onopen = function() {
         console.log('open client mobile');
-        sockjs.send('testIndexChange');
+        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'indexEditMode'};
+        var message = JSON.stringify(messageobj);
+        sockjs.send(message);
+        // console.log( "sm app sockjs onopen"+sockjs);
+    };
+    $("#ipConnectWindow").hide();
+}
+
+function testIndexChange(){
+    // var sockjs_url = '/echo';
+    // var sockjs = new SockJS(sockjs_url);
+    var sockjs = new SockJS('http://192.168.0.72:3000/echo');
+    sockjs.onopen = function() {
+        console.log('open client mobile');
+        sockjs.send('ToConn: Hallo');
+        // console.log( "sm app sockjs onopen"+sockjs);
     };
 
     sockjs.onmessage = function(e) {
+        // console.log( "sm app onmessage "+e.data);
+        // console.log( "sm app sockjs onmessage"+sockjs);
         // //prüfe, ob vom Server wirklich eine message gesendet wurde, die die Kalenderevents beinhaltet
         // if(JSON.parse(e.data)[0]=="getCalInfos") {
         //     var calendarEvents = JSON.parse(e.data);
@@ -81,9 +105,11 @@ function testIndexChange(){
         // }
         // //div.scrollTop(div.scrollTop()+10000);
         // sockjs.close();
-    };
 
-    sockjs.onclose = function() {
-        console.log('close');
+
     };
+    // sockjs.onclose = function() {
+    //     console.log('close');
+    // };
+
 }

@@ -48,4 +48,70 @@ app.initialize();
 $("#test").click(function() {
     console.log("TEST");
     $("#test").append($("<code>").text("blub"));
+    testIndexChange();
 });
+
+function testIndexChange(){
+    // var sockjs_url = '/echo';
+    // var sockjs = new SockJS(sockjs_url);
+    var sockjs = new SockJS('http://192.168.0.72:3000/echo');
+    sockjs.onopen = function() {
+        console.log('open client mobile');
+        sockjs.send('ToConn: Hallo');
+        // console.log( "sm app sockjs onopen"+sockjs);
+    };
+
+    sockjs.onmessage = function(e) {
+        // console.log( "sm app onmessage "+e.data);
+        // console.log( "sm app sockjs onmessage"+sockjs);
+        // //prüfe, ob vom Server wirklich eine message gesendet wurde, die die Kalenderevents beinhaltet
+        // if(JSON.parse(e.data)[0]=="getCalInfos") {
+        //     var calendarEvents = JSON.parse(e.data);
+        //     var div = $('#calendarBox');
+        //     //entfernt den bisherigen Text des div Elements
+        //     div.contents().filter(function () {
+        //         return this.nodeType === 3; // Text nodes only
+        //     }).remove();
+        //     //Kalender Events in die div auflisten lassen
+        //     for (var i = 1; i < calendarEvents.length; i++) {
+        //         var event = calendarEvents[i];
+        //         if(event[10]=='T'){
+        //             //formatiere datum, uhrzeit, eventname
+        //             event = event.substring(0,10) + ' ' + event.substring(11,19) + event.substring(25,event.length);
+        //         }
+        //         div.append($("<code>").text(event));
+        //         div.append($("<br>"));
+        //     }
+        // }
+        // //div.scrollTop(div.scrollTop()+10000);
+        // sockjs.close();
+
+
+    };
+    // sockjs.onclose = function() {
+    //     console.log('close');
+    // };
+
+
+
+    // var socket = new Socket();
+    // socket.open(
+    //     "192.168.0.72",
+    //     3000,
+    //     function() {
+    //         // invoked after successful opening of socket
+    //     },
+    //     function(errorMessage) {
+    //         // invoked after unsuccessful opening of socket
+    //     }
+    // );
+    //
+    // var dataString = "Hello world";
+    // var data = new Uint8Array(dataString.length);
+    // for (var i = 0; i < data.length; i++) {
+    //     data[i] = dataString.charCodeAt(i);
+    // }
+    // socket.write(data);
+    // socket.shutdownWrite();
+
+}
