@@ -18,6 +18,7 @@ sockjs_echo.on('connection', function(conn) {
         //conn.write('from server: ' + message);
         console.log("sockjs_echo.on message: " + message);
         console.log("conn: " + conn);
+        console.log("sockjs_echo: " + JSON.stringify(sockjs_echo));
         if (message == 'resetConnections') {
             connections = [];
         }
@@ -34,13 +35,6 @@ sockjs_echo.on('connection', function(conn) {
         if (message == 'testIndexChange') {
             //conn.write("testIndexChange");
         }
-        if (message.indexOf('newConnName:')!= -1){
-            console.log("New Connection with name " + message.substring(11,message.length));
-            var connection = {conn: conn, connName: message.substring(11,message.length)}
-            connections.push(connection);
-            console.log("connections:" );
-            console.log(connections);
-        }
         if (message.indexOf('ToConn:')!= -1) {
             console.log(connections.length);
             for (var ii=0; ii < connections.length; ii++) {
@@ -50,6 +44,31 @@ sockjs_echo.on('connection', function(conn) {
                 }
                 // connections[ii].write("User " + number + " has disconnected");
             }
+        }
+
+        if (safelyParseJSON(message) != undefined){
+            if (safelyParseJSON(message).messagetype == 'newConn') {
+                console.log("New Connection with name " + JSON.parse(message).connName);
+                var connection = {conn: conn, connName: JSON.parse(message).connName};
+                connections.push(connection);
+                console.log("connections:" );
+                console.log(connections);
+            }
+        }
+
+
+        function safelyParseJSON (json) {
+            // This function cannot be optimised, it's best to
+            // keep it small!
+            var parsed
+
+            try {
+                parsed = JSON.parse(json)
+            } catch (e) {
+                // Oh well, but whatever...
+            }
+
+            return parsed // Could be undefined!
         }
     });
 });

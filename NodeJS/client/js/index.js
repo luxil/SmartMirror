@@ -165,8 +165,12 @@ function changeIndexTest(){
     var sockjs = new SockJS(sockjs_url);
 
     sockjs.onopen = function() {
+        console.log("sockjs " + JSON.stringify(sockjs));
         console.log('open client changeIndexTest');
-        sockjs.send('newConnName: IndexConn');
+        messageobj = {'messagetype': 'newConn','connName':'IndexConn'};
+        message = JSON.stringify(messageobj);
+        //sockjs.send('newConnName: IndexConn');
+        sockjs.send(message);
     };
 
     sockjs.onmessage = function(e)  {
