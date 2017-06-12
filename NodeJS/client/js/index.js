@@ -1,6 +1,14 @@
 /**
  * Created by Linh Do on 25.05.2017.
  */
+
+var aC_ButtonIndex = 0;
+var colors = ["red", "blue", "green", "yellow", "cyan", "brown", "grey"];
+
+$("#addContentBox").draggable({cancel:false});
+$(".dropdownBoxOptions").hide();
+
+
 $( init );
 function init() {
     var sockjs_url = '/echo';
@@ -17,26 +25,21 @@ function init() {
     var ChangeIndexTest = changeIndexTest();
 }
 
-var aC_ButtonIndex = 0;
-
-$("#addContentBox").draggable({cancel:false});
-$(".dropdownBoxOptions").hide();
-
 
 $("#addContentBox").click(function() {
     $(".dropdownBoxOptions").toggle();
 });
 
 $("#addCalendarBox").click(function() {
-    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='contentBox'> test</div>");
-    $(".contentBox").draggable();
+    addContentBox();
     addCalEvents(aC_ButtonIndex);
     aC_ButtonIndex++;
     $(".dropdownBoxOptions").toggle();
 });
 
 $("#addWatchBox").click(function() {
-    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='watchBox'> test</div>");
+    // addContentBox();
+    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='contentBox watchBox'> test</div>");
     $(".watchBox").draggable();
     addTime(aC_ButtonIndex);
     aC_ButtonIndex++;
@@ -44,12 +47,17 @@ $("#addWatchBox").click(function() {
 });
 
 $("#addWeatherBox").click(function() {
-    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='weatherBox'> </div>");
+    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='weatherBox contentBox'> </div>");
     $(".weatherBox").draggable();
     addWeather(aC_ButtonIndex);
     aC_ButtonIndex++;
     $(".dropdownBoxOptions").toggle();
 });
+
+function addContentBox() {
+    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='contentBox'> test</div>");
+    $(".contentBox").draggable();
+}
 
 function addCalEvents(aC_ButtonIndex){
     var sockjs_url = '/echo';
@@ -110,8 +118,9 @@ function addTime(aC_ButtonIndex){
 
         var n = weekday[today.getDay()];
 
-        document.getElementById('contentBox'+aC_ButtonIndex).innerHTML =
-            h + ":" + m + ":" + s + '</Br>' + n + '</Br>' + t + "." + mo + "." + y;
+        $('#contentBox'+aC_ButtonIndex).html(h + ":" + m + ":" + s + '</Br>' + n + '</Br>' + t + "." + mo + "." + y);
+        // document.getElementById('contentBox'+aC_ButtonIndex).innerHTML =
+        //     h + ":" + m + ":" + s + '</Br>' + n + '</Br>' + t + "." + mo + "." + y;
         var t = setTimeout(startTime, 500);
     }
     function checkTime(i) {
@@ -178,12 +187,28 @@ function changeIndexTest(){
         console.log("IndexConn:" + e.data);
         // console.log("hi von app von Sm_app");
         //div.scrollTop(div.scrollTop()+10000);
+        if(e.data = "indexEditMode"){
+            indexEditMode();
+        }
 
     };
 
     sockjs.onclose = function() {
         console.log('close');
     };
+}
+
+function indexEditMode() {
+    console.log("dofunction: " + "indexEditMode");
+    $('.contentBox').each(function(index, obj) {
+        $( this ).css({"border-color": colors[index], "border-style": "solid"});
+    });
+    // Array.prototype.forEach.call(document.querySelectorAll('.contentBox'), function(divd) {
+    //     console.log($("divd"));
+    //     // div.innerHTML+=("<span style='styleborder-style: solid; border-color: red' </span>");
+    //     // div.innerHTML.style.color = "red";
+    // })
+
 }
 
 /* When the user clicks on the button,

@@ -2,723 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ea734b-f6c3-434b-9e40-295fd9171728" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/css/jqm-demos.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-af.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-ag.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-bb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-bk.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-hc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-k.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-mg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-ok.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-p.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-rh.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-ws.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/album-xx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/apple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/bg-pattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/bike.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/blackberry_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/bmw-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/bmw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/buenosaires.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/capetown.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/de.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/devices.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/fi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/firefox-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/firefox_os.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/galaxy_express.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/gb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/gf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/glyphish-icons/09-chat2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/glyphish-icons/100-coffee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/glyphish-icons/18-envelope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/glyphish-icons/19-gear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/glyphish-icons/21-skull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/glyphish-icons/30-key.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/glyphish-icons/34-coffee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/glyphish-icons/88-beermug.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/glyphish-icons/Read me first - license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/jquery-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/landrover-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/landrover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/lumia_800.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/newyork.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/nexus_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/paris.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/phone_galaxy3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/phone_iphone5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/phone_lumia920.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/phone_onex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/photo-landscape.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/photo-portrait.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/photo-run.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/seoul.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/sydney.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/tesla-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/tesla.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/tizen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/img/us.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/js/h2widget.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/js/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/js/jqm-demos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_assets/js/view-source.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/_search/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/backbone-requirejs/backbone-require.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/backbone-requirejs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/backbone-requirejs/js/collections/CategoriesCollection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/backbone-requirejs/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/backbone-requirejs/js/models/CategoryModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/backbone-requirejs/js/routers/mobileRouter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/backbone-requirejs/js/views/CategoryView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/body-bar-classes/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/button-markup/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/button/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/checkboxradio-checkbox/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/checkboxradio-radio/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/collapsible-dynamic/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/collapsible/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/collapsibleset/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/controlgroup-dynamic/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/controlgroup/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/action-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/action-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/alert-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/alert-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-d-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-d-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-d-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-d-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-d-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-d-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-u-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-u-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-u-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-u-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-u-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/arrow-u-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/audio-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/audio-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/back-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/back-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/bars-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/bars-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/bullets-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/bullets-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/calendar-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/calendar-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/camera-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/camera-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/carat-d-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/carat-d-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/carat-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/carat-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/carat-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/carat-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/carat-u-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/carat-u-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/check-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/check-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/clock-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/clock-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/cloud-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/cloud-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/comment-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/comment-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/delete-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/delete-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/edit-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/edit-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/eye-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/eye-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/forbidden-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/forbidden-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/forward-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/forward-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/gear-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/gear-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/grid-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/grid-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/heart-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/heart-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/home-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/home-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/info-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/info-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/location-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/location-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/lock-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/lock-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/mail-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/mail-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/minus-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/minus-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/navigation-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/navigation-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/phone-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/phone-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/plus-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/plus-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/power-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/power-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/recycle-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/recycle-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/refresh-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/refresh-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/search-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/search-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/shop-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/shop-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/star-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/star-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/tag-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/tag-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/user-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/user-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/video-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-png/video-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/action-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/action-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/alert-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/alert-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-d-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/arrow-u-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/audio-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/audio-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/back-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/back-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/bars-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/bars-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/bullets-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/bullets-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/calendar-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/calendar-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/camera-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/camera-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/carat-d-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/carat-d-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/carat-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/carat-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/carat-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/carat-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/carat-u-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/carat-u-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/check-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/check-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/clock-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/clock-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/cloud-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/cloud-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/comment-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/comment-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/delete-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/delete-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/edit-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/edit-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/eye-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/eye-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/forbidden-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/forbidden-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/forward-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/forward-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/gear-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/gear-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/grid-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/grid-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/heart-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/heart-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/home-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/home-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/info-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/info-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/location-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/location-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/lock-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/lock-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/mail-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/mail-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/minus-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/minus-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/navigation-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/navigation-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/phone-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/phone-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/plus-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/plus-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/power-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/power-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/recycle-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/recycle-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/refresh-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/refresh-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/search-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/search-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/shop-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/shop-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/star-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/star-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/tag-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/tag-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/user-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/user-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/video-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/images/icons-svg/video-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/jquery.mobile-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/jquery.mobile.external-png-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/jquery.mobile.icons-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/jquery.mobile.inline-png-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/jquery.mobile.inline-svg-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/jquery.mobile.structure-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/css/themes/default/jquery.mobile.theme-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/datepicker/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/filterable/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/flipswitch/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/forms-disabled/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/forms-field-contain/fieldcontain-hide-label-deprecated.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/forms-field-contain/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/forms-gallery/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/forms-label-hidden-accessible/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/forms/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/grids-buttons/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/grids-custom-responsive/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/grids/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/icons-grunticon/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/icons/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/intro/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/jqm-contents.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/jqm-contents.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/jqm-navmenu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/jqm-navmenu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/jqm-search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/jqm-search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/js/jquery.mobile-1.4.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/js/jquery.mobile-1.4.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/js/jquery.mobile-1.4.5.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-autocomplete-remote/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-autocomplete/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-autodividers-linkbar/autodividers-linkbar-demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-autodividers-linkbar/autodividers-linkbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-autodividers-linkbar/autodividers-linkbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-autodividers-linkbar/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-autodividers-selector/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-collapsible-item-flat/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-collapsible-item-indented/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-grid/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-grid/listview-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-grid/listview-grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview-nested-lists/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/listview/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/loader/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/map-geolocation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/map-list-toggle/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/map-list-toggle/jquery.gmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/map-list-toggle/showMore.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/navbar/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/navigation-hash-processing/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/navigation-linking-pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/navigation-php-redirect/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/navigation-php-redirect/redirect-target.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/navigation-php-redirect/redirect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/navigation-php-redirect/source.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/navigation/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/navigation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/controls-in-header-footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/disabling-a-button-does-not-work.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/dom-ready-not-working.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/how-can-i-stop-auto-enhancement-of-a-block-of-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/how-can-i-stop-auto-enhancement-of-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/how-configure-phonegap-cordova.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/how-do-i-control-page-titles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/how-do-i-load-a-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/how-do-i-scroll-to-a-position.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/how-do-i-turn-off-url-hiding.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/how-do-i-use-touch-mouse-events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/how-does-theming-work.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/injected-content-is-not-enhanced.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/my-html-5-inputs-look-different-in-browsers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/my-range-search-input-type-is-being-changed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/pass-query-params-to-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/pass-via-the-hash-to-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/scripts-and-styles-not-loading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/sometimes-custom-select-shows-as-dialog-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/the-application-cache-is-not-working.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/triggering-create-on-injected-content-does-not-work.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/updating-the-value-of-enhanced-form-elements-does-not-work.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/why-is-only-the-first-page-loaded.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/old-faq-pages/why-wont-my-css-styles-apply-correctly-to-a-widget.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/alertevents-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/alertevents-2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/alertevents-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/alertevents-3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/alertevents.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/alertevents.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/docs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/docs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/logevents-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/logevents-2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/logevents-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/logevents-3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/logevents.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/page-events/logevents.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-dialog/dialog-alt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-dialog/dialog-buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-dialog/dialog-corners.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-dialog/dialog-noclosebtn.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-dialog/dialog-overlay.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-dialog/dialog-rightclosebtn.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-dialog/dialog-success.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-dialog/dialog-with-select.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-dialog/dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-dialog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-multi-page/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages-single-page/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages/samepagetransition.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/pages/startpage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/panel-external-internal/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/panel-external-internal/page-b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/panel-external-internal/page-c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/panel-external/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/panel-external/page-b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/panel-fixed/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/panel-responsive/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/panel-styling/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/panel-swipe-open/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/panel/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-alignment/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-alignment/popup.alignment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-arrow-size/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-dynamic/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-iframe/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-iframe/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-iframe/popup-iframe-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-iframe/popup-iframe-video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-image-scaling/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-image-scaling/popup-image-scaling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup-outside-multipage/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/popup/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/rangeslider/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/rwd/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/selectmenu-custom-filter/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/selectmenu-custom/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/selectmenu/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/slider-flipswitch/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/slider-tooltip/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/slider/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/swipe-list/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/swipe-page/buenosaires.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/swipe-page/capetown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/swipe-page/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/swipe-page/newyork.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/swipe-page/paris.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/swipe-page/seoul.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/swipe-page/swipe-page.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/swipe-page/swipe-page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/swipe-page/sydney.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/table-column-toggle-example/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/table-column-toggle-heading-groups/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/table-column-toggle-options/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/table-column-toggle/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/table-reflow-heading-groups/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/table-reflow-stripes-strokes/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/table-reflow-styling/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/table-reflow/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/tabs/ajax-content-ignore.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/tabs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/tabs/tabbed-content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/textinput/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/theme-classic/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/theme-classic/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/theme-classic/theme-classic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/theme-default/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-dynamic/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-external/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-external/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-external/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-forms/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-fullscreen/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-persistent-optimized/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-persistent-optimized/page-b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-persistent-optimized/page-c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-persistent-optimized/page-d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-persistent/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-persistent/page-b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-persistent/page-c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed-persistent/page-d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar-fixed/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/toolbar/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/transitions/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/transitions/page-transitions-dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/demos/transitions/page-transitions-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/action-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/action-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/alert-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/alert-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-d-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-d-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-d-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-d-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-d-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-d-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-u-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-u-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-u-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-u-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-u-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/arrow-u-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/audio-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/audio-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/back-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/back-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/bars-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/bars-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/bullets-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/bullets-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/calendar-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/calendar-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/camera-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/camera-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/carat-d-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/carat-d-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/carat-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/carat-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/carat-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/carat-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/carat-u-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/carat-u-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/check-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/check-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/clock-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/clock-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/cloud-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/cloud-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/comment-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/comment-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/delete-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/delete-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/edit-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/edit-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/eye-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/eye-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/forbidden-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/forbidden-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/forward-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/forward-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/gear-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/gear-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/grid-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/grid-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/heart-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/heart-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/home-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/home-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/info-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/info-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/location-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/location-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/lock-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/lock-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/mail-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/mail-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/minus-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/minus-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/navigation-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/navigation-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/phone-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/phone-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/plus-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/plus-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/power-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/power-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/recycle-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/recycle-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/refresh-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/refresh-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/search-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/search-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/shop-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/shop-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/star-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/star-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/tag-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/tag-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/user-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/user-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/video-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-png/video-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/action-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/action-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/alert-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/alert-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-d-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-d-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-d-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-d-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-d-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-d-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-u-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-u-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-u-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-u-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-u-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/arrow-u-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/audio-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/audio-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/back-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/back-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/bars-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/bars-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/bullets-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/bullets-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/calendar-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/calendar-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/camera-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/camera-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/carat-d-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/carat-d-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/carat-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/carat-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/carat-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/carat-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/carat-u-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/carat-u-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/check-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/check-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/clock-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/clock-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/cloud-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/cloud-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/comment-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/comment-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/delete-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/delete-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/edit-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/edit-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/eye-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/eye-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/forbidden-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/forbidden-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/forward-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/forward-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/gear-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/gear-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/grid-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/grid-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/heart-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/heart-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/home-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/home-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/info-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/info-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/location-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/location-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/lock-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/lock-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/mail-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/mail-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/minus-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/minus-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/navigation-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/navigation-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/phone-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/phone-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/plus-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/plus-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/power-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/power-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/recycle-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/recycle-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/refresh-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/refresh-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/search-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/search-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/shop-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/shop-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/star-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/star-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/tag-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/tag-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/user-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/user-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/video-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/images/icons-svg/video-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.external-png-1.4.5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.external-png-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.icons-1.4.5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.icons-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.inline-png-1.4.5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.inline-png-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.inline-svg-1.4.5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.inline-svg-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.structure-1.4.5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.structure-1.4.5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.theme-1.4.5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/External_Libs/JQueryMobile/jquery.mobile.theme-1.4.5.min.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/app.js" afterPath="$PROJECT_DIR$/NodeJS/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/client/js/index.js" afterPath="$PROJECT_DIR$/NodeJS/client/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/config.xml" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/package.json" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/android.json" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/SM_App.html" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/SM_App.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/SM_App.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/assets/www/js/SM_App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/plugins/android.json" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/plugins/fetch.json" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/www/css/index.css" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -743,7 +29,7 @@
           <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
+                <state relative-caret-position="190">
                   <caret line="76" column="28" lean-forward="false" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
                   <folding />
                 </state>
@@ -764,7 +50,7 @@
             <entry file="file://$PROJECT_DIR$/NodeJS/app.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="269">
-                  <caret line="61" column="85" lean-forward="false" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+                  <caret line="61" column="70" lean-forward="false" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -775,7 +61,7 @@
           <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
+                <state relative-caret-position="233">
                   <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
@@ -788,21 +74,23 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="177" column="27" lean-forward="false" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
                   <folding>
                     <element signature="n#!!block;n#init#0" expanded="false" />
-                    <element signature="e#561#603#0" expanded="false" />
-                    <element signature="e#645#889#0" expanded="false" />
-                    <element signature="e#928#1163#0" expanded="false" />
-                    <element signature="e#1204#1442#0" expanded="false" />
+                    <element signature="e#637#679#0" expanded="false" />
+                    <element signature="e#721#840#0" expanded="false" />
+                    <element signature="e#879#1149#0" expanded="false" />
+                    <element signature="e#1190#1439#0" expanded="false" />
+                    <element signature="n#!!block;n#addContentBox#0" expanded="false" />
                     <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
-                    <element signature="e#1670#2720#0" expanded="false" />
                     <element signature="n#!!block;n#addTime#0" expanded="false" />
-                    <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0" expanded="false" />
                     <element signature="n#!!block;n#checkTime#0;n#!!block;n#addTime#0" expanded="false" />
                     <element signature="n#!!block;n#addWeather#0" expanded="false" />
-                    <element signature="e#6480#6858#0" expanded="false" />
+                    <element signature="n#!!block;n#changeIndexTest#0" expanded="false" />
+                    <element signature="n#!!block;n#myFunction#0" expanded="false" />
+                    <element signature="e#7363#7741#0" expanded="false" />
+                    <marker date="1497275350717" expanded="true" signature="6891:6934" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -816,7 +104,7 @@
             <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="199">
-                  <caret line="65" column="55" lean-forward="false" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="55" />
+                  <caret line="65" column="106" lean-forward="false" selection-start-line="65" selection-start-column="93" selection-end-line="65" selection-end-column="106" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#816#1644#0" expanded="false" />
@@ -1170,12 +458,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496590159460</updated>
       <workItem from="1496590162051" duration="23743000" />
-      <workItem from="1496845642072" duration="17912000" />
+      <workItem from="1496845642072" duration="23399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41655000" />
+    <option name="totallyTimeSpent" value="47142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1184,7 +472,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14901665" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15548281" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15057284" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1225,14 +513,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/NodeJS/client/js/index.js</url>
-          <line>53</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1251,17 +532,19 @@
           <caret line="165" column="42" lean-forward="false" selection-start-line="165" selection-start-column="42" selection-end-line="165" selection-end-column="42" />
           <folding>
             <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#561#603#0" expanded="false" />
-            <element signature="e#645#889#0" expanded="false" />
-            <element signature="e#928#1163#0" expanded="false" />
-            <element signature="e#1204#1442#0" expanded="false" />
+            <element signature="e#637#679#0" expanded="false" />
+            <element signature="e#721#840#0" expanded="false" />
+            <element signature="e#879#1149#0" expanded="false" />
+            <element signature="e#1190#1439#0" expanded="false" />
+            <element signature="n#!!block;n#addContentBox#0" expanded="false" />
             <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
-            <element signature="e#1670#2720#0" expanded="false" />
             <element signature="n#!!block;n#addTime#0" expanded="false" />
-            <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0" expanded="false" />
             <element signature="n#!!block;n#checkTime#0;n#!!block;n#addTime#0" expanded="false" />
             <element signature="n#!!block;n#addWeather#0" expanded="false" />
-            <element signature="e#6480#6858#0" expanded="false" />
+            <element signature="n#!!block;n#changeIndexTest#0" expanded="false" />
+            <element signature="n#!!block;n#myFunction#0" expanded="false" />
+            <element signature="e#7363#7741#0" expanded="false" />
+            <marker date="1497275350717" expanded="true" signature="6891:6934" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1408,9 +691,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="61" column="70" lean-forward="false" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="190">
           <caret line="76" column="28" lean-forward="false" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
           <folding />
         </state>
@@ -1418,7 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="233">
           <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -1427,33 +720,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/app.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="61" column="85" lean-forward="false" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="20604">
+          <caret line="1212" column="0" lean-forward="false" selection-start-line="1212" selection-start-column="0" selection-end-line="1212" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="177" column="27" lean-forward="false" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
+        <state relative-caret-position="85">
+          <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
           <folding>
             <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#561#603#0" expanded="false" />
-            <element signature="e#645#889#0" expanded="false" />
-            <element signature="e#928#1163#0" expanded="false" />
-            <element signature="e#1204#1442#0" expanded="false" />
+            <element signature="e#637#679#0" expanded="false" />
+            <element signature="e#721#840#0" expanded="false" />
+            <element signature="e#879#1149#0" expanded="false" />
+            <element signature="e#1190#1439#0" expanded="false" />
+            <element signature="n#!!block;n#addContentBox#0" expanded="false" />
             <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
-            <element signature="e#1670#2720#0" expanded="false" />
             <element signature="n#!!block;n#addTime#0" expanded="false" />
-            <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0" expanded="false" />
             <element signature="n#!!block;n#checkTime#0;n#!!block;n#addTime#0" expanded="false" />
             <element signature="n#!!block;n#addWeather#0" expanded="false" />
-            <element signature="e#6480#6858#0" expanded="false" />
+            <element signature="n#!!block;n#changeIndexTest#0" expanded="false" />
+            <element signature="n#!!block;n#myFunction#0" expanded="false" />
+            <element signature="e#7363#7741#0" expanded="false" />
+            <marker date="1497275350717" expanded="true" signature="6891:6934" ph="..." />
           </folding>
         </state>
       </provider>

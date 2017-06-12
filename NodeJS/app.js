@@ -59,7 +59,7 @@ sockjs_echo.on('connection', function(conn) {
                 console.log('ToConn: ' + messageobj.toConn + ", function: " + messageobj.function);
                 for (var ii=0; ii < connections.length; ii++) {
                     if(connections[ii].connName = messageobj.toConn){
-                        connections[ii].conn.write(messageobj.toConn + " got message");
+                        connections[ii].conn.write(messageobj.function);
                     }
                     // connections[ii].write("User " + number + " has disconnected");
                 }
