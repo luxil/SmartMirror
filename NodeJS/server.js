@@ -4,7 +4,7 @@ var http = require('http');
 var	path = require('path');
 var express = require('express');
 var sockjs  = require('sockjs');
-var kalender = require('./app_kalender');
+var kalender = require('./server_kalender');
 var path = require('path')
 var clientDirectory= path.join(__dirname, 'client');
 var connections = [];
@@ -14,27 +14,6 @@ var sockjs_opts = {sockjs_url: "http://cdn.jsdelivr.net/sockjs/1.0.1/sockjs.min.
 var sockjs_echo = sockjs.createServer(sockjs_opts);
 sockjs_echo.on('connection', function(conn) {
     conn.on('data',function(message) {
-        //console.log("Sending confsignals to CMS", message);
-        //conn.write('from server: ' + message);
-        // console.log("sockjs_echo.on message: " + message);
-        // console.log("conn: " + conn);
-        // console.log("sockjs_echo: " + JSON.stringify(sockjs_echo));
-        if (message == 'resetConnections') {
-            connections = [];
-        }
-        if (message == 'getCalEvents') {
-            kalender.load_events(function () {
-                kalender.returnEventInfos(function (test) {
-                    var new_array = ["getCalInfos"].concat(JSON.parse(test));
-                    //kommentar
-                    conn.write(JSON.stringify(new_array));
-                    return test;
-                });
-            });
-        }
-        // if (message == 'testIndexChange') {
-        //     //conn.write("testIndexChange");
-        // }
 
         var messageobj = safelyParseJSON(message);
         if (messageobj != undefined){
@@ -55,9 +34,30 @@ sockjs_echo.on('connection', function(conn) {
                 console.log('ToConn: ' + messageobj.toConn + ", function: " + messageobj.function);
                 for (var ii=0; ii < connections.length; ii++) {
                     if(connections[ii].connName = messageobj.toConn){
-                        connections[ii].conn.write(messageobj.function);
+                        if(messageobj.hasOwnProperty("arguments")){
+                            var message = JSON.stringify({
+                                "function":messageobj.function,
+                                "arguments":messageobj.arguments
+                            });
+                            console.log('messagewithargs: ' + message);
+                            connections[ii].conn.write(message);
+                        }
+                        else{
+                            connections[ii].conn.write(messageobj.function);
+                        }
                     }
                 }
+            }
+
+            if (messageobj.messagetype == 'getCalEvents') {
+                kalender.load_events(function () {
+                    kalender.returnEventInfos(function (test) {
+                        var new_array = ["getCalInfos"].concat(JSON.parse(test));
+                        //kommentar
+                        conn.write(JSON.stringify(new_array));
+                        return test;
+                    });
+                });
             }
         }
 
