@@ -18,7 +18,7 @@
  */
 
 $("#ipConnectWindow").show();
-$(".contextBoxPanel").hide();
+$(".contextBoxOptionsPanel").hide();
 $("#editMirrorWindow").hide();
 
 var sockjs;
@@ -67,7 +67,7 @@ $("#okIp").click(function() {
 
 $("#addWatchBox").click(function() {
     console.log("addWatch");
-    $(".contextBoxPanel").toggle();
+    $(".contextBoxOptionsPanel").toggle();
     sockjs = new SockJS(sockjs_url);
     sockjs.onopen = function() {
         var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'addWatchBox'};
@@ -79,7 +79,7 @@ $("#addWatchBox").click(function() {
 
 $("#addCalendarBox").click(function() {
     console.log("addWatch");
-    $(".contextBoxPanel").toggle();
+    $(".contextBoxOptionsPanel").toggle();
     sockjs = new SockJS(sockjs_url);
     sockjs.onopen = function() {
         var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'addCalendarBox'};
@@ -91,7 +91,7 @@ $("#addCalendarBox").click(function() {
 
 $("#addWeatherBox").click(function() {
     console.log("addWeatherBox");
-    $(".contextBoxPanel").toggle();
+    $(".contextBoxOptionsPanel").toggle();
     sockjs = new SockJS(sockjs_url);
     sockjs.onopen = function() {
         var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'addWeatherBox'};
@@ -102,7 +102,7 @@ $("#addWeatherBox").click(function() {
 });
 
 $(".addContentBox").click(function() {
-    $(".contextBoxPanel").toggle();
+    $(".contextBoxOptionsPanel").toggle();
 });
 
 function editServerSmartMirror(ipString){

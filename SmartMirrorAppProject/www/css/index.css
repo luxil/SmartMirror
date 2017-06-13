@@ -123,11 +123,11 @@ h2 {
     -webkit-animation:fade 3000ms infinite;
 }
 
-.contentBoxPanelBA{
+.contentBoxPanelOptionsBut{
     background: #828282 !important;
 }
 
-.contextBoxPanel {
+.contextBoxOptionsPanel {
     display:block;
     background-color: #aaaaaa;
     color: blue;

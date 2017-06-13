@@ -5,26 +5,13 @@
 var aC_ButtonIndex = 0;
 var colors = ["red", "blue", "green", "yellow", "cyan", "Coral", "grey"];
 
-$("#addContentBox").draggable({cancel:false});
+$("#addContentButton").draggable({cancel:false});
 $(".dropdownBoxOptions").hide();
 $( init );
 
-function init() {
-    var sockjs_url = '/echo';
-    var sockjs = new SockJS(sockjs_url);
 
-    sockjs.onopen = function() {
-        console.log('resetConnections');
-        sockjs.send('resetConnections');
-        sockjs.close();
-    };
 
-    sockjs.onmessage = function(e)  {};
-    sockjs.onclose = function() {};
-    var ChangeIndexTest = changeIndexTest();
-}
-
-$("#addContentBox").click(function() {
+$("#addContentButton").click(function() {
     $(".dropdownBoxOptions").toggle();
 });
 
@@ -40,6 +27,21 @@ $("#addWeatherBox").click(function() {
     addWeatherBox();
 });
 
+function init() {
+    var sockjs_url = '/echo';
+    var sockjs = new SockJS(sockjs_url);
+
+    sockjs.onopen = function() {
+        console.log('resetConnections');
+        sockjs.send('resetConnections');
+        sockjs.close();
+    };
+
+    sockjs.onmessage = function(e)  {};
+    sockjs.onclose = function() {};
+    var SocketMessageHandler = socketMessageHandler();
+}
+
 function addWatchBox() {
 // addContentBox();
     addContentBox();
@@ -49,9 +51,8 @@ function addWatchBox() {
 
 function addCalendarBox() {
     addContentBox();
+    $("#contentBox"+(aC_ButtonIndex-1)).addClass('calendarBox');
     addCalEvents(aC_ButtonIndex-1);
-    // aC_ButtonIndex++;
-    // $(".dropdownBoxOptions").hide();
 
 }
 
@@ -185,13 +186,13 @@ function addWeather(index){
 	//console.log(json)
 }
 
-function changeIndexTest(){
+function socketMessageHandler(){
     var sockjs_url = '/echo';
     var sockjs = new SockJS(sockjs_url);
 
     sockjs.onopen = function() {
         //console.log("sockjs " + JSON.stringify(sockjs));
-        console.log('open client changeIndexTest');
+        console.log('open client socketMessageHandler');
         messageobj = {'messagetype': 'newConn','connName':'IndexConn'};
         message = JSON.stringify(messageobj);
         //sockjs.send('newConnName: IndexConn');
