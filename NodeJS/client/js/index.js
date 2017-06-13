@@ -6,12 +6,13 @@ var aC_ButtonIndex = 0;
 var colors = ["red", "blue", "green", "yellow", "cyan", "coral", "grey"];
 var boxActivated = [];
 var activeBoxes = [];
+var conBonIndex;
 var sockjs_url;
 var sockjs;
 $( init );
 
 function init() {
-    resetServerConnections(socketMessageHandler);
+    resetServerConnections(connectToServer);
     $("#addContentButton").click(function() {
         $(".dropdownBoxOptions").toggle();
     });
@@ -35,6 +36,7 @@ function addContentBox() {
     $(".dropdownBoxOptions").hide();
     indexEditMode();
     aC_ButtonIndex++;
+    //$("#contentBox"+(aC_ButtonIndex-1)).css({"position":"absolute"});
 }
 function addWatchBox() {
     addContentBox();
@@ -173,7 +175,7 @@ function resetServerConnections(callback) {
     sockjs_url = '/echo';
     sockjs = new SockJS(sockjs_url);
     sockjs.onopen = function() {
-        console.log('open client socketMessageHandler');
+        console.log('open client connectToServer');
         console.log('resetConnections');
         // sockjs.send('resetConnections');
 
@@ -186,7 +188,7 @@ function resetServerConnections(callback) {
     }
 
 }
-function socketMessageHandler(){
+function connectToServer(){
     sockjs = new SockJS(sockjs_url);
 
     //schickt Server die Daten zur Verbindung mit dem Client SmartMirror
@@ -215,22 +217,38 @@ function socketMessageHandler(){
             console.log("addWeatherBox");
             addWeatherBox();
         }
+        if(e.data == "deleteContentBox"){
+            console.log("deleteContentBox");
+            deleteContentBox();
+        }
+        if(e.data == "upButton"){
+            upButton();
+        }
+        if(e.data == "rightButton"){
+            rightButton();
+        }
+        if(e.data == "downButton"){
+            downButton();
+        }
+        if(e.data == "leftButton"){
+            leftButton();
+        }
+        if(e.data == "closeButton"){
+            closeEditMode();
+        }
         var messageobj = safelyParseJSON(e.data);
         if (messageobj != undefined) {
             if (messageobj.function === 'changeConBoxWithIndex') {
-                var conBonIndex = messageobj.arguments.conBonIndex;
+                conBonIndex = messageobj.arguments.conBonIndex;
                 var oldConBonIndex = messageobj.arguments.oldConBonIndex;
-                console.log("conBonIndex: " + conBonIndex);
-                $("#contentBox"+oldConBonIndex).css({"border-style": "solid"});
-                $("#contentBox"+conBonIndex).css({"border-style": "dotted"});
+                console.log("conBonIndex: " + conBonIndex + "oldConBonIndex" +oldConBonIndex );
+                activeBoxes[oldConBonIndex].css({"border-style": "solid"});
+                activeBoxes[conBonIndex].css({"border-style": "dotted"});
+                // $("#contentBox"+oldConBonIndex)
+                // $("#contentBox"+conBonIndex).css({"border-style": "dotted"});
                 // refreshSmallConBoxes(countTrueConBoxes);
             }
-            // if(e.data == "indexEditMode"){
-            //     console.log("indexEditMode");
-            //     indexEditMode();
-            // }
         }
-
     };
 
     sockjs.onclose = function() {
@@ -256,21 +274,54 @@ function indexEditMode() {
     }
 
     function sendCountTrueConBoxesToServer(){
-        sockjs = new SockJS(sockjs_url);
-        sockjs.onopen = function() {
-            var messageobj = {
-                'messagetype': 'messageToConn',
-                'toConn': 'MobileConn',
-                'function':'getCountTrueConBoxes',
-                'arguments':{'countTrueConBoxes':countTrueConBoxes}
-            };
-            var message = JSON.stringify(messageobj);
-            sockjs.send(message);
-            sockjs.close();
-        };
+        sendFuncToMobileConn({
+            'function':'getCountTrueConBoxes',
+            'arguments':{'countTrueConBoxes':countTrueConBoxes}});
     }
 }
 
+function deleteContentBox() {
+    activeBoxes[conBonIndex].remove();
+    indexEditMode();
+}
+
+function upButton() {
+    var position = activeBoxes[conBonIndex].offset();
+    activeBoxes[conBonIndex].css({"position":"absolute", "top": position.top- $(document).scrollTop()-5});
+}
+
+function rightButton() {
+    var position = activeBoxes[conBonIndex].offset();
+    activeBoxes[conBonIndex].css({"position":"absolute", "left": position.left- $(document).scrollLeft()+5});
+}
+
+function downButton() {
+    var position = activeBoxes[conBonIndex].offset();
+    activeBoxes[conBonIndex].css({"position":"absolute", "top": position.top- $(document).scrollTop()+5});
+}
+
+function leftButton() {
+    var position = activeBoxes[conBonIndex].offset();
+    activeBoxes[conBonIndex].css({"position":"absolute", "left": position.left- $(document).scrollLeft()-5});
+}
+
+function closeEditMode() {
+    $(activeBoxes).each(function() {
+        $(this).css({"border-color": "black", "border-style": "solid"});
+    });
+}
+
+function sendFuncToMobileConn(funcObj) {
+    sockjs = new SockJS(sockjs_url);
+    sockjs.onopen = function() {
+        //kommentar
+        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'MobileConn'};
+        jQuery.extend(messageobj, funcObj);
+        var message = JSON.stringify(messageobj);
+        sockjs.send(message);
+        sockjs.close();
+    }
+}
 
 //useful functions
 function safelyParseJSON (json) {

@@ -56,19 +56,48 @@
         <!--<script src="http://cdn.jsdelivr.net/sockjs/1.0.1/sockjs.min.js"></script>-->
         <script src="js/External_Libs/sockjs.min.js"></script>
         <script src="js/External_Libs/angular.min.js"></script>
-
-
     </head>
     <body>
-        <div class="app">
+        <!--ipConnectWindow-->
+        <div class="app" id="ipConnectWindow">
             <h1>Smart Mirror App</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-			<button id = "test">TEST</button>
+            <h2>Bitte IP des Rechners eingeben. Z.B.: 192.168.0.1</h2>
+            <!--<input type="text" id="myInputField" value="192.168.0.72" name="feld" />-->
+            <input type="text" id="myInputField" value="192.168.188.20" name="feld" />
+            <button id = "okIp">OK</button>
         </div>
+
+        <!--editMirrorWindow-->
+        <div id="editMirrorWindow" >
+            <!--<h1>Smart Mirror App</h1>-->
+            <h2>Hier ändern</h2>
+            <button class="addContentButton">+</button>
+            <div class="contextBoxOptionsPanel">
+                <button class ="contentBoxPanelOptionsBut ui-mini ui-shadow" id = "addWatchBox">Zeit</button>
+                <button class = "contentBoxPanelOptionsBut" id = "addCalendarBox">Kalender</button>
+                <button class = "contentBoxPanelOptionsBut" id = "addWeatherBox">Wetter</button>
+                <button class = "contentBoxPanelOptionsBut" id = "addComplimentsBox">Kompliment</button>
+            </div>
+
+            <div id="contextBoxPanel">
+                <div id="smallContextBoxPanel"></div>
+                <div id="contextBoxEditPanel">
+                    <button class = "moveButton" id = "upButton">up</button>
+                    <button class = "moveButton" id = "rightButton">right</button>
+                    <button class = "moveButton" id = "downButton">down</button>
+                    <button class = "moveButton" id = "leftButton">left</button>
+                    <button id = "deleteButton">delete</button>
+                    <button id = "closeButton">close</button>
+                </div>
+             </div>
+        </div>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script src="js/SM_App.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
     </body>
 </html>

@@ -14,7 +14,7 @@ var sockjs_opts = {sockjs_url: "http://cdn.jsdelivr.net/sockjs/1.0.1/sockjs.min.
 var sockjs_echo = sockjs.createServer(sockjs_opts);
 sockjs_echo.on('connection', function(conn) {
     conn.on('data',function(message) {
-
+        console.log(message);
         var messageobj = safelyParseJSON(message);
         if (messageobj != undefined){
             if (messageobj.messagetype == 'resetConnections') {
@@ -27,7 +27,7 @@ sockjs_echo.on('connection', function(conn) {
 
                 console.log("connections:" );
                 for (var ii=0; ii < connections.length; ii++) {
-                    console.log(connections[ii].connName);
+                    console.log(connections[ii].connName+": "+connections[ii].conn.id);
                 }
             }
             if (messageobj.messagetype == 'messageToConn') {
@@ -39,7 +39,7 @@ sockjs_echo.on('connection', function(conn) {
                                 "function":messageobj.function,
                                 "arguments":messageobj.arguments
                             });
-                            console.log('messagewithargs: ' + message);
+                            //console.log('messagewithargs: ' + message);
                             connections[ii].conn.write(message);
                         }
                         else{
@@ -60,8 +60,20 @@ sockjs_echo.on('connection', function(conn) {
                 });
             }
         }
-
     });
+    // conn.on('close', function () {
+    //     for (var ii=0; ii < connections.length; ii++) {
+    //         if(connections[ii].conn = conn){
+    //             // array.splice(ii, 1);
+    //             console.log("deleteConn: " + connections[ii].connName);
+    //         }
+    //     }
+    //
+    //     // conn.conn.close();
+    //     // //conn.conn.disconnect();
+    //     // delete that.clients[conn.conn.id];
+    //     // that.emit('connectionClosed', conn.conn.id);
+    // });
 });
 
 
