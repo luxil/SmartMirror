@@ -7,97 +7,23 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
     <script src="../../SmartMirrorAppProject/www/js/External_Libs/sockjs.min.js"></script>
     <!--<script src="/js/index.js"></script>-->
-    <!--<script src="../../SmartMirrorAppProject/www/js/SM_App.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 
-    <!--<script type="text/javascript" src="js/kalender.js"> </script>-->
 </head>
 
 <body lang="de">
-
-<h2 class="heading">Smart Mirror</h2><br><br>
-<div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">Elemente</button>
-    <div id="myDropdown" class="dropdown-content">
-        <a href="../Backup%20Files%20(kann%20man%20eigentlich%20löschen)/uhr.html">Uhr</a>
-        <a href="../Backup%20Files%20(kann%20man%20eigentlich%20löschen)/kalender.html">Kalender</a>
-        <a href="../Backup%20Files%20(kann%20man%20eigentlich%20löschen)/wetter.html">Wetter</a>
-        <a href="nachrichten.html">Nachrichten</a>
+    <h2 class="heading">Smart Mirror</h2><br><br>
+    <div id="contentBoxPanel"></div>
+        <div class="dropdown">
+        <button  type="button" id="addContentButton" class="button">+</button>
+        <div class="dropdownBoxOptions">
+            <button  type="button" id="addWatchBox" class="button">Uhr</button><br>
+            <button  type="button" id="addCalendarBox" class="button">Kalender</button><br>
+            <button  type="button" id="addWeatherBox" class="button">Wetter</button><br>
+            <button  type="button" id="addNewsBox" class="button">Nachrichten</button><br>
+        </div>
     </div>
-</div>
-<div id="contentBoxPanel"></div>
-
-<div class="dropdown">
-    <button  type="button" id="addContentButton" class="button">+</button>
-    <div class="dropdownBoxOptions">
-        <button  type="button" id="addWatchBox" class="button">Uhr</button><br>
-        <button  type="button" id="addCalendarBox" class="button">Kalender</button><br>
-        <button  type="button" id="addWeatherBox" class="button">Wetter</button><br>
-        <button  type="button" id="addNewsBox" class="button">Nachrichten</button><br>
-    </div>
-</div>
-<script src="/js/index.js"></script>
-<!--<script src="../../SmartMirrorAppProject/www/js/SM_App.js"></script>-->
-<!---->
+    <script src="/js/index.js"></script>
 </body></html>
 
 
-
-<!--<!DOCTYPE html>-->
-<!--<html>-->
-<!--<head>-->
-	<!--<link href="design.css" rel="stylesheet">-->
-	<!---->
-<!--<style>-->
-
-<!--</style>-->
-<!--</head>-->
-<!--<body>-->
-<!--<h2 class="heading">Smart Mirror</h2><br><br>-->
-
-
-<!--<div class="dropdown">-->
-<!--<button onclick="myFunction()" class="dropbtn">Elemente</button>-->
-  <!--<div id="myDropdown" class="dropdown-content">-->
-    <!--<a href="uhr.html">Uhr</a>-->
-	<!--<a href="kalender.html">Kalender</a>-->
-    <!--<a href="wetter.html">Wetter</a>-->
-    <!--<a href="nachrichten.html">Nachrichten</a>-->
-  <!--</div>-->
-<!--</div>-->
-
-
-<!--<script type="text/javascript">-->
-<!--$( init );-->
-<!--function init() {-->
-  <!--$("#header").load("header.html");-->
- <!--}-->
- <!---->
-<!--/* When the user clicks on the button, -->
-<!--toggle between hiding and showing the dropdown content */-->
-<!--function myFunction() {-->
-    <!--document.getElementById("myDropdown").classList.toggle("show");-->
-<!--}-->
-
-<!--// Close the dropdown if the user clicks outside of it-->
-<!--window.onclick = function(event) {-->
-  <!--if (!event.target.matches('.dropbtn')) {-->
-
-    <!--var dropdowns = document.getElementsByClassName("dropdown-content");-->
-    <!--var i;-->
-    <!--for (i = 0; i < dropdowns.length; i++) {-->
-      <!--var openDropdown = dropdowns[i];-->
-      <!--if (openDropdown.classList.contains('show')) {-->
-        <!--openDropdown.classList.remove('show');-->
-      <!--}-->
-    <!--}-->
-  <!--}-->
-<!--}-->
-
-
-
-<!--</script>-->
-
-
-<!--</body>-->
-<!--</html>-->

@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ea734b-f6c3-434b-9e40-295fd9171728" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/UhrTest.html" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/UhrTest.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/design.css" afterPath="$PROJECT_DIR$/NodeJS/client/css/design.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/draw.html" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/draw.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/header.html" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/header.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/kalender.html" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/kalender.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/komplimente.js" afterPath="$PROJECT_DIR$/NodeJS/client/js/komplimente.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/test.html" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/test.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/uhr.html" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/uhr.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/wetter.html" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/wetter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/app.js" afterPath="$PROJECT_DIR$/NodeJS/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/client/css/index.css" afterPath="$PROJECT_DIR$/NodeJS/client/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/client/index.html" afterPath="$PROJECT_DIR$/NodeJS/client/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/client/js/index.js" afterPath="$PROJECT_DIR$/NodeJS/client/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/www/css/index.css" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/www/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,18 +30,18 @@
       <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+            <state relative-caret-position="443">
+              <caret line="78" column="48" lean-forward="true" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -71,8 +60,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeJS/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="55" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -90,27 +79,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+            <state relative-caret-position="268">
+              <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="23" />
               <folding>
-                <element signature="e#282#324#0" expanded="false" />
-                <element signature="e#366#391#0" expanded="false" />
-                <element signature="e#430#452#0" expanded="false" />
-                <element signature="e#493#517#0" expanded="false" />
-                <element signature="n#!!block;n#init#0" expanded="false" />
-                <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
+                <element signature="e#1352#1402#0" expanded="false" />
+                <element signature="e#1447#1480#0" expanded="false" />
+                <element signature="e#1522#1552#0" expanded="false" />
+                <element signature="e#1596#1628#0" expanded="false" />
                 <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
                 <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
-                <element signature="n#!!block;n#addContentBox#0" expanded="false" />
                 <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
                 <element signature="n#!!block;n#addTime#0" expanded="false" />
                 <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0" expanded="false" />
                 <element signature="n#!!block;n#addWeather#0" expanded="false" />
-                <element signature="n#!!block;n#myFunction#0" expanded="false" />
-                <element signature="e#7705#8083#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -119,8 +103,8 @@
       <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="96" column="65" lean-forward="false" selection-start-line="96" selection-start-column="59" selection-end-line="96" selection-end-column="65" />
+            <state relative-caret-position="357">
+              <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="71" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#944#1772#0" expanded="false" />
@@ -157,12 +141,12 @@
         <option value="$PROJECT_DIR$/SmartMirrorAppProject/config.xml" />
         <option value="$PROJECT_DIR$/NodeJS/client/kalender.html" />
         <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/css/index.css" />
-        <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" />
-        <option value="$PROJECT_DIR$/NodeJS/client/index.html" />
         <option value="$PROJECT_DIR$/NodeJS/client/css/index.css" />
-        <option value="$PROJECT_DIR$/NodeJS/app.js" />
         <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html" />
+        <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" />
+        <option value="$PROJECT_DIR$/NodeJS/app.js" />
         <option value="$PROJECT_DIR$/NodeJS/client/js/index.js" />
+        <option value="$PROJECT_DIR$/NodeJS/client/index.html" />
       </list>
     </option>
   </component>
@@ -461,12 +445,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496590159460</updated>
       <workItem from="1496590162051" duration="23743000" />
-      <workItem from="1496845642072" duration="47294000" />
+      <workItem from="1496845642072" duration="54688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71037000" />
+    <option name="totallyTimeSpent" value="78431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -519,24 +503,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/NodeJS/client/js/index.js</url>
-          <line>65</line>
+          <line>160</line>
           <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/NodeJS/client/js/index.js</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/NodeJS/client/js/index.js</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -554,21 +526,16 @@
         <state relative-caret-position="697">
           <caret line="165" column="42" lean-forward="false" selection-start-line="165" selection-start-column="42" selection-end-line="165" selection-end-column="42" />
           <folding>
-            <element signature="e#282#324#0" expanded="false" />
-            <element signature="e#366#391#0" expanded="false" />
-            <element signature="e#430#452#0" expanded="false" />
-            <element signature="e#493#517#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
+            <element signature="e#1352#1402#0" expanded="false" />
+            <element signature="e#1447#1480#0" expanded="false" />
+            <element signature="e#1522#1552#0" expanded="false" />
+            <element signature="e#1596#1628#0" expanded="false" />
             <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
             <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
-            <element signature="n#!!block;n#addContentBox#0" expanded="false" />
             <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
             <element signature="n#!!block;n#addTime#0" expanded="false" />
             <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0" expanded="false" />
             <element signature="n#!!block;n#addWeather#0" expanded="false" />
-            <element signature="n#!!block;n#myFunction#0" expanded="false" />
-            <element signature="e#7705#8083#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -732,6 +699,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="78" column="48" lean-forward="true" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
@@ -740,18 +715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="96" column="65" lean-forward="false" selection-start-line="96" selection-start-column="59" selection-end-line="96" selection-end-column="65" />
+        <state relative-caret-position="357">
+          <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="71" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#944#1772#0" expanded="false" />
@@ -761,10 +728,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="55" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="23" />
+          <folding>
+            <element signature="e#1352#1402#0" expanded="false" />
+            <element signature="e#1447#1480#0" expanded="false" />
+            <element signature="e#1522#1552#0" expanded="false" />
+            <element signature="e#1596#1628#0" expanded="false" />
+            <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
+            <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
+            <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
+            <element signature="n#!!block;n#addTime#0" expanded="false" />
+            <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0" expanded="false" />
+            <element signature="n#!!block;n#addWeather#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -772,32 +758,8 @@
     <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-          <folding>
-            <element signature="e#282#324#0" expanded="false" />
-            <element signature="e#366#391#0" expanded="false" />
-            <element signature="e#430#452#0" expanded="false" />
-            <element signature="e#493#517#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
-            <element signature="n#!!block;n#addContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
-            <element signature="n#!!block;n#addTime#0" expanded="false" />
-            <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0" expanded="false" />
-            <element signature="n#!!block;n#addWeather#0" expanded="false" />
-            <element signature="n#!!block;n#myFunction#0" expanded="false" />
-            <element signature="e#7705#8083#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

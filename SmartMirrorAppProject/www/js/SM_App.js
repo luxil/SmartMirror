@@ -52,91 +52,54 @@ var app = {
 
 app.initialize();
 
-$("#test").click(function() {
-    console.log("TEST");
-    $("#test").append($("<code>").text("blub"));
-    testIndexChange();
-});
-
 $("#okIp").click(function() {
-    console.log("OKIP");
     var ipString =  $("#myInputField").val().toString();
     $("#okIp").append($("<code>").text(ipString));
-    editServerSmartMirror(ipString);
+    connectToServer(ipString, editServerSmartMirror)
+    // editServerSmartMirror();
 });
 
-$("#addWatchBox").click(function() {
-    console.log("addWatch");
+$(".contentBoxPanelOptionsBut").click(function() {
+    //$(this).get(0).id kann zum Beispiel addWatchbox, addCalendarBox usw. sein
+    var addContentBox = $(this).get(0).id;
+    console.log(addContentBox);
     $(".contextBoxOptionsPanel").toggle();
     sockjs = new SockJS(sockjs_url);
     sockjs.onopen = function() {
-        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'addWatchBox'};
+        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':addContentBox};
         var message = JSON.stringify(messageobj);
         sockjs.send(message);
-        // console.log( "sm app sockjs onopen"+sockjs);
     };
 });
 
-$("#addCalendarBox").click(function() {
-    console.log("addWatch");
-    $(".contextBoxOptionsPanel").toggle();
-    sockjs = new SockJS(sockjs_url);
-    sockjs.onopen = function() {
-        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'addCalendarBox'};
-        var message = JSON.stringify(messageobj);
-        sockjs.send(message);
-        // console.log( "sm app sockjs onopen"+sockjs);
-    };
-});
 
-$("#addWeatherBox").click(function() {
-    console.log("addWeatherBox");
-    $(".contextBoxOptionsPanel").toggle();
-    sockjs = new SockJS(sockjs_url);
-    sockjs.onopen = function() {
-        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'addWeatherBox'};
-        var message = JSON.stringify(messageobj);
-        sockjs.send(message);
-        // console.log( "sm app sockjs onopen"+sockjs);
-    };
-});
-
-$(".addContentBox").click(function() {
+$(".addContentButton").click(function() {
     $(".contextBoxOptionsPanel").toggle();
 });
 
-function editServerSmartMirror(ipString){
+function connectToServer(ipString, callback){
     sockjs_url = 'http://'+ipString+':3000/echo';
     sockjs = new SockJS(sockjs_url);
     sockjs.onopen = function() {
         console.log('open client mobile');
+
+        //schickt Server die Daten zur Verbindung mit dem Client Mobile
+        messageobj = {'messagetype': 'newConn','connName':'MobileConn'};
+        message = JSON.stringify(messageobj);
+        sockjs.send(message);
+        callback();
+    }
+}
+
+function editServerSmartMirror(){
+    sockjs = new SockJS(sockjs_url);
+    sockjs.onopen = function() {
+
+        //schickt Server Nachricht, dass der Smart Mirror in den Edit Modus gehen soll
         var messageobj = {'messagetype': 'messageToConn', 'toConn': 'IndexConn', 'function':'indexEditMode'};
         var message = JSON.stringify(messageobj);
-        console.log(message);
         sockjs.send(message);
-        // console.log( "sm app sockjs onopen"+sockjs);
     };
     $("#ipConnectWindow").hide();
     $("#editMirrorWindow").show();
-}
-
-function testIndexChange(){
-    // var sockjs_url = '/echo';
-    // var sockjs = new SockJS(sockjs_url);
-    var sockjs = new SockJS('http://192.168.0.72:3000/echo');
-
-    sockjs.onopen = function() {
-        console.log('open client mobile');
-        sockjs.send('ToConn: Hallo');
-        // console.log( "sm app sockjs onopen"+sockjs);
-    };
-
-    sockjs.onmessage = function(e) {
-        // sockjs.close();
-    };
-
-    // sockjs.onclose = function() {
-    //     console.log('close');
-    // };
-
 }

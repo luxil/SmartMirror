@@ -4,73 +4,90 @@
 
 var aC_ButtonIndex = 0;
 var colors = ["red", "blue", "green", "yellow", "cyan", "Coral", "grey"];
+var boxActivated = [];
+var sockjs_url;
+var sockjs;
 
 $("#addContentButton").draggable({cancel:false});
 $(".dropdownBoxOptions").hide();
 $( init );
 
-
-
-$("#addContentButton").click(function() {
-    $(".dropdownBoxOptions").toggle();
-});
-
-$("#addCalendarBox").click(function() {
-    addCalendarBox();
-});
-
-$("#addWatchBox").click(function() {
-    addWatchBox();
-});
-
-$("#addWeatherBox").click(function() {
-    addWeatherBox();
-});
-
 function init() {
-    var sockjs_url = '/echo';
-    var sockjs = new SockJS(sockjs_url);
+    connectToServerEcho(establishConnToServer);
 
-    sockjs.onopen = function() {
-        console.log('resetConnections');
-        sockjs.send('resetConnections');
-        sockjs.close();
-    };
 
-    sockjs.onmessage = function(e)  {};
-    sockjs.onclose = function() {};
+
+    function connectToServerEcho(callback) {
+        sockjs_url = '/echo';
+        sockjs = new SockJS(sockjs_url);
+        sockjs.onopen = function() {
+            callback();
+        }
+
+    }
+
+    function establishConnToServer() {
+        sockjs.onopen = function() {
+            console.log('open client socketMessageHandler');
+            console.log('resetConnections');
+            // sockjs.send('resetConnections');
+
+            //lösche alle bisher gespeicherten Verbindungen
+            messageobj = {'messagetype': 'resetConnections'};
+            message = JSON.stringify(messageobj);
+            sockjs.send(message);
+
+            //schickt Server die Daten zur Verbindung mit dem Client SmartMirror
+            messageobj = {'messagetype': 'newConn','connName':'IndexConn'};
+            message = JSON.stringify(messageobj);
+            sockjs.send(message);
+        };
+    }
+
     var SocketMessageHandler = socketMessageHandler();
+
+    $("#addContentButton").click(function() {
+        $(".dropdownBoxOptions").toggle();
+    });
+    $("#addCalendarBox").click(function() {
+        addCalendarBox();
+    });
+    $("#addWatchBox").click(function() {
+        addWatchBox();
+    });
+    $("#addWeatherBox").click(function() {
+        addWeatherBox();
+    });
 }
 
+function addContentBox() {
+    console.log("addcontentnox")
+    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='contentBox'></div>");
+    $(".contentBox").draggable();
+    boxActivated.push(true);
+    $(".dropdownBoxOptions").hide();
+    indexEditMode();
+    aC_ButtonIndex++;
+}
 function addWatchBox() {
 // addContentBox();
+    console.log("addwathc")
     addContentBox();
     $("#contentBox"+(aC_ButtonIndex-1)).addClass('watchBox');
     addTime(aC_ButtonIndex-1);
 }
-
 function addCalendarBox() {
     addContentBox();
     $("#contentBox"+(aC_ButtonIndex-1)).addClass('calendarBox');
     addCalEvents(aC_ButtonIndex-1);
 
 }
-
 function addWeatherBox() {
     addContentBox();
     $("#contentBox"+(aC_ButtonIndex-1)).addClass('weatherBox');
     addWeather((aC_ButtonIndex-1));
 
 }
-
-function addContentBox() {
-    $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='contentBox'></div>");
-    $(".contentBox").draggable();
-    aC_ButtonIndex++;
-    $(".dropdownBoxOptions").hide();
-    indexEditMode();
-}
-
 function addCalEvents(aC_ButtonIndex){
     var sockjs_url = '/echo';
     var sockjs = new SockJS(sockjs_url);
@@ -140,7 +157,6 @@ function addTime(aC_ButtonIndex){
         return i;
     }
 }
-
 var myVar = setInterval(addWeather, 3000);
 function addWeather(index){
 
@@ -188,23 +204,20 @@ function addWeather(index){
 
 function socketMessageHandler(){
     var sockjs_url = '/echo';
-    var sockjs = new SockJS(sockjs_url);
+    sockjs = new SockJS(sockjs_url);
 
     sockjs.onopen = function() {
-        //console.log("sockjs " + JSON.stringify(sockjs));
-        console.log('open client socketMessageHandler');
         messageobj = {'messagetype': 'newConn','connName':'IndexConn'};
         message = JSON.stringify(messageobj);
-        //sockjs.send('newConnName: IndexConn');
         sockjs.send(message);
     };
 
     sockjs.onmessage = function(e)  {
         //prüfe, ob vom Server wirklich eine message gesendet wurde, die die Kalenderevents beinhaltet
         console.log("IndexConn:" + e.data);
-        // console.log("hi von app von Sm_app");
         //div.scrollTop(div.scrollTop()+10000);
         if(e.data == "indexEditMode"){
+            console.log("indexEditMode");
             indexEditMode();
         }
         if(e.data == "addWatchBox"){
@@ -226,35 +239,12 @@ function socketMessageHandler(){
         console.log('close');
     };
 }
-
 function indexEditMode() {
-    console.log("dofunction: " + "indexEditMode");
-    $('.contentBox').each(function(index, obj) {
-        $( this ).css({"border-color": colors[index], "border-style": "solid"});
-    });
-}
-
-/* When the user clicks on the button,
- toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-
-/**
- *
- * //muss noch überarbeitet werden für jquery!!!!!!!!!!!!!!
- */
-window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
+    var colorIndex = 0;
+    $('.contentBox').each(function(conBoxIndex) {
+        if (boxActivated[conBoxIndex]==true) {
+            $(this).css({"border-color": colors[colorIndex], "border-style": "solid"});
         }
-    }
+        colorIndex++;
+    });
 }
