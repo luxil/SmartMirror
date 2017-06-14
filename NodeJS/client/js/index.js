@@ -36,7 +36,6 @@ function addContentBox() {
     $(".dropdownBoxOptions").hide();
     indexEditMode();
     aC_ButtonIndex++;
-    //$("#contentBox"+(aC_ButtonIndex-1)).css({"position":"absolute"});
 }
 function addWatchBox() {
     addContentBox();
