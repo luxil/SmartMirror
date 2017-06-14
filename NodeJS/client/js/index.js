@@ -77,6 +77,14 @@ function addWatchBox() {
         }
     }
 }
+function addComplimentBox(name, datum) {
+    addContentBox();
+    $("#contentBox"+(aC_ButtonIndex-1)).addClass('complimentBox');
+    var div = $("#contentBox"+(aC_ButtonIndex-1));
+    div.append($("<code>").text(name));
+    div.append($("<br>"));
+    div.append($("<code>").text(datum));
+}
 function addCalendarBox() {
     addContentBox();
     $("#contentBox"+(aC_ButtonIndex-1)).addClass('calendarBox');
@@ -246,6 +254,9 @@ function connectToServer(){
                 // $("#contentBox"+oldConBonIndex)
                 // $("#contentBox"+conBonIndex).css({"border-style": "dotted"});
                 // refreshSmallConBoxes(countTrueConBoxes);
+            }
+            if (messageobj.function === 'addComplimentBox') {
+                addComplimentBox(messageobj.arguments.name, messageobj.arguments.date);
             }
         }
     };
