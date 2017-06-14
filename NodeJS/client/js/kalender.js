@@ -46,6 +46,3 @@ function addCalEvents(){
         console.log('close');
     };
 }
-// // $('#first input').focus();
-// var div  = $('#calendarBox');
-// div.append($("<code>").text(' hallo'));

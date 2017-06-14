@@ -9,8 +9,8 @@ var activeBoxes = [];
 var conBonIndex;
 var sockjs_url;
 var sockjs;
-$( init );
 
+$( init );
 function init() {
     resetServerConnections(connectToServer);
     $("#addContentButton").click(function() {
@@ -29,6 +29,110 @@ function init() {
     $(".dropdownBoxOptions").hide();
 }
 
+/**
+ * Funktionen, die die Verbindung zum Server nutzen
+ */
+//lösche alle bestehenden Verbindungen, die sich der Server bis dahin gemerkt hat
+function resetServerConnections(callback) {
+    sockjs_url = '/echo';
+    sockjs = new SockJS(sockjs_url);
+    sockjs.onopen = function() {
+        console.log('open client connectToServer');
+        console.log('resetConnections');
+        // sockjs.send('resetConnections');
+
+        //lösche alle bisher gespeicherten Verbindungen
+        messageobj = {'messagetype': 'resetConnections'};
+        message = JSON.stringify(messageobj);
+        sockjs.send(message);
+        sockjs.close();
+        callback();
+    }
+
+}
+function connectToServer(){
+    sockjs = new SockJS(sockjs_url);
+
+    //schickt Server die Daten zur Verbindung mit dem Client SmartMirror
+    sockjs.onopen = function() {
+        messageobj = {'messagetype': 'newConn','connName':'IndexConn'};
+        message = JSON.stringify(messageobj);
+        sockjs.send(message);
+    };
+
+    sockjs.onmessage = function(e)  {
+        //prüfe, ob vom Server wirklich eine message gesendet wurde, die die Kalenderevents beinhaltet
+        console.log("IndexConn:" + e.data);
+        //div.scrollTop(div.scrollTop()+10000);
+        if(e.data == "indexEditMode"){
+            indexEditMode();
+        }
+        if(e.data == "addWatchBox"){
+            console.log("addWatchBox");
+            addWatchBox();
+        }
+        if(e.data == "addCalendarBox"){
+            console.log("addCalendarBox");
+            addCalendarBox();
+        }
+        if(e.data == "addWeatherBox"){
+            console.log("addWeatherBox");
+            addWeatherBox();
+        }
+        if(e.data == "deleteContentBox"){
+            console.log("deleteContentBox");
+            deleteContentBox();
+        }
+        if(e.data == "upButton"){
+            upButton();
+        }
+        if(e.data == "rightButton"){
+            rightButton();
+        }
+        if(e.data == "downButton"){
+            downButton();
+        }
+        if(e.data == "leftButton"){
+            leftButton();
+        }
+        if(e.data == "closeButton"){
+            closeEditMode();
+        }
+        var messageobj = safelyParseJSON(e.data);
+        if (messageobj != undefined) {
+            if (messageobj.function === 'changeConBoxWithIndex') {
+                conBonIndex = messageobj.arguments.conBonIndex;
+                var oldConBonIndex = messageobj.arguments.oldConBonIndex;
+                activeBoxes[oldConBonIndex].css({"border-style": "solid"});
+                activeBoxes[conBonIndex].css({"border-style": "dotted"});
+            }
+            if (messageobj.function === 'addComplimentBox') {
+                console.log("addcomp");
+                addComplimentBox(messageobj.arguments.name, messageobj.arguments.date);
+            }
+        }
+    };
+
+    sockjs.onclose = function() {
+        console.log('close');
+    };
+}
+//allgemeine Funktion, mit der man die Funktion zum mobilen Clienten sendet
+function sendFuncToMobileConn(funcObj) {
+    sockjs = new SockJS(sockjs_url);
+    sockjs.onopen = function() {
+        //kommentar
+        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'MobileConn'};
+        jQuery.extend(messageobj, funcObj);
+        var message = JSON.stringify(messageobj);
+        sockjs.send(message);
+        sockjs.close();
+    }
+}
+
+/**
+ * Funktionen, die eine ContentBox hinzufügen
+ */
 function addContentBox() {
     $("#contentBoxPanel").append("<div id=" + ("contentBox"+aC_ButtonIndex)+" class='contentBox'></div>");
     $(".contentBox").draggable();
@@ -78,6 +182,7 @@ function addWatchBox() {
     }
 }
 function addComplimentBox(name, datum) {
+    console.log("addComplimentBox")
     addContentBox();
     $("#contentBox"+(aC_ButtonIndex-1)).addClass('complimentBox');
     var div = $("#contentBox"+(aC_ButtonIndex-1));
@@ -178,93 +283,10 @@ function addWeatherBox() {
     }
 }
 
-function resetServerConnections(callback) {
-    sockjs_url = '/echo';
-    sockjs = new SockJS(sockjs_url);
-    sockjs.onopen = function() {
-        console.log('open client connectToServer');
-        console.log('resetConnections');
-        // sockjs.send('resetConnections');
-
-        //lösche alle bisher gespeicherten Verbindungen
-        messageobj = {'messagetype': 'resetConnections'};
-        message = JSON.stringify(messageobj);
-        sockjs.send(message);
-        sockjs.close();
-        callback();
-    }
-
-}
-function connectToServer(){
-    sockjs = new SockJS(sockjs_url);
-
-    //schickt Server die Daten zur Verbindung mit dem Client SmartMirror
-    sockjs.onopen = function() {
-        messageobj = {'messagetype': 'newConn','connName':'IndexConn'};
-        message = JSON.stringify(messageobj);
-        sockjs.send(message);
-    };
-
-    sockjs.onmessage = function(e)  {
-        //prüfe, ob vom Server wirklich eine message gesendet wurde, die die Kalenderevents beinhaltet
-        console.log("IndexConn:" + e.data);
-        //div.scrollTop(div.scrollTop()+10000);
-        if(e.data == "indexEditMode"){
-            indexEditMode();
-        }
-        if(e.data == "addWatchBox"){
-            console.log("addWatchBox");
-            addWatchBox();
-        }
-        if(e.data == "addCalendarBox"){
-            console.log("addCalendarBox");
-            addCalendarBox();
-        }
-        if(e.data == "addWeatherBox"){
-            console.log("addWeatherBox");
-            addWeatherBox();
-        }
-        if(e.data == "deleteContentBox"){
-            console.log("deleteContentBox");
-            deleteContentBox();
-        }
-        if(e.data == "upButton"){
-            upButton();
-        }
-        if(e.data == "rightButton"){
-            rightButton();
-        }
-        if(e.data == "downButton"){
-            downButton();
-        }
-        if(e.data == "leftButton"){
-            leftButton();
-        }
-        if(e.data == "closeButton"){
-            closeEditMode();
-        }
-        var messageobj = safelyParseJSON(e.data);
-        if (messageobj != undefined) {
-            if (messageobj.function === 'changeConBoxWithIndex') {
-                conBonIndex = messageobj.arguments.conBonIndex;
-                var oldConBonIndex = messageobj.arguments.oldConBonIndex;
-                console.log("conBonIndex: " + conBonIndex + "oldConBonIndex" +oldConBonIndex );
-                activeBoxes[oldConBonIndex].css({"border-style": "solid"});
-                activeBoxes[conBonIndex].css({"border-style": "dotted"});
-                // $("#contentBox"+oldConBonIndex)
-                // $("#contentBox"+conBonIndex).css({"border-style": "dotted"});
-                // refreshSmallConBoxes(countTrueConBoxes);
-            }
-            if (messageobj.function === 'addComplimentBox') {
-                addComplimentBox(messageobj.arguments.name, messageobj.arguments.date);
-            }
-        }
-    };
-
-    sockjs.onclose = function() {
-        console.log('close');
-    };
-}
+/**
+ * Funktionen, die die ausgewählte ContentBox verändern
+ */
+//der EditMode ist dadurch sichtbar, das um die ContentBoxen farbliche Ränder sind
 function indexEditMode() {
     var colorIndex = 0;
     var countTrueConBoxes = 0;
@@ -289,51 +311,34 @@ function indexEditMode() {
             'arguments':{'countTrueConBoxes':countTrueConBoxes}});
     }
 }
-
-function deleteContentBox() {
-    activeBoxes[conBonIndex].remove();
-    indexEditMode();
-}
-
 function upButton() {
     var position = activeBoxes[conBonIndex].offset();
     activeBoxes[conBonIndex].css({"position":"absolute", "top": position.top- $(document).scrollTop()-5});
 }
-
 function rightButton() {
     var position = activeBoxes[conBonIndex].offset();
     activeBoxes[conBonIndex].css({"position":"absolute", "left": position.left- $(document).scrollLeft()+5});
 }
-
 function downButton() {
     var position = activeBoxes[conBonIndex].offset();
     activeBoxes[conBonIndex].css({"position":"absolute", "top": position.top- $(document).scrollTop()+5});
 }
-
 function leftButton() {
     var position = activeBoxes[conBonIndex].offset();
     activeBoxes[conBonIndex].css({"position":"absolute", "left": position.left- $(document).scrollLeft()-5});
 }
-
+function deleteContentBox() {
+    activeBoxes[conBonIndex].remove();
+    indexEditMode();
+}
 function closeEditMode() {
     $(activeBoxes).each(function() {
         $(this).css({"border-color": "black", "border-style": "solid"});
     });
 }
 
-function sendFuncToMobileConn(funcObj) {
-    sockjs = new SockJS(sockjs_url);
-    sockjs.onopen = function() {
-        //kommentar
-        var messageobj = {'messagetype': 'messageToConn', 'toConn': 'MobileConn'};
-        jQuery.extend(messageobj, funcObj);
-        var message = JSON.stringify(messageobj);
-        sockjs.send(message);
-        sockjs.close();
-    }
-}
 
-//useful functions
+//nützliche Funktion, um sicher JSON.parse anzuwenden
 function safelyParseJSON (json) {
     // This function cannot be optimised, it's best to
     // keep it small!

@@ -99,7 +99,7 @@ server.listen(3000, function() {
 });
 
 
-//useful functions
+//nützliche Funktion, um sicher JSON.parse anzuwenden
 function safelyParseJSON (json) {
     // This function cannot be optimised, it's best to
     // keep it small!
