@@ -31,10 +31,11 @@
 
         <!--Erstmal auskommentiert, da viele Komplikationen. Vielleicht später nochmal überarbeiten, da eigentlich sicherer-->
         <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: http://192.168.0.72:* ws://192.168.0.72:* https://ssl.gstatic.com ws://localhost:3000 'unsafe-eval' ; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/SM_App.css">
         <title>Hello World</title>
 
         <!-- Include meta tag to ensure proper rendering and touch zooming -->
@@ -55,7 +56,18 @@
         <!-- Include the sockjs library -->
         <!--<script src="http://cdn.jsdelivr.net/sockjs/1.0.1/sockjs.min.js"></script>-->
         <script src="js/External_Libs/sockjs.min.js"></script>
+
+        <!--<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>-->
+        <script src="js/External_Libs/jquery.validate.min.js"></script>
+
+        <!--<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/additional-methods.js"></script>-->
+        <script src="js/External_Libs/additional-methods.js"></script>
+
+        <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">-->
+        <!--<link rel="stylesheet" href="css/External_css/bootstrap.min.css">-->
+
         <script src="js/External_Libs/angular.min.js"></script>
+
     </head>
     <body>
         <!--ipConnectWindow-->
@@ -66,8 +78,8 @@
                 <p class="event received">Device is Ready</p>
             </div>
             <h2>Bitte IP des Rechners eingeben. Z.B.: 192.168.0.1</h2>
-            <!--<input type="text" id="myInputField" value="192.168.0.72" name="feld" />-->
-            <input type="text" id="myInputField" value="192.168.188.20" name="feld" />
+            <input type="text" id="myInputField" value="192.168.0.53" name="feld" />
+            <!--<input type="text" id="myInputField" value="192.168.188.20" name="feld" />-->
             <button id = "okIp">OK</button>
         </div>
 
@@ -77,10 +89,10 @@
             <h2>Hier ändern</h2>
             <button class="addContentButton">+</button>
             <div class="contextBoxOptionsPanel">
-                <button class ="contentBoxPanelOptionsBut ui-mini ui-shadow" id = "addWatchBox">Zeit</button>
-                <button class = "contentBoxPanelOptionsBut" id = "addCalendarBox">Kalender</button>
-                <button class = "contentBoxPanelOptionsBut" id = "addWeatherBox">Wetter</button>
-                <button class = "contentBoxPanelOptionsBut" id = "addComplimentsBox">Kompliment</button>
+                <button class ="contentBoxPanelOptionsBut conBoxPanelOptionsButStyle ui-mini ui-shadow" id = "addWatchBox">Zeit</button>
+                <button class = "contentBoxPanelOptionsBut conBoxPanelOptionsButStyle" id = "addCalendarBox">Kalender</button>
+                <button class = "contentBoxPanelOptionsBut conBoxPanelOptionsButStyle" id = "addWeatherBox">Wetter</button>
+                <button class ="conBoxPanelOptionsButStyle" id = "addComplimentsBox">Kompliment</button>
             </div>
 
             <div id="contextBoxPanel">
@@ -96,8 +108,17 @@
              </div>
         </div>
 
+        <!--form window for compliment-->
+        <form id="form" method="post" action="#">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+            <label for="date">Geburtstag</label>
+            <input type="date" name="date" id="date"/>
+            <button type="submit">Senden</button>
+        </form>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script src="js/SM_App.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/SM_App.css">
     </body>
 </html>

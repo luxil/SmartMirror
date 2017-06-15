@@ -147,12 +147,12 @@ function forInitFuncs(){
                 sendFuncToIndexConn({'function':moveButton});
             },100); // 500ms between each frame
         });
-        $('.moveButton').on('mouseup',function(e) {
+        $('.moveButton').on('touchend',function(e) {//mouseup equiv.
             clearInterval(interval);
         });
 // Thank you, Timo002, for your contribution!
 // This code will stop the interval if you move your mouse away from the button while still holding it.
-        $('.moveButton').on('mouseout',function(e) {
+        $('.moveButton').on('touchleave',function(e) {//mouseout equiv.
             clearInterval(interval);
         });
     }
