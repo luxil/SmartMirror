@@ -148,7 +148,7 @@ function addWatchBox() {
 
     function addTime(aC_ButtonIndex){
         startTime(aC_ButtonIndex);
-        function startTime(aC_ButtonIndex) {
+        function startTime() {
             var today = new Date();
             var h = today.getHours();
             var m = today.getMinutes();
@@ -185,10 +185,23 @@ function addComplimentBox(name, datum) {
     console.log("addComplimentBox")
     addContentBox();
     $("#contentBox"+(aC_ButtonIndex-1)).addClass('complimentBox');
+	
+	// Datum in Kompliment umwandeln
+	var compliment;
+	if (datum > 2000){
+		compliment = "Du siehst gut aus heute!";
+	}
+	if (datum <= 2000 && datum > 1990){
+		compliment = "Dein Lächeln ist bezaubernd!";
+	}
+	else if(datum <= 1990 ){
+		compliment = "Deine Frisur steht dir fantastisch!";
+	}
+	
     var div = $("#contentBox"+(aC_ButtonIndex-1));
     div.append($("<code>").text(name));
     div.append($("<br>"));
-    div.append($("<code>").text(datum));
+    div.append($("<code>").text(compliment));
 }
 function addCalendarBox() {
     addContentBox();
