@@ -47,7 +47,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    /*background:url(../img/logo.png) no-repeat center top;*/ /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
@@ -76,6 +76,7 @@ h1 {
     overflow:visible;
     padding:0px;
     text-align:center;
+	color:#F5F5F5;
 }
 
 h2 {
@@ -125,12 +126,20 @@ h2 {
 
 .contextBoxOptionsPanel {
     display:block;
-    background-color: #aaaaaa;
+    background-color: #F5F5F5; /*#aaaaaa vorher*/
     color: blue;
 }
 
 .conBoxPanelOptionsButStyle{
     background: #828282 !important;
+	color: #F5F5F5 !important;	
+	font-weight:normal;
+}
+
+.moveButton{
+	background-color:grey !important;
+	color: white !important;	
+	font-weight:normal;
 }
 
 label {
