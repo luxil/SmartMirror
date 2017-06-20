@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.smartmirrorapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SocketsForCordova">
+        <param name="android-package" value="cz.blocshop.socketsforcordova.SocketPlugin" />
+    </feature>
+    <name>SmartMirrorApp</name>
+    <description>
+        SmartMirrorApp
+    </description>
+    <author email="luxiliph@gmail.com" href="http://cordova.io">
+        Linh
+    </author>
+    <content src="SM_App.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>

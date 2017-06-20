@@ -94,6 +94,10 @@ app.get('/mobile', function (req, res) {
     res.sendFile(path.resolve(__dirname + '/../SmartMirrorAppProject/www/SM_App.html'));
 });
 
+app.get('/mKomplimente', function (req, res) {
+    res.sendFile(path.resolve(__dirname + '/../SMKomplimenteFenster/www/SM_App.html'));
+});
+
 server.listen(3000, function() {
 	console.log('Server listen on port 3000.');
 });
