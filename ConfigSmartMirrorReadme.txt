@@ -89,18 +89,6 @@ sudo nano /home/pi/.config/lxsession/LXDE-pi/autostart  //
 ifconfig 
 
 
-#ip
-//bei fritz
-192.168.188.24
-//statische ip
-192.168.1.2
-//uni
-192.168.0.160
-192.168.2.110
-//mit pi als access point
-169.254.62.151
-
-
 #wlan accesspoint darstellen
 sudo apt-get install hostapd udhcpd
 sudo nano /etc/udhcpd.conf

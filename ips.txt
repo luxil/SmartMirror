@@ -1,0 +1,10 @@
+#ip
+//bei fritz
+192.168.188.20
+//statische ip
+192.168.1.2
+//uni
+192.168.0.160
+192.168.2.110
+//mit pi als access point
+169.254.3.142
