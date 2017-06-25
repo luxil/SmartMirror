@@ -84,6 +84,8 @@ sockjs_echo.installHandlers(server, {prefix:'/echo'});
 
 app.use('/', express.static(clientDirectory));
 app.use("/mobile", express.static(path.resolve(__dirname + '/../SmartMirrorAppProject/www')));
+app.use("/mKompli", express.static(path.resolve(__dirname + '/../SMKomplimenteFenster/www')));
+app.use("/SMKomplimenteFenster", express.static(path.resolve(__dirname + '/../SMKomplimenteFenster/')));
 app.use("/SmartMirrorAppProject", express.static(path.resolve(__dirname + '/../SmartMirrorAppProject/')));
 
 app.get('/', function (req, res) {
@@ -94,7 +96,7 @@ app.get('/mobile', function (req, res) {
     res.sendFile(path.resolve(__dirname + '/../SmartMirrorAppProject/www/SM_App.html'));
 });
 
-app.get('/mKomplimente', function (req, res) {
+app.get('/mKompli', function (req, res) {
     res.sendFile(path.resolve(__dirname + '/../SMKomplimenteFenster/www/SM_App.html'));
 });
 

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ea734b-f6c3-434b-9e40-295fd9171728" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SmartMirror.iml" afterPath="$PROJECT_DIR$/.idea/SmartMirror.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/server.js" afterPath="$PROJECT_DIR$/NodeJS/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMKomplimenteFenster/www/SM_App.html" afterPath="$PROJECT_DIR$/SMKomplimenteFenster/www/SM_App.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js" afterPath="$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,225 +24,54 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7544186">
-      <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.13950618">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="SM_App.css" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/css/SM_App.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="19">
-                      <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/NodeJS/client/css/index.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="952">
-                      <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="kalender.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/NodeJS/client/js/kalender.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="119">
-                      <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-                      <folding>
-                        <element signature="n#!!block;n#init#0" expanded="false" />
-                        <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/NodeJS/server.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="373">
-                      <caret line="97" column="67" lean-forward="false" selection-start-line="97" selection-start-column="67" selection-end-line="97" selection-end-column="67" />
-                      <folding>
-                        <element signature="n#!!doc" expanded="true" />
-                        <element signature="e#861#1315#0" expanded="false" />
-                        <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/SM_App.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="0">
-                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-1836">
-                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding>
-                        <element signature="n#!!doc" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="server_kalender.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/NodeJS/server_kalender.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="153">
-                      <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="nachrichten.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/NodeJS/client/nachrichten.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="0">
-                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="680">
-                      <caret line="340" column="0" lean-forward="false" selection-start-line="340" selection-start-column="0" selection-end-line="340" selection-end-column="53" />
-                      <folding>
-                        <element signature="n#!!block;n#init#0" expanded="false" />
-                        <element signature="e#353#403#0" expanded="false" />
-                        <element signature="e#448#481#0" expanded="false" />
-                        <element signature="e#523#553#0" expanded="false" />
-                        <element signature="e#597#629#0" expanded="false" />
-                        <element signature="n#!!doc;n#resetServerConnections#0" expanded="false" />
-                        <element signature="n#!!block;n#resetServerConnections#0" expanded="false" />
-                        <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-                        <element signature="e#1753#3553#0" expanded="false" />
-                        <element signature="n#!!block;n#sendFuncToMobileConn#0" expanded="false" />
-                        <element signature="n#!!doc;n#addContentBox#0" expanded="false" />
-                        <element signature="n#!!block;n#addContentBox#0" expanded="false" />
-                        <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
-                        <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-                        <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-                        <element signature="n#!!block;n#addComplimentBox#0" expanded="false" />
-                        <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-                        <element signature="e#6478#6631#0" expanded="false" />
-                        <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
-                        <element signature="n#!!block;n#addWeather#0;n#!!block;n#addWeatherBox#0" expanded="false" />
-                        <element signature="n#!!doc;n#indexEditMode#0" expanded="false" />
-                        <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
-                        <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
-                        <element signature="n#!!block;n#upButton#0" expanded="false" />
-                        <element signature="n#!!block;n#rightButton#0" expanded="false" />
-                        <element signature="n#!!block;n#downButton#0" expanded="false" />
-                        <element signature="n#!!block;n#leftButton#0" expanded="false" />
-                        <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
-                        <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
-                        <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="714">
-                      <caret line="153" column="103" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="153" selection-end-column="103" />
-                      <folding>
-                        <element signature="n#!!doc" expanded="true" />
-                        <element signature="e#982#1810#0" expanded="false" />
-                        <element signature="e#1042#1137#0" expanded="false" />
-                        <element signature="n#!!block;n#init#0" expanded="false" />
-                        <element signature="e#2043#2929#0" expanded="false" />
-                        <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-                        <element signature="e#3023#3221#0" expanded="false" />
-                        <element signature="e#3256#4954#0" expanded="false" />
-                        <element signature="e#3360#3552#0" expanded="false" />
-                        <element signature="e#3599#3675#0" expanded="false" />
-                        <element signature="e#3721#3830#0" expanded="false" />
-                        <element signature="e#3882#4016#0" expanded="false" />
-                        <element signature="e#4192#4541#0" expanded="false" />
-                        <element signature="e#4686#4946#0" expanded="false" />
-                        <element signature="e#5184#5401#0" expanded="false" />
-                        <element signature="e#5935#8901#0" expanded="false" />
-                        <element signature="e#6277#8518#0" expanded="false" />
-                        <element signature="e#8535#8619#0" expanded="false" />
-                        <element signature="e#8688#8811#0" expanded="false" />
-                        <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
-                        <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-                        <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
-                        <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-                        <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-                        <element signature="e#10531#10881#0" expanded="false" />
-                        <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-                        <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
-                        <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="514">
-                  <caret line="97" column="6" lean-forward="false" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="additional-methods.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/External_Libs/additional-methods.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="7293">
-                  <caret line="431" column="9" lean-forward="false" selection-start-line="431" selection-start-column="8" selection-end-line="431" selection-end-column="9" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJS/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="98" column="17" lean-forward="false" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#861#1315#0" expanded="false" />
+                <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-78">
+              <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/SM_App.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="96" column="33" lean-forward="false" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="63" column="28" lean-forward="false" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -288,12 +118,14 @@
         <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/js/External_Libs/jquery.validate.min.js" />
         <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/js/External_Libs/additional-methods.js" />
         <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/css/External_css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html" />
         <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/css/SM_App.css" />
         <option value="$PROJECT_DIR$/NodeJS/client/js/kalender.js" />
         <option value="$PROJECT_DIR$/NodeJS/client/js/index.js" />
         <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" />
         <option value="$PROJECT_DIR$/NodeJS/server.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html" />
+        <option value="$PROJECT_DIR$/SMKomplimenteFenster/www/SM_App.html" />
+        <option value="$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js" />
       </list>
     </option>
   </component>
@@ -305,6 +137,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/NodeJS/node_modules" />
+    <handled-path value="$PROJECT_DIR$/SMKomplimenteFenster/node_modules" />
     <handled-path value="$PROJECT_DIR$/SmartMirrorAppProject/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
@@ -327,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -403,6 +237,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirrorAppProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirrorAppProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="NodeJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -428,7 +294,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -553,25 +418,26 @@
       <workItem from="1497569249782" duration="1988000" />
       <workItem from="1497797646481" duration="627000" />
       <workItem from="1497947727315" duration="377000" />
+      <workItem from="1498415319723" duration="1975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129785000" />
+    <option name="totallyTimeSpent" value="131760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17862596" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18091603" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12632374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24205749" sideWeight="0.5057283" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24205749" sideWeight="0.5057283" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -641,7 +507,6 @@
             <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#addComplimentBox#0" expanded="false" />
             <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-            <element signature="e#6478#6631#0" expanded="false" />
             <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
             <element signature="n#!!block;n#addWeather#0;n#!!block;n#addWeatherBox#0" expanded="false" />
             <element signature="n#!!doc;n#indexEditMode#0" expanded="false" />
@@ -650,7 +515,6 @@
             <element signature="n#!!block;n#upButton#0" expanded="false" />
             <element signature="n#!!block;n#rightButton#0" expanded="false" />
             <element signature="n#!!block;n#downButton#0" expanded="false" />
-            <element signature="n#!!block;n#leftButton#0" expanded="false" />
             <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
             <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
@@ -667,27 +531,12 @@
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
             <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#2043#2929#0" expanded="false" />
             <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-            <element signature="e#3023#3221#0" expanded="false" />
-            <element signature="e#3256#4954#0" expanded="false" />
-            <element signature="e#3360#3552#0" expanded="false" />
-            <element signature="e#3599#3675#0" expanded="false" />
-            <element signature="e#3721#3830#0" expanded="false" />
-            <element signature="e#3882#4016#0" expanded="false" />
-            <element signature="e#4192#4541#0" expanded="false" />
-            <element signature="e#4686#4946#0" expanded="false" />
-            <element signature="e#5184#5401#0" expanded="false" />
-            <element signature="e#5935#8901#0" expanded="false" />
-            <element signature="e#6277#8518#0" expanded="false" />
-            <element signature="e#8535#8619#0" expanded="false" />
-            <element signature="e#8688#8811#0" expanded="false" />
             <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
             <element signature="n#!!block;n#connectToServer#0" expanded="false" />
             <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
             <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
             <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="e#10531#10881#0" expanded="false" />
             <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
             <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
@@ -781,27 +630,12 @@
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
             <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#2043#2929#0" expanded="false" />
             <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-            <element signature="e#3023#3221#0" expanded="false" />
-            <element signature="e#3256#4954#0" expanded="false" />
-            <element signature="e#3360#3552#0" expanded="false" />
-            <element signature="e#3599#3675#0" expanded="false" />
-            <element signature="e#3721#3830#0" expanded="false" />
-            <element signature="e#3882#4016#0" expanded="false" />
-            <element signature="e#4192#4541#0" expanded="false" />
-            <element signature="e#4686#4946#0" expanded="false" />
-            <element signature="e#5184#5401#0" expanded="false" />
-            <element signature="e#5935#8901#0" expanded="false" />
-            <element signature="e#6277#8518#0" expanded="false" />
-            <element signature="e#8535#8619#0" expanded="false" />
-            <element signature="e#8688#8811#0" expanded="false" />
             <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
             <element signature="n#!!block;n#connectToServer#0" expanded="false" />
             <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
             <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
             <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="e#10531#10881#0" expanded="false" />
             <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
             <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
@@ -839,7 +673,6 @@
             <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#addComplimentBox#0" expanded="false" />
             <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-            <element signature="e#6478#6631#0" expanded="false" />
             <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
             <element signature="n#!!block;n#addWeather#0;n#!!block;n#addWeatherBox#0" expanded="false" />
             <element signature="n#!!doc;n#indexEditMode#0" expanded="false" />
@@ -848,7 +681,6 @@
             <element signature="n#!!block;n#upButton#0" expanded="false" />
             <element signature="n#!!block;n#rightButton#0" expanded="false" />
             <element signature="n#!!block;n#downButton#0" expanded="false" />
-            <element signature="n#!!block;n#leftButton#0" expanded="false" />
             <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
             <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
@@ -897,7 +729,6 @@
             <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#addComplimentBox#0" expanded="false" />
             <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-            <element signature="e#6478#6631#0" expanded="false" />
             <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
             <element signature="n#!!block;n#addWeather#0;n#!!block;n#addWeatherBox#0" expanded="false" />
             <element signature="n#!!doc;n#indexEditMode#0" expanded="false" />
@@ -906,7 +737,6 @@
             <element signature="n#!!block;n#upButton#0" expanded="false" />
             <element signature="n#!!block;n#rightButton#0" expanded="false" />
             <element signature="n#!!block;n#downButton#0" expanded="false" />
-            <element signature="n#!!block;n#leftButton#0" expanded="false" />
             <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
             <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
@@ -923,27 +753,12 @@
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
             <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#2043#2929#0" expanded="false" />
             <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-            <element signature="e#3023#3221#0" expanded="false" />
-            <element signature="e#3256#4954#0" expanded="false" />
-            <element signature="e#3360#3552#0" expanded="false" />
-            <element signature="e#3599#3675#0" expanded="false" />
-            <element signature="e#3721#3830#0" expanded="false" />
-            <element signature="e#3882#4016#0" expanded="false" />
-            <element signature="e#4192#4541#0" expanded="false" />
-            <element signature="e#4686#4946#0" expanded="false" />
-            <element signature="e#5184#5401#0" expanded="false" />
-            <element signature="e#5935#8901#0" expanded="false" />
-            <element signature="e#6277#8518#0" expanded="false" />
-            <element signature="e#8535#8619#0" expanded="false" />
-            <element signature="e#8688#8811#0" expanded="false" />
             <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
             <element signature="n#!!block;n#connectToServer#0" expanded="false" />
             <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
             <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
             <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="e#10531#10881#0" expanded="false" />
             <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
             <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
@@ -1106,14 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/css/SM_App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/client/js/kalender.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1127,7 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="629">
           <caret line="340" column="0" lean-forward="false" selection-start-line="340" selection-start-column="0" selection-end-line="340" selection-end-column="53" />
           <folding>
             <element signature="n#!!block;n#init#0" expanded="false" />
@@ -1147,7 +954,6 @@
             <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#addComplimentBox#0" expanded="false" />
             <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-            <element signature="e#6478#6631#0" expanded="false" />
             <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
             <element signature="n#!!block;n#addWeather#0;n#!!block;n#addWeatherBox#0" expanded="false" />
             <element signature="n#!!doc;n#indexEditMode#0" expanded="false" />
@@ -1156,19 +962,10 @@
             <element signature="n#!!block;n#upButton#0" expanded="false" />
             <element signature="n#!!block;n#rightButton#0" expanded="false" />
             <element signature="n#!!block;n#downButton#0" expanded="false" />
-            <element signature="n#!!block;n#leftButton#0" expanded="false" />
             <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
             <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="97" column="6" lean-forward="false" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,44 +985,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="153" column="103" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="153" selection-end-column="103" />
+        <state relative-caret-position="1513">
+          <caret line="153" column="45" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="153" selection-end-column="45" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
             <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#2043#2929#0" expanded="false" />
             <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-            <element signature="e#3023#3221#0" expanded="false" />
-            <element signature="e#3256#4954#0" expanded="false" />
-            <element signature="e#3360#3552#0" expanded="false" />
-            <element signature="e#3599#3675#0" expanded="false" />
-            <element signature="e#3721#3830#0" expanded="false" />
-            <element signature="e#3882#4016#0" expanded="false" />
-            <element signature="e#4192#4541#0" expanded="false" />
-            <element signature="e#4686#4946#0" expanded="false" />
-            <element signature="e#5184#5401#0" expanded="false" />
-            <element signature="e#5935#8901#0" expanded="false" />
-            <element signature="e#6277#8518#0" expanded="false" />
-            <element signature="e#8535#8619#0" expanded="false" />
-            <element signature="e#8688#8811#0" expanded="false" />
             <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
             <element signature="n#!!block;n#connectToServer#0" expanded="false" />
             <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
             <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
             <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="e#10531#10881#0" expanded="false" />
             <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
             <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
@@ -1233,10 +1007,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="88" lean-forward="true" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/css/SM_App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="97" column="67" lean-forward="false" selection-start-line="97" selection-start-column="67" selection-end-line="97" selection-end-column="67" />
+        <state relative-caret-position="302">
+          <caret line="98" column="17" lean-forward="false" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#861#1315#0" expanded="false" />
@@ -1245,21 +1035,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js">
+    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1836">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="-78">
+          <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/SM_App.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="7">
+          <caret line="96" column="33" lean-forward="false" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="63" column="28" lean-forward="false" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
