@@ -57,7 +57,6 @@ function init(){
     (new forInitFuncs).clickButtons();
     (new forInitFuncs).buttonPressedFunc();
     (new forInitFuncs).swipeUpDownFunc();
-    // window.location.hostname
     $("#myInputField").val(window.location.hostname);
     $("#form").validate({
         rules: {
