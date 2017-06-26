@@ -186,17 +186,50 @@ function addComplimentBox(name, datum) {
     addContentBox();
     $("#contentBox"+(aC_ButtonIndex-1)).addClass('complimentBox');
 	
-	// Datum in Kompliment umwandeln
+	// Tag und Monat aus dem Datum auslesen
+	var tag = datum.substr(8,9);
+	var monat = datum.substring(5,7);
+	var summe = monat+""+ tag;
 	var compliment;
-	if (datum > 2000){
-		compliment = "Du siehst gut aus heute!";
+	
+	// Sternzeichen
+	if (summe >= 321 && summe <= 420){
+		compliment = "Nichts ist so überzeugend wie dein Lächeln."; //Widder
 	}
-	if (datum <= 2000 && datum > 1990){
-		compliment = "Dein Lächeln ist bezaubernd!";
+	if (summe >= 421 && summe <= 520){
+		compliment = "Wrr schön sein will, muss lachen."; //Stier
 	}
-	else if(datum <= 1990 ){
-		compliment = "Deine Frisur steht dir fantastisch!";
+	if (summe >= 521 && summe <= 621){
+		compliment = "Ich wünsche dir einen Tag voll Frieden & Harmonie."; //Zwilling
 	}
+	if (summe >= 622 && summe <= 722){
+		compliment = "Deine Augen sprechen auch, wenn du nichts sagst."; //Krebs
+	}
+	if (summe >= 723 && summe <= 823){
+		compliment = "Es geht nicht um die TO-Do's, sondern um die TADAAS!"; //Löwe
+	}
+	if (summe >= 824 && summe <= 923){
+		compliment = "Geduld zahlt sich aus!"; //Jungfrau
+	}
+	if (summe >= 924 && summe <= 1023){
+		compliment = "Vergleiche dich nicht mit anderen, sei du selbst!"; //Waage
+	}
+	if (summe >= 1024 && summe <= 1122){
+		compliment = "Nimm dir Zeit für die Dinge, die dich glücklich machen"; //Skorpion
+	}
+	if (summe >= 1123 && summe <= 1221){
+		compliment = "Schätze die Person, die du bist!"; //Schütze
+	}
+	if (summe >= 1222 || summe <= 120){
+		compliment = "Denken muss man doch eh. Warum also nicht positiv."; //Steinbock
+	}
+	if (summe >= 121 && summe <= 219){
+		compliment = "Du musst nicht perfekt werden, um fantastisch zu sein!"; //Wassermann
+	}
+	if (summe >= 220 && summe <= 320){
+		compliment = "Dein Alltag läuft so rund wie ein Dreieck!"; //Fische
+	}
+	
 	
     var div = $("#contentBox"+(aC_ButtonIndex-1));
     div.append($("<code>").text(name));

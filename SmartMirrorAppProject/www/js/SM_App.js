@@ -83,7 +83,7 @@ function init(){
             $("#editMirrorWindow").show();
             $("#contextBoxPanel").show();
             //sendFuncToIndexConn({"function":"addComplimentBox", "arguments":{"name":$("#name").val().toString(),"date":$("#date").val()}});
-			sendFuncToIndexConn({"function":"addComplimentBox", "arguments":{"name":$("#name").val().toString(),"date":$("#date").val().toString().substr(0,4)}});
+			sendFuncToIndexConn({"function":"addComplimentBox", "arguments":{"name":$("#name").val().toString(),"date":$("#date").val().toString()}});
 			
             alert('Klappt'); // for demo
             return false; // for demo
