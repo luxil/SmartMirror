@@ -273,6 +273,35 @@ function addWeatherBox() {
         $.getJSON(address,function(json){
             // document.write(JSON.stringify(json));
             var beschr = json.weather[0].description;
+			
+			// Übersetzung der Beschreibung ins deutsche
+			if (beschr == "clear sky"){
+				beschr = "Klar";
+			}
+			if (beschr == "few clouds"){
+				beschr = "Wenige Wolken";
+			}
+			if (beschr == "scattered clouds"){
+				beschrr = "Vereinzelt Bewölkt";
+			}
+			if (beschr == "broken clouds"){
+				beschr = "Aufgerissene Bewölkung";
+			}
+			if (beschr == "shower rain"){
+				beschr = "Regenschauer";
+			}
+			if (beschr == "rain"){
+				beschr = "Regen";
+			}
+			if (beschr == "thunderstorm"){
+				beschr = "Gewitter";
+			}
+			if (beschr == "snow"){
+				beschr = "Schnee";
+			}
+			if (beschr == "mist"){
+				beschr = "Nebel";
+			}
             var tempCels = json.main.temp - 273.15; //Default in Kelvin - Umrechnung in Celsius
             tempCels = tempCels.toFixed(1);			//Beschränkung von einer Nachkommastelle
             var icohtml = '<img src=' + '\"' + 'http://openweathermap.org/img/w/' + json.weather[0].icon + '.png"' + 'height="100" width="100"' + '>';

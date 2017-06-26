@@ -46,6 +46,7 @@
 	background-color: black;
 	font-size: 35px;
 	width: 140px;
+	font-family: Arial;
 	
 }
 
@@ -53,11 +54,12 @@
 	background-color: black;
 	font-size: 35px;
 	width: 300px;
+	font-family: Arial;
 	
 }
 .complimentBox{
 	background-color: black;
 	font-size: 35px;
 	width: 600px;
-
+	font-family: Arial;
 }
