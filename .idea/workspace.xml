@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ea734b-f6c3-434b-9e40-295fd9171728" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ips.txt" afterPath="$PROJECT_DIR$/ips.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/client/js/clientSM_WithServer_Communication.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ConfigSmartMirrorReadme.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/js/kalender.js" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/kalender.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/js/komplimente.js" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/komplimente.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/NodeJS/client/nachrichten.html" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/nachrichten.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/header.html" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/kalender.html" afterPath="$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/kalender.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/client/index.html" afterPath="$PROJECT_DIR$/NodeJS/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/client/js/index.js" afterPath="$PROJECT_DIR$/NodeJS/client/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/server.js" afterPath="$PROJECT_DIR$/NodeJS/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMKomplimenteFenster/plugins/cz.blocshop.socketsforcordova/src/ios/CordovaLib/cordova.js" afterPath="$PROJECT_DIR$/SMKomplimenteFenster/plugins/cz.blocshop.socketsforcordova/src/ios/CordovaLib/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMKomplimenteFenster/plugins/cz.blocshop.socketsforcordova/src/ios/platform_www/cordova.js" afterPath="$PROJECT_DIR$/SMKomplimenteFenster/plugins/cz.blocshop.socketsforcordova/src/ios/platform_www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMKomplimenteFenster/plugins/cz.blocshop.socketsforcordova/src/ios/www/cordova.js" afterPath="$PROJECT_DIR$/SMKomplimenteFenster/plugins/cz.blocshop.socketsforcordova/src/ios/www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMKomplimenteFenster/www/js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.min.js" afterPath="$PROJECT_DIR$/SMKomplimenteFenster/www/js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMKomplimenteFenster/www/js/External_Libs/sockjs.min.js" afterPath="$PROJECT_DIR$/SMKomplimenteFenster/www/js/External_Libs/sockjs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/plugins/cz.blocshop.socketsforcordova/src/ios/CordovaLib/cordova.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/plugins/cz.blocshop.socketsforcordova/src/ios/CordovaLib/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/plugins/cz.blocshop.socketsforcordova/src/ios/platform_www/cordova.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/plugins/cz.blocshop.socketsforcordova/src/ios/platform_www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/plugins/cz.blocshop.socketsforcordova/src/ios/www/cordova.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/plugins/cz.blocshop.socketsforcordova/src/ios/www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.min.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/External_Libs/JQueryMobile/jquery.mobile-1.4.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/External_Libs/sockjs.min.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/External_Libs/sockjs.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,182 +41,174 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7334576">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="53" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                    <element signature="e#2097#2983#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1547">
-                  <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                    <element signature="e#982#1810#0" expanded="false" />
-                    <element signature="e#1042#1137#0" expanded="false" />
-                    <marker date="1498552365372" expanded="true" signature="1837:3134" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="2097:3130" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="2618:3124" ph="{...}" />
-                    <marker date="1498552365372" expanded="false" signature="3136:3170" ph="/** Funktionen für den Init ...*/" />
-                    <marker date="1498552365372" expanded="false" signature="3194:9104" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="3224:3422" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="3457:5155" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="3561:3753" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="3800:3876" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="3922:4031" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="4083:4217" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="4393:4742" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="4887:5147" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="4924:5014" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="5019:5137" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="5311:5999" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="5385:5602" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="5481:5558" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="5656:5720" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="5926:5991" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="6136:9102" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="6478:8719" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="6510:8709" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="6654:8693" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="6847:7046" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="7127:7795" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="7165:7228" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="7423:7569" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="7694:7773" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="7942:8673" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="8062:8593" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="8305:8563" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="8736:8820" ph="{&quot;swipedown&quot;: &quot;swipeupdown&quot;...}" />
-                    <marker date="1498552365372" expanded="true" signature="8850:9023" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="8889:9012" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="8924:8998" ph="{...}" />
-                    <marker date="1498552365372" expanded="false" signature="9106:9165" ph="/** Funktionen, die die Verbindung zum Server nutzen ...*/" />
-                    <marker date="1498552365372" expanded="false" signature="9245:10156" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="9365:9657" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="9695:10115" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="9813:10109" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="9879:10099" ph="{...}" />
-                    <marker date="1498552365372" expanded="false" signature="10231:10358" ph="{...}" />
-                    <marker date="1498552365372" expanded="false" signature="10457:11718" ph="{...}" />
-                    <marker date="1498552365372" expanded="false" signature="10561:11108" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="10732:11082" ph="{...}" />
-                    <marker date="1498552365372" expanded="false" signature="11148:11716" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="11197:11708" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="11513:11657" ph="{&quot;function&quot;: 'changeConBoxWithIndex'...}" />
-                    <marker date="1498552365372" expanded="false" signature="11830:12159" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="11900:12157" ph="{...}" />
-                    <marker date="1498552365372" expanded="false" signature="12247:12490" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="12253:12325" ph="//..." />
-                    <marker date="1498552365372" expanded="true" signature="12351:12392" ph="{...}" />
-                    <marker date="1498552365372" expanded="true" signature="12403:12446" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-                  <folding>
-                    <element signature="e#353#403#0" expanded="false" />
-                    <element signature="e#448#481#0" expanded="false" />
-                    <element signature="e#523#553#0" expanded="false" />
-                    <element signature="e#597#629#0" expanded="false" />
-                    <element signature="n#!!doc;n#resetServerConnections#0" expanded="false" />
-                    <element signature="n#!!block;n#resetServerConnections#0" expanded="false" />
-                    <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-                    <element signature="e#1753#3553#0" expanded="false" />
-                    <element signature="n#!!block;n#sendFuncToMobileConn#0" expanded="false" />
-                    <element signature="n#!!doc;n#addContentBox#0" expanded="false" />
-                    <element signature="n#!!block;n#addContentBox#0" expanded="false" />
-                    <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
-                    <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-                    <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-                    <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
-                    <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
-                    <element signature="n#!!block;n#upButton#0" expanded="false" />
-                    <element signature="n#!!block;n#rightButton#0" expanded="false" />
-                    <element signature="n#!!block;n#downButton#0" expanded="false" />
-                    <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
-                    <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
-                    <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-                    <marker date="1498552365279" expanded="false" signature="5869:6001" ph="{...}" />
-                    <marker date="1498552365279" expanded="true" signature="11095:11902" ph="{...}" />
-                    <marker date="1498552365279" expanded="false" signature="11095:12100" ph="{...}" />
-                    <marker date="1498552365279" expanded="false" signature="11095:12102" ph="{...}" />
-                    <marker date="1498552365279" expanded="true" signature="11914:12065" ph="//..." />
-                    <marker date="1498552365279" expanded="false" signature="12104:12167" ph="/** Funktionen, die die ausgewählte ContentBox verändern ...*/" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/SM_App.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="157">
-                  <caret line="80" column="58" lean-forward="false" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="68" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="20" column="95" lean-forward="false" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nachrichten.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/nachrichten.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-61">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clientSM_WithServer_Communication.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJS/client/js/clientSM_WithServer_Communication.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="e#45#129#0" expanded="false" />
+                <element signature="n#!!block;n#resetServerConnections#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+                <element signature="n#!!block;n#communicationWithServer#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+                <element signature="e#1196#1367#0" expanded="false" />
+                <element signature="e#1485#2981#0" expanded="false" />
+                <element signature="e#2459#2632#0" expanded="false" />
+                <element signature="e#3020#3065#0" expanded="false" />
+                <element signature="n#!!block;n#sendFuncToMobileConn#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+                <element signature="n#!!block;n#safelyParseJSON#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+                <element signature="e#3956#4072#0" expanded="false" />
+                <element signature="e#4006#4066#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#44#0" expanded="false" />
+                <element signature="n#!!block;n#directSmartMirrorActions#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client_secret.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJS/client_secret.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="172" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="172" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changeBoxFunctions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJS/client/js/changeBoxFunctions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#45#108#0" expanded="false" />
+                <element signature="n#!!block;n#upButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+                <element signature="n#!!block;n#rightButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+                <element signature="n#!!block;n#downButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+                <element signature="n#!!block;n#leftButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+                <element signature="n#!!block;n#deleteContentBox#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+                <element signature="n#!!block;n#changeConBoxWithIndex#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conBoxTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJS/client/js/conBoxTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+              <folding>
+                <element signature="e#45#164#0" expanded="false" />
+                <element signature="n#!!block;n#addWatchBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+                <element signature="n#!!block;n#addComplimentBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+                <element signature="n#!!block;n#addCalendarBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+                <element signature="n#!!block;n#addCalEvents#0;n#!!block;n#addCalendarBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+                <element signature="n#!!block;n#addWeatherBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+                <element signature="e#8983#9028#0" expanded="false" />
+                <element signature="e#9069#9119#0" expanded="false" />
+                <element signature="e#9158#9206#0" expanded="false" />
+                <element signature="e#9244#9291#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contentBoxManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJS/client/js/contentBoxManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding>
+                <element signature="e#45#144#0" expanded="false" />
+                <element signature="n#!!block;n#ContentBox#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+                <element signature="n#!!block;n#addContentBox#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+                <element signature="n#!!block;n#indexEditMode#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+                <element signature="n#!!block;n#getSelConBonIndex#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+                <element signature="n#!!block;n#setSelConBonIndex#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+                <element signature="n#!!block;n#getActiveBoxes#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+                <element signature="n#!!block;n#closeEditMode#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+                <element signature="e#2670#2758#0" expanded="false" />
+                <element signature="e#2816#2863#0" expanded="false" />
+                <element signature="e#2901#2948#0" expanded="false" />
+                <element signature="e#2990#3041#0" expanded="false" />
+                <element signature="e#3097#3162#0" expanded="false" />
+                <element signature="e#3201#3249#0" expanded="false" />
+                <element signature="e#3287#3334#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kalender.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/kalender.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#init#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3571">
+              <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="53" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#2097#2983#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>test</find>
-      <find>addw</find>
-      <find>conte</find>
-      <find>smallContextBoxPanel</find>
       <find>sockjs.on</find>
       <find>sockjs.ono</find>
       <find>sendf</find>
@@ -210,7 +222,30 @@
       <find>addcon</find>
       <find>abso</find>
       <find>editMo</find>
+      <find>addContentBox</find>
+      <find>index</find>
+      <find>indexed</find>
+      <find>indexEditMode()</find>
+      <find>conbon</find>
+      <find>conBonIndex</find>
+      <find>aC_ButtonIndex</find>
+      <find>colors</find>
+      <find>boxActivated</find>
+      <find>activeBoxes</find>
+      <find>conBon</find>
+      <find>getSel</find>
+      <find>boxA</find>
+      <find>conBonInde</find>
+      <find>addW</find>
+      <find>closeEditMode</find>
+      <find>cBo</find>
     </findStrings>
+    <replaceStrings>
+      <replace>contentBoxes.indexEditMode()</replace>
+      <replace>contentBoxes.getSelConBonIndex()</replace>
+      <replace>conBoxTypes.addWatchBox()</replace>
+      <replace>contentBoxes.getActiveBoxes()</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -232,10 +267,17 @@
         <option value="$PROJECT_DIR$/NodeJS/server.js" />
         <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html" />
         <option value="$PROJECT_DIR$/SMKomplimenteFenster/www/SM_App.html" />
-        <option value="$PROJECT_DIR$/NodeJS/client/js/index.js" />
         <option value="$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js" />
-        <option value="$PROJECT_DIR$/NodeJS/client/index.html" />
         <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" />
+        <option value="$PROJECT_DIR$/NodeJS/client/js/contentBoxes.js" />
+        <option value="$PROJECT_DIR$/NodeJS/client/js/buttonsForMoving.js" />
+        <option value="$PROJECT_DIR$/NodeJS/client/js/clientSmartMirrorWithServerCommunication.js" />
+        <option value="$PROJECT_DIR$/NodeJS/client/js/contentBoxManager.js" />
+        <option value="$PROJECT_DIR$/NodeJS/client/js/conBoxTypes.js" />
+        <option value="$PROJECT_DIR$/NodeJS/client/js/changeBoxFunctions.js" />
+        <option value="$PROJECT_DIR$/NodeJS/client/js/clientSM_WithServer_Communication.js" />
+        <option value="$PROJECT_DIR$/NodeJS/client/js/index.js" />
+        <option value="$PROJECT_DIR$/NodeJS/client/index.html" />
       </list>
     </option>
   </component>
@@ -283,168 +325,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SMKomplimenteFenster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SMKomplimenteFenster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SMKomplimenteFenster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirrorAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirrorAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirrorAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartMirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -459,9 +339,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Linh Do\Dropbox\UnikramVomTab\Projekte\SmartMirror\NodeJS\Backup Files (kann man eigentlich löschen)" />
       <recent name="C:\Users\Linh Do\Dropbox\UnikramVomTab\Projekte\SmartMirror\NodeJS\client\css" />
       <recent name="C:\Users\Linh Do\Dropbox\UnikramVomTab\Projekte\SmartMirror\NodeJS\client\js" />
-      <recent name="C:\Users\Linh Do\Dropbox\UnikramVomTab\Projekte\SmartMirror\NodeJS\Backup Files (kann man eigentlich löschen)" />
       <recent name="C:\Users\Linh Do\Dropbox\UnikramVomTab\Projekte\SmartMirror\NodeJS\Backup Files" />
     </key>
   </component>
@@ -574,18 +454,20 @@
       <workItem from="1497947727315" duration="377000" />
       <workItem from="1498415319723" duration="3970000" />
       <workItem from="1498552002771" duration="699000" />
+      <workItem from="1498569583901" duration="12641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134454000" />
+    <option name="totallyTimeSpent" value="147097000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18320611" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18625954" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24916944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12632374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -597,7 +479,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19639935" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -629,163 +510,23 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/NodeJS/client/js/index.js</url>
-          <line>29</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/NodeJS/client/js/clientSM_WithServer_Communication.js</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/NodeJS/client/js/contentBoxManager.js</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5780">
-          <caret line="340" column="0" lean-forward="false" selection-start-line="340" selection-start-column="0" selection-end-line="340" selection-end-column="53" />
-          <folding>
-            <element signature="e#353#403#0" expanded="false" />
-            <element signature="e#448#481#0" expanded="false" />
-            <element signature="e#523#553#0" expanded="false" />
-            <element signature="e#597#629#0" expanded="false" />
-            <element signature="n#!!doc;n#resetServerConnections#0" expanded="false" />
-            <element signature="n#!!block;n#resetServerConnections#0" expanded="false" />
-            <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-            <element signature="e#1753#3553#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToMobileConn#0" expanded="false" />
-            <element signature="n#!!doc;n#addContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#upButton#0" expanded="false" />
-            <element signature="n#!!block;n#rightButton#0" expanded="false" />
-            <element signature="n#!!block;n#downButton#0" expanded="false" />
-            <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-            <marker date="1498552365279" expanded="false" signature="5869:6001" ph="{...}" />
-            <marker date="1498552365279" expanded="true" signature="11095:11902" ph="{...}" />
-            <marker date="1498552365279" expanded="false" signature="11095:12100" ph="{...}" />
-            <marker date="1498552365279" expanded="false" signature="11095:12102" ph="{...}" />
-            <marker date="1498552365279" expanded="true" signature="11914:12065" ph="//..." />
-            <marker date="1498552365279" expanded="false" signature="12104:12167" ph="/** Funktionen, die die ausgewählte ContentBox verändern ...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3893">
-          <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="231" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#982#1810#0" expanded="false" />
-            <element signature="e#1042#1137#0" expanded="false" />
-            <marker date="1498552365372" expanded="true" signature="1837:3134" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="2097:3130" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="2618:3124" ph="{...}" />
-            <marker date="1498552365372" expanded="false" signature="3136:3170" ph="/** Funktionen für den Init ...*/" />
-            <marker date="1498552365372" expanded="false" signature="3194:9104" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="3224:3422" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="3457:5155" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="3561:3753" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="3800:3876" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="3922:4031" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="4083:4217" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="4393:4742" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="4887:5147" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="4924:5014" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="5019:5137" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="5311:5999" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="5385:5602" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="5481:5558" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="5656:5720" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="5926:5991" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="6136:9102" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="6478:8719" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="6510:8709" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="6654:8693" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="6847:7046" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="7127:7795" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="7165:7228" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="7423:7569" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="7694:7773" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="7942:8673" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="8062:8593" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="8305:8563" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="8736:8820" ph="{&quot;swipedown&quot;: &quot;swipeupdown&quot;...}" />
-            <marker date="1498552365372" expanded="true" signature="8850:9023" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="8889:9012" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="8924:8998" ph="{...}" />
-            <marker date="1498552365372" expanded="false" signature="9106:9165" ph="/** Funktionen, die die Verbindung zum Server nutzen ...*/" />
-            <marker date="1498552365372" expanded="false" signature="9245:10156" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="9365:9657" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="9695:10115" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="9813:10109" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="9879:10099" ph="{...}" />
-            <marker date="1498552365372" expanded="false" signature="10231:10358" ph="{...}" />
-            <marker date="1498552365372" expanded="false" signature="10457:11718" ph="{...}" />
-            <marker date="1498552365372" expanded="false" signature="10561:11108" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="10732:11082" ph="{...}" />
-            <marker date="1498552365372" expanded="false" signature="11148:11716" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="11197:11708" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="11513:11657" ph="{&quot;function&quot;: 'changeConBoxWithIndex'...}" />
-            <marker date="1498552365372" expanded="false" signature="11830:12159" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="11900:12157" ph="{...}" />
-            <marker date="1498552365372" expanded="false" signature="12247:12490" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="12253:12325" ph="//..." />
-            <marker date="1498552365372" expanded="true" signature="12351:12392" ph="{...}" />
-            <marker date="1498552365372" expanded="true" signature="12403:12446" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="101" column="53" lean-forward="false" selection-start-line="101" selection-start-column="53" selection-end-line="101" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#861#1315#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/External_Libs/additional-methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7327">
-          <caret line="431" column="9" lean-forward="false" selection-start-line="431" selection-start-column="8" selection-end-line="431" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/css/SM_App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2278">
@@ -793,7 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/kalender.js">
+    <entry file="file://$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/kalender.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="49" />
@@ -805,8 +546,6 @@
         <state relative-caret-position="1156">
           <caret line="68" column="16" lean-forward="true" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#861#1315#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
           </folding>
         </state>
@@ -817,7 +556,7 @@
         <state relative-caret-position="1972">
           <caret line="265" column="0" lean-forward="false" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
             <marker date="1498552365372" expanded="true" signature="1837:3134" ph="{...}" />
@@ -886,39 +625,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/clientSM_WithServer_Communication.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="71" />
           <folding>
-            <element signature="e#353#403#0" expanded="false" />
-            <element signature="e#448#481#0" expanded="false" />
-            <element signature="e#523#553#0" expanded="false" />
-            <element signature="e#597#629#0" expanded="false" />
-            <element signature="n#!!doc;n#resetServerConnections#0" expanded="false" />
-            <element signature="n#!!block;n#resetServerConnections#0" expanded="false" />
-            <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-            <element signature="e#1753#3553#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToMobileConn#0" expanded="false" />
-            <element signature="n#!!doc;n#addContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#upButton#0" expanded="false" />
-            <element signature="n#!!block;n#rightButton#0" expanded="false" />
-            <element signature="n#!!block;n#downButton#0" expanded="false" />
-            <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-            <marker date="1498552365279" expanded="false" signature="5869:6001" ph="{...}" />
-            <marker date="1498552365279" expanded="true" signature="11095:11902" ph="{...}" />
-            <marker date="1498552365279" expanded="false" signature="11095:12100" ph="{...}" />
-            <marker date="1498552365279" expanded="false" signature="11095:12102" ph="{...}" />
-            <marker date="1498552365279" expanded="true" signature="11914:12065" ph="//..." />
-            <marker date="1498552365279" expanded="false" signature="12104:12167" ph="/** Funktionen, die die ausgewählte ContentBox verändern ...*/" />
+            <element signature="e#45#129#0" expanded="false" />
+            <element signature="n#!!block;n#resetServerConnections#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="n#!!block;n#communicationWithServer#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="e#1196#1367#0" expanded="false" />
+            <element signature="e#1485#2981#0" expanded="false" />
+            <element signature="e#2459#2632#0" expanded="false" />
+            <element signature="e#3020#3065#0" expanded="false" />
+            <element signature="n#!!block;n#sendFuncToMobileConn#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="n#!!block;n#safelyParseJSON#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="e#3956#4072#0" expanded="false" />
+            <element signature="e#4006#4066#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -927,50 +649,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
           <caret line="92" column="63" lean-forward="false" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/kalender.js">
+    <entry file="file://$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/kalender.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/clientSM_WithServer_Communication.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="165" column="42" lean-forward="false" selection-start-line="165" selection-start-column="42" selection-end-line="165" selection-end-column="42" />
           <folding>
-            <element signature="e#353#403#0" expanded="false" />
-            <element signature="e#448#481#0" expanded="false" />
-            <element signature="e#523#553#0" expanded="false" />
-            <element signature="e#597#629#0" expanded="false" />
-            <element signature="n#!!doc;n#resetServerConnections#0" expanded="false" />
-            <element signature="n#!!block;n#resetServerConnections#0" expanded="false" />
-            <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-            <element signature="e#1753#3553#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToMobileConn#0" expanded="false" />
-            <element signature="n#!!doc;n#addContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#upButton#0" expanded="false" />
-            <element signature="n#!!block;n#rightButton#0" expanded="false" />
-            <element signature="n#!!block;n#downButton#0" expanded="false" />
-            <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-            <marker date="1498552365279" expanded="false" signature="5869:6001" ph="{...}" />
-            <marker date="1498552365279" expanded="true" signature="11095:11902" ph="{...}" />
-            <marker date="1498552365279" expanded="false" signature="11095:12100" ph="{...}" />
-            <marker date="1498552365279" expanded="false" signature="11095:12102" ph="{...}" />
-            <marker date="1498552365279" expanded="true" signature="11914:12065" ph="//..." />
-            <marker date="1498552365279" expanded="false" signature="12104:12167" ph="/** Funktionen, die die ausgewählte ContentBox verändern ...*/" />
+            <element signature="e#45#129#0" expanded="false" />
+            <element signature="n#!!block;n#resetServerConnections#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="n#!!block;n#communicationWithServer#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="e#1196#1367#0" expanded="false" />
+            <element signature="e#1485#2981#0" expanded="false" />
+            <element signature="e#2459#2632#0" expanded="false" />
+            <element signature="e#3020#3065#0" expanded="false" />
+            <element signature="n#!!block;n#sendFuncToMobileConn#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="n#!!block;n#safelyParseJSON#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="e#3956#4072#0" expanded="false" />
+            <element signature="e#4006#4066#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -980,7 +684,7 @@
         <state relative-caret-position="510">
           <caret line="55" column="38" lean-forward="false" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
             <marker date="1498552365372" expanded="true" signature="1837:3134" ph="{...}" />
@@ -1054,8 +758,6 @@
         <state relative-caret-position="663">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#861#1315#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
           </folding>
         </state>
@@ -1065,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,8 +860,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/client/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,21 +891,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/kalender.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/server_kalender.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="782">
+          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,20 +909,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/nachrichten.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="98" column="17" lean-forward="false" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#861#1315#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
           </folding>
         </state>
@@ -1241,67 +927,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#2097#2983#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
           <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#353#403#0" expanded="false" />
-            <element signature="e#448#481#0" expanded="false" />
-            <element signature="e#523#553#0" expanded="false" />
-            <element signature="e#597#629#0" expanded="false" />
-            <element signature="n#!!doc;n#resetServerConnections#0" expanded="false" />
-            <element signature="n#!!block;n#resetServerConnections#0" expanded="false" />
-            <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-            <element signature="e#1753#3553#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToMobileConn#0" expanded="false" />
-            <element signature="n#!!doc;n#addContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#upButton#0" expanded="false" />
-            <element signature="n#!!block;n#rightButton#0" expanded="false" />
-            <element signature="n#!!block;n#downButton#0" expanded="false" />
-            <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
-            <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-            <marker date="1498552365279" expanded="false" signature="5869:6001" ph="{...}" />
-            <marker date="1498552365279" expanded="true" signature="11095:11902" ph="{...}" />
-            <marker date="1498552365279" expanded="false" signature="11095:12100" ph="{...}" />
-            <marker date="1498552365279" expanded="false" signature="11095:12102" ph="{...}" />
-            <marker date="1498552365279" expanded="true" signature="11914:12065" ph="//..." />
-            <marker date="1498552365279" expanded="false" signature="12104:12167" ph="/** Funktionen, die die ausgewählte ContentBox verändern ...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,7 +939,7 @@
         <state relative-caret-position="544">
           <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
             <marker date="1498552365372" expanded="true" signature="1837:3134" ph="{...}" />
@@ -1368,6 +997,157 @@
             <marker date="1498552365372" expanded="true" signature="12253:12325" ph="//..." />
             <marker date="1498552365372" expanded="true" signature="12351:12392" ph="{...}" />
             <marker date="1498552365372" expanded="true" signature="12403:12446" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/css/kalender.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3571">
+          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2097#2983#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/nachrichten.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/kalender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#init#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="172" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="172" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/Backup Files (kann man eigentlich löschen)/nachrichten.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="20" column="95" lean-forward="false" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/clientSM_WithServer_Communication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#45#129#0" expanded="false" />
+            <element signature="n#!!block;n#resetServerConnections#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="n#!!block;n#communicationWithServer#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="e#1196#1367#0" expanded="false" />
+            <element signature="e#1485#2981#0" expanded="false" />
+            <element signature="e#2459#2632#0" expanded="false" />
+            <element signature="e#3020#3065#0" expanded="false" />
+            <element signature="n#!!block;n#sendFuncToMobileConn#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="n#!!block;n#safelyParseJSON#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+            <element signature="e#3956#4072#0" expanded="false" />
+            <element signature="e#4006#4066#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/changeBoxFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#108#0" expanded="false" />
+            <element signature="n#!!block;n#upButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#rightButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#downButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#leftButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#deleteContentBox#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#changeConBoxWithIndex#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/conBoxTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#164#0" expanded="false" />
+            <element signature="n#!!block;n#addWatchBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+            <element signature="n#!!block;n#addComplimentBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+            <element signature="n#!!block;n#addCalendarBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+            <element signature="n#!!block;n#addCalEvents#0;n#!!block;n#addCalendarBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+            <element signature="n#!!block;n#addWeatherBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+            <element signature="e#8983#9028#0" expanded="false" />
+            <element signature="e#9069#9119#0" expanded="false" />
+            <element signature="e#9158#9206#0" expanded="false" />
+            <element signature="e#9244#9291#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/contentBoxManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#144#0" expanded="false" />
+            <element signature="n#!!block;n#ContentBox#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+            <element signature="n#!!block;n#addContentBox#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+            <element signature="n#!!block;n#indexEditMode#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+            <element signature="n#!!block;n#getSelConBonIndex#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+            <element signature="n#!!block;n#setSelConBonIndex#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+            <element signature="n#!!block;n#getActiveBoxes#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+            <element signature="n#!!block;n#closeEditMode#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
+            <element signature="e#2670#2758#0" expanded="false" />
+            <element signature="e#2816#2863#0" expanded="false" />
+            <element signature="e#2901#2948#0" expanded="false" />
+            <element signature="e#2990#3041#0" expanded="false" />
+            <element signature="e#3097#3162#0" expanded="false" />
+            <element signature="e#3201#3249#0" expanded="false" />
+            <element signature="e#3287#3334#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+            <element signature="n#!!block;n#directSmartMirrorActions#0" expanded="false" />
           </folding>
         </state>
       </provider>

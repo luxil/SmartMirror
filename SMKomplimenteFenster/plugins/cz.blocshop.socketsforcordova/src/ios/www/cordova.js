@@ -32,7 +32,7 @@ var require,
     var modules = {},
     // Stack of moduleIds currently being built.
         requireStack = [],
-    // Map of module ID -> index into requireStack of modules currently being built.
+    // Map of module ID -> clientSM_WithServer_Communication into requireStack of modules currently being built.
         inProgressModules = {},
         SEPARATOR = ".";
 

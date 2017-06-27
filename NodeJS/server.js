@@ -89,7 +89,7 @@ app.use("/SMKomplimenteFenster", express.static(path.resolve(__dirname + '/../SM
 app.use("/SmartMirrorAppProject", express.static(path.resolve(__dirname + '/../SmartMirrorAppProject/')));
 
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + '/client/index.html');
+    res.sendFile(__dirname + '/client/clientSM_WithServer_Communication.html');
 });
 
 app.get('/mobile', function (req, res) {

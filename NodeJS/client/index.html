@@ -2,12 +2,15 @@
 <html><head>
     <link href="css/design.css" rel="stylesheet">
     <link href="/css/index.css" rel="stylesheet">
+
+    <!--externe Bibiotheken-->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
     <script src="../../SmartMirrorAppProject/www/js/External_Libs/sockjs.min.js"></script>
-    <!--<script src="/js/index.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+
 
 </head>
 
@@ -15,15 +18,21 @@
     <!--<h2 class="heading">SM</h2><br><br>-->
     <div id="contentBoxPanel"></div>
         <div class="dropdown">
-        <!--<button  type="button" id="addContentButton" class="button">+</button>-->
-        <!--<div class="dropdownBoxOptions">-->
+            <!--für die Funktion directSmartMirrorActions in der index.js (siehe init Funktion)-->
+            <!--folgenden Code auskommentieren, wenn direkt am SmartMirror getestet werden soll-->
+            <!--<button  type="button" id="addContentButton" class="button">+</button>-->
+            <!--<div class="dropdownBoxOptions">-->
             <!--<button  type="button" id="addWatchBox" class="button">Uhr</button><br>-->
             <!--<button  type="button" id="addCalendarBox" class="button">Kalender</button><br>-->
             <!--<button  type="button" id="addWeatherBox" class="button">Wetter</button><br>-->
             <!--<button  type="button" id="addNewsBox" class="button">Nachrichten</button><br>-->
         <!--</div>-->
     </div>
-    <script src="/js/index.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/clientSM_WithServer_Communication.js"></script>
+    <script src="js/contentBoxManager.js"></script>
+    <script src="js/conBoxTypes.js"></script>
+    <script src="js/changeBoxFunctions.js"></script>
 </body></html>
 
 
