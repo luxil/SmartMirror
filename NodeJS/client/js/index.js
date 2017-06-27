@@ -312,10 +312,10 @@ function addWeatherBox() {
 				beschr = "Klar";
 			}
 			if (beschr == "few clouds"){
-				beschr = "Wenige Wolken";
+				beschr = "Vereinzelt Bewölkt";
 			}
 			if (beschr == "scattered clouds"){
-				beschrr = "Vereinzelt Bewölkt";
+				beschrr = "Bewölkt";
 			}
 			if (beschr == "broken clouds"){
 				beschr = "Aufgerissene Bewölkung";
