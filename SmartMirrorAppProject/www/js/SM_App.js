@@ -62,7 +62,7 @@ function init(){
         rules: {
             "name": {
                 required: true,
-                minlength: 5
+                minlength: 2
             },
             "date": {
                 required: true,

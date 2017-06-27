@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ea734b-f6c3-434b-9e40-295fd9171728" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/client/index.html" afterPath="$PROJECT_DIR$/NodeJS/client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js" afterPath="$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,7 +25,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.7334576">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/NodeJS/client/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
@@ -39,8 +38,8 @@
           <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="53" />
+                <state relative-caret-position="714">
+                  <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="53" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#2097#2983#0" expanded="false" />
@@ -52,18 +51,18 @@
           <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1503">
+                <state relative-caret-position="1547">
                   <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="16">
-                  <caret line="59" column="53" lean-forward="false" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+                <state relative-caret-position="340">
+                  <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#982#1810#0" expanded="false" />
@@ -124,7 +123,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/SM_App.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -190,8 +189,8 @@
         <option value="$PROJECT_DIR$/SMKomplimenteFenster/www/SM_App.html" />
         <option value="$PROJECT_DIR$/NodeJS/client/js/index.js" />
         <option value="$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js" />
-        <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" />
         <option value="$PROJECT_DIR$/NodeJS/client/index.html" />
+        <option value="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" />
       </list>
     </option>
   </component>
@@ -226,7 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -403,7 +402,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,26 +527,27 @@
       <workItem from="1497569249782" duration="1988000" />
       <workItem from="1497797646481" duration="627000" />
       <workItem from="1497947727315" duration="377000" />
-      <workItem from="1498415319723" duration="3388000" />
+      <workItem from="1498415319723" duration="3970000" />
+      <workItem from="1498552002771" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133173000" />
+    <option name="totallyTimeSpent" value="133794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18091603" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18320611" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12632374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24205749" sideWeight="0.5057283" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -677,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7327">
           <caret line="431" column="9" lean-forward="false" selection-start-line="431" selection-start-column="8" selection-end-line="431" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2278">
           <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,10 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="49" />
-          <folding>
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,10 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,9 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7293">
           <caret line="431" column="9" lean-forward="false" selection-start-line="431" selection-start-column="8" selection-end-line="431" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,10 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#addCalEvents#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SMKomplimenteFenster/www/js/SM_App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="53" />
+        <state relative-caret-position="714">
+          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="53" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#2097#2983#0" expanded="false" />
@@ -1096,31 +1072,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/SM_App.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1503">
+        <state relative-caret-position="1547">
           <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="59" column="53" lean-forward="false" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#982#1810#0" expanded="false" />
-            <element signature="e#1042#1137#0" expanded="false" />
-            <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-            <element signature="n#!!block;n#forInitFuncs#0" expanded="false" />
-            <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
-            <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-            <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
-            <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,6 +1119,28 @@
         <state relative-caret-position="255">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#982#1810#0" expanded="false" />
+            <element signature="e#1042#1137#0" expanded="false" />
+            <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
+            <element signature="n#!!block;n#forInitFuncs#0" expanded="false" />
+            <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
+            <element signature="n#!!block;n#connectToServer#0" expanded="false" />
+            <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
+            <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
+            <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
+            <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
+            <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
+            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
