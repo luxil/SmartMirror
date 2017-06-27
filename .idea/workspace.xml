@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ea734b-f6c3-434b-9e40-295fd9171728" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" afterPath="$PROJECT_DIR$/SmartMirrorAppProject/www/js/SM_App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ips.txt" afterPath="$PROJECT_DIR$/ips.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,16 +66,61 @@
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#982#1810#0" expanded="false" />
                     <element signature="e#1042#1137#0" expanded="false" />
-                    <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-                    <element signature="n#!!block;n#forInitFuncs#0" expanded="false" />
-                    <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
-                    <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-                    <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
-                    <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-                    <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-                    <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-                    <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
-                    <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+                    <marker date="1498552365372" expanded="true" signature="1837:3134" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="2097:3130" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="2618:3124" ph="{...}" />
+                    <marker date="1498552365372" expanded="false" signature="3136:3170" ph="/** Funktionen für den Init ...*/" />
+                    <marker date="1498552365372" expanded="false" signature="3194:9104" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="3224:3422" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="3457:5155" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="3561:3753" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="3800:3876" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="3922:4031" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="4083:4217" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="4393:4742" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="4887:5147" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="4924:5014" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="5019:5137" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="5311:5999" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="5385:5602" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="5481:5558" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="5656:5720" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="5926:5991" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="6136:9102" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="6478:8719" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="6510:8709" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="6654:8693" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="6847:7046" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="7127:7795" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="7165:7228" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="7423:7569" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="7694:7773" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="7942:8673" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="8062:8593" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="8305:8563" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="8736:8820" ph="{&quot;swipedown&quot;: &quot;swipeupdown&quot;...}" />
+                    <marker date="1498552365372" expanded="true" signature="8850:9023" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="8889:9012" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="8924:8998" ph="{...}" />
+                    <marker date="1498552365372" expanded="false" signature="9106:9165" ph="/** Funktionen, die die Verbindung zum Server nutzen ...*/" />
+                    <marker date="1498552365372" expanded="false" signature="9245:10156" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="9365:9657" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="9695:10115" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="9813:10109" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="9879:10099" ph="{...}" />
+                    <marker date="1498552365372" expanded="false" signature="10231:10358" ph="{...}" />
+                    <marker date="1498552365372" expanded="false" signature="10457:11718" ph="{...}" />
+                    <marker date="1498552365372" expanded="false" signature="10561:11108" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="10732:11082" ph="{...}" />
+                    <marker date="1498552365372" expanded="false" signature="11148:11716" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="11197:11708" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="11513:11657" ph="{&quot;function&quot;: 'changeConBoxWithIndex'...}" />
+                    <marker date="1498552365372" expanded="false" signature="11830:12159" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="11900:12157" ph="{...}" />
+                    <marker date="1498552365372" expanded="false" signature="12247:12490" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="12253:12325" ph="//..." />
+                    <marker date="1498552365372" expanded="true" signature="12351:12392" ph="{...}" />
+                    <marker date="1498552365372" expanded="true" signature="12403:12446" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -102,11 +146,6 @@
                     <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
                     <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
                     <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-                    <element signature="n#!!block;n#addComplimentBox#0" expanded="false" />
-                    <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-                    <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
-                    <element signature="n#!!block;n#addWeather#0;n#!!block;n#addWeatherBox#0" expanded="false" />
-                    <element signature="n#!!doc;n#indexEditMode#0" expanded="false" />
                     <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
                     <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
                     <element signature="n#!!block;n#upButton#0" expanded="false" />
@@ -115,6 +154,12 @@
                     <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
                     <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
                     <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+                    <marker date="1498552365279" expanded="false" signature="5869:6001" ph="{...}" />
+                    <marker date="1498552365279" expanded="true" signature="11095:11902" ph="{...}" />
+                    <marker date="1498552365279" expanded="false" signature="11095:12100" ph="{...}" />
+                    <marker date="1498552365279" expanded="false" signature="11095:12102" ph="{...}" />
+                    <marker date="1498552365279" expanded="true" signature="11914:12065" ph="//..." />
+                    <marker date="1498552365279" expanded="false" signature="12104:12167" ph="/** Funktionen, die die ausgewählte ContentBox verändern ...*/" />
                   </folding>
                 </state>
               </provider>
@@ -528,16 +573,15 @@
       <workItem from="1497797646481" duration="627000" />
       <workItem from="1497947727315" duration="377000" />
       <workItem from="1498415319723" duration="3970000" />
-      <workItem from="1498552002771" duration="103000" />
+      <workItem from="1498552002771" duration="699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133858000" />
+    <option name="totallyTimeSpent" value="134454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18320611" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -614,11 +658,6 @@
             <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#addComplimentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWeather#0;n#!!block;n#addWeatherBox#0" expanded="false" />
-            <element signature="n#!!doc;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#upButton#0" expanded="false" />
@@ -627,6 +666,12 @@
             <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
             <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+            <marker date="1498552365279" expanded="false" signature="5869:6001" ph="{...}" />
+            <marker date="1498552365279" expanded="true" signature="11095:11902" ph="{...}" />
+            <marker date="1498552365279" expanded="false" signature="11095:12100" ph="{...}" />
+            <marker date="1498552365279" expanded="false" signature="11095:12102" ph="{...}" />
+            <marker date="1498552365279" expanded="true" signature="11914:12065" ph="//..." />
+            <marker date="1498552365279" expanded="false" signature="12104:12167" ph="/** Funktionen, die die ausgewählte ContentBox verändern ...*/" />
           </folding>
         </state>
       </provider>
@@ -639,16 +684,61 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
-            <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-            <element signature="n#!!block;n#forInitFuncs#0" expanded="false" />
-            <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
-            <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-            <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
-            <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+            <marker date="1498552365372" expanded="true" signature="1837:3134" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="2097:3130" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="2618:3124" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="3136:3170" ph="/** Funktionen für den Init ...*/" />
+            <marker date="1498552365372" expanded="false" signature="3194:9104" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3224:3422" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3457:5155" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3561:3753" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3800:3876" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3922:4031" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4083:4217" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4393:4742" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4887:5147" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4924:5014" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5019:5137" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5311:5999" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5385:5602" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5481:5558" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5656:5720" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5926:5991" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6136:9102" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6478:8719" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6510:8709" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6654:8693" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6847:7046" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7127:7795" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7165:7228" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7423:7569" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7694:7773" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7942:8673" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8062:8593" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8305:8563" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8736:8820" ph="{&quot;swipedown&quot;: &quot;swipeupdown&quot;...}" />
+            <marker date="1498552365372" expanded="true" signature="8850:9023" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8889:9012" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8924:8998" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="9106:9165" ph="/** Funktionen, die die Verbindung zum Server nutzen ...*/" />
+            <marker date="1498552365372" expanded="false" signature="9245:10156" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9365:9657" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9695:10115" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9813:10109" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9879:10099" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10231:10358" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10457:11718" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10561:11108" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="10732:11082" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="11148:11716" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11197:11708" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11513:11657" ph="{&quot;function&quot;: 'changeConBoxWithIndex'...}" />
+            <marker date="1498552365372" expanded="false" signature="11830:12159" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11900:12157" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="12247:12490" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="12253:12325" ph="//..." />
+            <marker date="1498552365372" expanded="true" signature="12351:12392" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="12403:12446" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -658,7 +748,7 @@
         <state relative-caret-position="663">
           <caret line="101" column="53" lean-forward="false" selection-start-line="101" selection-start-column="53" selection-end-line="101" selection-end-column="53" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <element signature="e#861#1315#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
           </folding>
@@ -715,7 +805,7 @@
         <state relative-caret-position="1156">
           <caret line="68" column="16" lean-forward="true" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <element signature="e#861#1315#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
           </folding>
@@ -730,16 +820,61 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
-            <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-            <element signature="n#!!block;n#forInitFuncs#0" expanded="false" />
-            <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
-            <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-            <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
-            <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+            <marker date="1498552365372" expanded="true" signature="1837:3134" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="2097:3130" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="2618:3124" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="3136:3170" ph="/** Funktionen für den Init ...*/" />
+            <marker date="1498552365372" expanded="false" signature="3194:9104" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3224:3422" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3457:5155" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3561:3753" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3800:3876" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3922:4031" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4083:4217" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4393:4742" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4887:5147" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4924:5014" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5019:5137" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5311:5999" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5385:5602" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5481:5558" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5656:5720" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5926:5991" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6136:9102" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6478:8719" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6510:8709" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6654:8693" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6847:7046" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7127:7795" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7165:7228" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7423:7569" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7694:7773" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7942:8673" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8062:8593" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8305:8563" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8736:8820" ph="{&quot;swipedown&quot;: &quot;swipeupdown&quot;...}" />
+            <marker date="1498552365372" expanded="true" signature="8850:9023" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8889:9012" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8924:8998" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="9106:9165" ph="/** Funktionen, die die Verbindung zum Server nutzen ...*/" />
+            <marker date="1498552365372" expanded="false" signature="9245:10156" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9365:9657" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9695:10115" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9813:10109" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9879:10099" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10231:10358" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10457:11718" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10561:11108" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="10732:11082" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="11148:11716" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11197:11708" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11513:11657" ph="{&quot;function&quot;: 'changeConBoxWithIndex'...}" />
+            <marker date="1498552365372" expanded="false" signature="11830:12159" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11900:12157" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="12247:12490" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="12253:12325" ph="//..." />
+            <marker date="1498552365372" expanded="true" signature="12351:12392" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="12403:12446" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -770,11 +905,6 @@
             <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#addComplimentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWeather#0;n#!!block;n#addWeatherBox#0" expanded="false" />
-            <element signature="n#!!doc;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#upButton#0" expanded="false" />
@@ -783,6 +913,12 @@
             <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
             <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+            <marker date="1498552365279" expanded="false" signature="5869:6001" ph="{...}" />
+            <marker date="1498552365279" expanded="true" signature="11095:11902" ph="{...}" />
+            <marker date="1498552365279" expanded="false" signature="11095:12100" ph="{...}" />
+            <marker date="1498552365279" expanded="false" signature="11095:12102" ph="{...}" />
+            <marker date="1498552365279" expanded="true" signature="11914:12065" ph="//..." />
+            <marker date="1498552365279" expanded="false" signature="12104:12167" ph="/** Funktionen, die die ausgewählte ContentBox verändern ...*/" />
           </folding>
         </state>
       </provider>
@@ -821,11 +957,6 @@
             <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#addComplimentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWeather#0;n#!!block;n#addWeatherBox#0" expanded="false" />
-            <element signature="n#!!doc;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#upButton#0" expanded="false" />
@@ -834,6 +965,12 @@
             <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
             <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+            <marker date="1498552365279" expanded="false" signature="5869:6001" ph="{...}" />
+            <marker date="1498552365279" expanded="true" signature="11095:11902" ph="{...}" />
+            <marker date="1498552365279" expanded="false" signature="11095:12100" ph="{...}" />
+            <marker date="1498552365279" expanded="false" signature="11095:12102" ph="{...}" />
+            <marker date="1498552365279" expanded="true" signature="11914:12065" ph="//..." />
+            <marker date="1498552365279" expanded="false" signature="12104:12167" ph="/** Funktionen, die die ausgewählte ContentBox verändern ...*/" />
           </folding>
         </state>
       </provider>
@@ -846,16 +983,61 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
-            <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-            <element signature="n#!!block;n#forInitFuncs#0" expanded="false" />
-            <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
-            <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-            <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
-            <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+            <marker date="1498552365372" expanded="true" signature="1837:3134" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="2097:3130" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="2618:3124" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="3136:3170" ph="/** Funktionen für den Init ...*/" />
+            <marker date="1498552365372" expanded="false" signature="3194:9104" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3224:3422" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3457:5155" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3561:3753" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3800:3876" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3922:4031" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4083:4217" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4393:4742" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4887:5147" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4924:5014" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5019:5137" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5311:5999" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5385:5602" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5481:5558" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5656:5720" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5926:5991" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6136:9102" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6478:8719" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6510:8709" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6654:8693" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6847:7046" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7127:7795" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7165:7228" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7423:7569" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7694:7773" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7942:8673" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8062:8593" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8305:8563" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8736:8820" ph="{&quot;swipedown&quot;: &quot;swipeupdown&quot;...}" />
+            <marker date="1498552365372" expanded="true" signature="8850:9023" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8889:9012" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8924:8998" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="9106:9165" ph="/** Funktionen, die die Verbindung zum Server nutzen ...*/" />
+            <marker date="1498552365372" expanded="false" signature="9245:10156" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9365:9657" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9695:10115" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9813:10109" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9879:10099" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10231:10358" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10457:11718" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10561:11108" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="10732:11082" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="11148:11716" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11197:11708" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11513:11657" ph="{&quot;function&quot;: 'changeConBoxWithIndex'...}" />
+            <marker date="1498552365372" expanded="false" signature="11830:12159" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11900:12157" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="12247:12490" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="12253:12325" ph="//..." />
+            <marker date="1498552365372" expanded="true" signature="12351:12392" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="12403:12446" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -872,7 +1054,7 @@
         <state relative-caret-position="663">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <element signature="e#861#1315#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
           </folding>
@@ -1044,7 +1226,7 @@
         <state relative-caret-position="302">
           <caret line="98" column="17" lean-forward="false" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <element signature="e#861#1315#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
           </folding>
@@ -1097,11 +1279,6 @@
             <element signature="n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
             <element signature="n#!!block;n#startTime#0;n#!!block;n#addTime#0;n#!!block;n#addWatchBox#0" expanded="false" />
-            <element signature="n#!!block;n#addComplimentBox#0" expanded="false" />
-            <element signature="n#!!block;n#addCalendarBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWeatherBox#0" expanded="false" />
-            <element signature="n#!!block;n#addWeather#0;n#!!block;n#addWeatherBox#0" expanded="false" />
-            <element signature="n#!!doc;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#putBorderConBoxes#0;n#!!block;n#indexEditMode#0" expanded="false" />
             <element signature="n#!!block;n#upButton#0" expanded="false" />
@@ -1110,6 +1287,12 @@
             <element signature="n#!!block;n#deleteContentBox#0" expanded="false" />
             <element signature="n#!!block;n#closeEditMode#0" expanded="false" />
             <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+            <marker date="1498552365279" expanded="false" signature="5869:6001" ph="{...}" />
+            <marker date="1498552365279" expanded="true" signature="11095:11902" ph="{...}" />
+            <marker date="1498552365279" expanded="false" signature="11095:12100" ph="{...}" />
+            <marker date="1498552365279" expanded="false" signature="11095:12102" ph="{...}" />
+            <marker date="1498552365279" expanded="true" signature="11914:12065" ph="//..." />
+            <marker date="1498552365279" expanded="false" signature="12104:12167" ph="/** Funktionen, die die ausgewählte ContentBox verändern ...*/" />
           </folding>
         </state>
       </provider>
@@ -1130,16 +1313,61 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#982#1810#0" expanded="false" />
             <element signature="e#1042#1137#0" expanded="false" />
-            <element signature="n#!!doc;n#forInitFuncs#0" expanded="false" />
-            <element signature="n#!!block;n#forInitFuncs#0" expanded="false" />
-            <element signature="n#!!doc;n#connectToServer#0" expanded="false" />
-            <element signature="n#!!block;n#connectToServer#0" expanded="false" />
-            <element signature="n#!!block;n#editServerSmartMirror#0" expanded="false" />
-            <element signature="n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#addSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#addFuncsToSmallConBoxes#0;n#!!block;n#refreshSmallConBoxes#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToIndexConn#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+            <marker date="1498552365372" expanded="true" signature="1837:3134" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="2097:3130" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="2618:3124" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="3136:3170" ph="/** Funktionen für den Init ...*/" />
+            <marker date="1498552365372" expanded="false" signature="3194:9104" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3224:3422" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3457:5155" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3561:3753" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3800:3876" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="3922:4031" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4083:4217" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4393:4742" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4887:5147" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="4924:5014" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5019:5137" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5311:5999" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5385:5602" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5481:5558" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5656:5720" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="5926:5991" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6136:9102" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6478:8719" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6510:8709" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6654:8693" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="6847:7046" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7127:7795" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7165:7228" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7423:7569" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7694:7773" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="7942:8673" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8062:8593" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8305:8563" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8736:8820" ph="{&quot;swipedown&quot;: &quot;swipeupdown&quot;...}" />
+            <marker date="1498552365372" expanded="true" signature="8850:9023" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8889:9012" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="8924:8998" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="9106:9165" ph="/** Funktionen, die die Verbindung zum Server nutzen ...*/" />
+            <marker date="1498552365372" expanded="false" signature="9245:10156" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9365:9657" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9695:10115" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9813:10109" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="9879:10099" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10231:10358" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10457:11718" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="10561:11108" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="10732:11082" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="11148:11716" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11197:11708" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11513:11657" ph="{&quot;function&quot;: 'changeConBoxWithIndex'...}" />
+            <marker date="1498552365372" expanded="false" signature="11830:12159" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="11900:12157" ph="{...}" />
+            <marker date="1498552365372" expanded="false" signature="12247:12490" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="12253:12325" ph="//..." />
+            <marker date="1498552365372" expanded="true" signature="12351:12392" ph="{...}" />
+            <marker date="1498552365372" expanded="true" signature="12403:12446" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -4,7 +4,7 @@
 //statische ip
 192.168.1.2
 //uni diginet
-192.168.0.160
-192.168.2.110
-//mit pi als access point
+wlan 0 - wlan vom pi als accesspoint: 
 169.254.3.142
+wlan 1 - wlan stick für die internetverbindung:
+192.168.0.60
