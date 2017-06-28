@@ -72,7 +72,7 @@
     <body>
         <!--ipConnectWindow-->
         <div class="app" id="ipConnectWindow">
-            <h1>Smart Mirror App</h1>
+            
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
@@ -86,8 +86,8 @@
         <!--editMirrorWindow-->
         <div id="editMirrorWindow" >
             <!--<h1>Smart Mirror App</h1>-->
-            <h2>Hier ändern</h2>
-            <button class="addContentButton">+</button>
+            <h3></h3> <!--Schriftzug SMirror-->
+            <button class="addContentButton">Boxen hinzufügen</button>
             <div class="contextBoxOptionsPanel">
                 <button class ="contentBoxPanelOptionsBut conBoxPanelOptionsButStyle ui-mini ui-shadow" id = "addWatchBox">Zeit</button>
                 <button class = "contentBoxPanelOptionsBut conBoxPanelOptionsButStyle" id = "addCalendarBox">Kalender</button>
@@ -98,12 +98,12 @@
             <div id="contextBoxPanel">
                 <div id="smallContextBoxPanel"></div>
                 <div id="contextBoxEditPanel">
-                    <button class = "moveButton" id = "upButton">up</button>
-                    <button class = "moveButton" id = "rightButton">right</button>
-                    <button class = "moveButton" id = "downButton">down</button>
-                    <button class = "moveButton" id = "leftButton">left</button>
-                    <button id = "deleteButton">delete</button>
-                    <button id = "closeButton">close</button>
+                    <button class = "moveButton" id = "upButton">▲</button>
+					<button class = "moveButton" id = "leftButton">◄</button>
+					<button class = "moveButton" id = "rightButton">►</button>
+					<button class = "moveButton" id = "downButton">▼</button>
+                    <button class = "deleteButton" id = "deleteButton">Box löschen</button>
+                    <button class = "closeButton" id = "closeButton">App schließen</button>
                 </div>
              </div>
         </div>

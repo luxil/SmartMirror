@@ -47,16 +47,17 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    background:url(../img/logoNeuu.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
-    height:50px;                   /* text area height */
+    height:200px;                  /* text area height */
     width:225px;                   /* text area width */
     text-align:center;
-    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    padding:220px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
     margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
+	background-color: white;
 }
 
 /* Landscape layout (with min-width) */
@@ -87,6 +88,26 @@ h2 {
     padding:0px;
     text-align:center;
 }
+h3{
+	background:url(../img/logoSchrift.png) no-repeat center top;
+	height:40px;
+}
+#okIp{
+	background-color:grey !important;
+	color: white !important;	
+	font-weight:normal;
+}
+/*h3{
+	font-size: 20px;
+    font-weight:normal;
+	background-color: white;
+	color:grey;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+	
+}*/
 
 .event {
     border-radius:4px;
@@ -127,7 +148,7 @@ h2 {
 .contextBoxOptionsPanel {
     display:block;
     background-color: #F5F5F5; /*#aaaaaa vorher*/
-    color: blue;
+    /*color: blue;*/
 }
 
 .conBoxPanelOptionsButStyle{
@@ -136,7 +157,77 @@ h2 {
 	font-weight:normal;
 }
 
-.moveButton{
+.addContentButton{
+	font-weight:normal;
+	background-color: black !important;
+	color: white !important;
+	
+}
+/*.moveButton{
+	background-color:grey !important;
+	color: white !important;	
+	font-weight:normal;
+	height: 80px;
+	width:30px;
+}*/
+
+#upButton{
+	background-color:grey !important;
+	color: white !important;	
+	font-weight:normal;
+	position: relative; 
+	left: 40%;
+	width:200px !important; 
+	
+}
+
+#rightButton, #leftButton{
+	 display:inline-block;
+	 width: 200px;
+	 height: 40px;
+	 left: 25% !important;
+	 
+}
+
+#rightButton{
+	background-color:grey !important;
+	color: white !important;	
+	font-weight:normal;
+	margin-left: 3% !important;
+	/*position: relative; 
+	left: 350px;
+	width:200px !important;*/
+	/*display: inline-block;*/
+	/*margin-top:100px !important;*/
+}
+
+#leftButton{
+	background-color:grey !important;
+	color: white !important;	
+	font-weight:normal;
+	/*margin-left:150px;*/
+	/*position: relative; 
+	left: 100px;*/
+	/*width:200px !important;*/ 
+	/*display: inline-block;*/
+	/*margin-top:100px !important;*/
+}
+
+#downButton{
+	background-color:grey !important;
+	color: white !important;	
+	font-weight:normal;
+	position: relative; 
+	left: 40%;
+	width:200px !important; 
+}
+.deleteButton{
+	background-color:grey !important;
+	color: white !important;	
+	font-weight:normal;
+}
+
+.closeButton{
 	background-color:grey !important;
 	color: white !important;	
 	font-weight:normal;
