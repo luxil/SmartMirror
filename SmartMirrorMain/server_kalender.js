@@ -1,3 +1,11 @@
+/**
+ * Diese Datei greift auf die Daten vom Google Calendar zu und wurde mithilfe der Anleitung
+ * von folgender Seite erstellt: https://developers.google.com/google-apps/calendar/quickstart/nodejs
+ * und anschließend erweitert, um die erhaltenden Daten an den Smart Mirror Clienten
+ * zu schicken.
+ */
+
+
 var fs = require('fs');
 var readline = require('readline');
 var google = require('googleapis');
@@ -12,7 +20,8 @@ var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
 var TOKEN_PATH = TOKEN_DIR + 'calendar-nodejs-quickstart.json';
 
 // Load client secrets from a local file.
-// dadurch erhält er auch die events
+// dadurch erhält er auch die Events
+// wird in der Datei Server.js benutzt
 function load_events(callback) {
     fs.readFile('client_secret.json', function processClientSecrets(err, content) {
         if (err) {
@@ -141,15 +150,12 @@ function listEventsToClient(auth ,callback) {
     });
 }
 
+//gibt die Eventinfos zurück, damit diese später an den Smart Mirror Clienten geschickt werden können
 function returnEventInfos(callback){
     if(callback) callback(JSON.stringify(eventInfos));
-    //return JSON.stringify(eventInfos);
 }
 
 module.exports = {
-    load_client_secrets: function () {
-        load_client_secrets()
-    },
     load_events: function (callback) {
         load_events(callback);
     },

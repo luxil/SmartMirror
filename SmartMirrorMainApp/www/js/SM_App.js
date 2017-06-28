@@ -105,6 +105,18 @@ function forInitFuncs(){
     this.clickButtons = function(){
         //registriert die IP, die im Eingabefeld eingegeben wurde
         $("#okIp").click(function() {
+            window.scrollTo(0, 0);
+            // if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+            //     window.scrollTo(0,0) // first value for left offset, second value for top offset
+            // }else{
+            //     $('html,body').animate({
+            //         scrollTop: 0,
+            //         scrollLeft: 0
+            //     }, 800, function(){
+            //         $('html,body').clearQueue();
+            //     });
+            // }
+            // $('body').scrollTop({scrollTop: 0, 0);
             ipString =  $("#myInputField").val().toString();
             $("#okIp").append($("<code>").text(ipString));
             connectToServer(ipString, editServerSmartMirror)

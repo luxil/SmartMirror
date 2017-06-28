@@ -95,7 +95,13 @@ function makeClientSM_WithServer_Communication() {
         return parsed // Could be undefined!
     }
     return{
-        sendFuncToMobileConn:function (funcObj) {
+        resetServerConnections:function (callback) {
+            return resetServerConnections(callback)
+        }
+        , communicationWithServer:function () {
+            return communicationWithServer()
+        }
+        , sendFuncToMobileConn:function (funcObj) {
             return sendFuncToMobileConn(funcObj)
         }
     }

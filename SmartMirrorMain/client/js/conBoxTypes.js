@@ -152,10 +152,11 @@ function makeConBoxTypes() {
         $contentBox.addClass('weatherBox');
         addWeather($contentBox);
 
-        var myVar = setInterval(addWeather, 3000);
-        function addWeather($contentBox){
+        var myVar = setInterval(addWeather, 60000);
+        function addWeather(){
 
             var div = $contentBox;
+            div.html('');
 
             //fehleranfällig, da async=false gesetzt wird, synchron funktioniert aber alles viel langsamer
             //evtl später mal bearbeiten
@@ -227,8 +228,8 @@ function makeConBoxTypes() {
         addWatchBox: function () {
             return addWatchBox();
         }
-        , addComplimentBox: function () {
-            return addComplimentBox();
+        , addComplimentBox: function (name, datum) {
+            return addComplimentBox(name, datum);
         }
         , addCalendarBox: function () {
             return addCalendarBox();

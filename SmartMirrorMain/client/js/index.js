@@ -5,7 +5,7 @@
 //initialisiere den Smart Mirror
 $( init );
 function init() {
-    clientSM_WithServer_Communication.resetServerConnections(communicationWithServer);
+    clientSM_WithServer_Communication.resetServerConnections(clientSM_WithServer_Communication.communicationWithServer);
     //folgende Funktion nur auskommentieren, wenn direkt mit der Maus
     //der Smart Mirror verändert werden soll
     //dafür muss auch in der index.html der dazu gehörige Codeteil auskommentiert werden
