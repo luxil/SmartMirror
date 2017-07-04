@@ -50,6 +50,13 @@
 	
 }
 
+.calendarBox{
+	background-color: black;
+	font-size: 35px;
+	width: 1000px;
+	
+}
+
 .weatherBox{
 	background-color: black;
 	font-size: 35px;

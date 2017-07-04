@@ -232,9 +232,10 @@ function addComplimentBox(name, datum) {
 	
 	
     var div = $("#contentBox"+(aC_ButtonIndex-1));
-    div.append($("<code>").text(name));
+	div.html(name + '</Br>' + compliment); //					ÄNDERUNG!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   /* div.append($("<code>").text(name));
     div.append($("<br>"));
-    div.append($("<code>").text(compliment));
+    div.append($("<code>").text(compliment));*/
 }
 function addCalendarBox() {
     addContentBox();
@@ -342,13 +343,14 @@ function addWeatherBox() {
             icon = icon.replace("\"","");
             var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
 
-            div.append($("<code>").text(city));
+			div.html(city + '</Br>' + tempCels + "°" + icohtml + '</Br>' + beschr + '</Br>'); // ÄNDERUNG !!!!!!!!!!!!!!!!!!!!!!!
+            /*div.append($("<code>").text(city));
             div.append($("<br>"));
             div.append($("<code>").text(tempCels + "°"));
             div.append($(icohtml));
             div.append($("<br>"));
             div.append($("<code>").text(beschr));
-            div.append($("<br>"));
+            div.append($("<br>"));*/
         });
 
         // document.getElementById('contentBox'+aC_ButtonIndex).innerHTML =
