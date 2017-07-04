@@ -70,7 +70,7 @@ function makeContentBoxes() {
     }
 
     //gibt die aktuell sichtbaren und aktiven ContentBoxen zurück
-    function getActiveBoxes() {
+    function getActiveBoxes(callback) {
         return activeBoxes;
     }
 

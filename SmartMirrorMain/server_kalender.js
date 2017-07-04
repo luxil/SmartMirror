@@ -133,11 +133,11 @@ function listEventsToClient(auth ,callback) {
         var events = response.items;
         if (events.length == 0) {
             console.log('No upcoming events found.');
-            eventInfos.push('No upcoming events found.');
+            eventInfos.push('Keine Events gefunden!');
         } else {
             eventInfos = [];
             console.log('Upcoming 5 events:');
-            eventInfos.push('Upcoming 5 events:');
+            eventInfos.push('Die nächsten 5 Events:');
             console.log(eventInfos);
             for (var i = 0; i < events.length; i++) {
                 var event = events[i];

@@ -43,23 +43,37 @@
 }
 
 .watchBox{
-	background-color: black;
-	font-size: 35px;
-	width: 140px;
-	font-family: Arial;
-	
+    background-color: black;
+    font-size: 35px;
+    width: 140px;
+    font-family: Arial;
+
+}
+
+.calendarBox{
+    background-color: black;
+    font-size: 30px;
+    width: 1000px;
+    font-family: Arial;
+
 }
 
 .weatherBox{
-	background-color: black;
-	font-size: 35px;
-	width: 300px;
-	font-family: Arial;
-	
+    background-color: black;
+    font-size: 35px;
+    width: 300px;
+    font-family: Arial;
+
 }
 .complimentBox{
-	background-color: black;
-	font-size: 35px;
-	width: 600px;
-	font-family: Arial;
+    background-color: black;
+    font-size: 35px;
+    width: 600px;
+    font-family: Arial;
+}
+
+p{
+    margin: 0px;
+    font-size: 32px;
+    font-family: Arial;
 }

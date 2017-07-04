@@ -35,12 +35,13 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">-->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/SM_App.css">
         <title>Hello World</title>
 
         <!-- Include meta tag to ensure proper rendering and touch zooming -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
         <!-- Include jQuery Mobile stylesheets -->
         <!--<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">-->
@@ -71,14 +72,14 @@
 
     </head>
     <body>
+        <section>
         <!--ipConnectWindow-->
         <div class="app" id="ipConnectWindow">
-            <h1>Smart Mirror App</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-            <h2>Bitte IP des Rechners eingeben. Z.B.: 192.168.0.1</h2>
+            <h2>Bitte IP des Rechners eingeben. <br>Z.B.: 192.168.0.1</h2>
             <input type="text" id="myInputField" value="192.168.0.53" name="feld" />
             <!--<input type="text" id="myInputField" value="192.168.188.20" name="feld" />-->
             <button id = "okIp">OK</button>
@@ -86,9 +87,8 @@
 
         <!--editMirrorWindow-->
         <div id="editMirrorWindow" >
-            <!--<h1>Smart Mirror App</h1>-->
-            <h2>Hier ändern</h2>
-            <button class="addContentButton">+</button>
+            <h3></h3> <!--Schriftzug SMirror-->
+            <button class="addContentButton">Boxen hinzufügen</button>
             <div class="contextBoxOptionsPanel">
                 <button class ="contentBoxPanelOptionsBut conBoxPanelOptionsButStyle ui-mini ui-shadow" id = "addWatchBox">Zeit</button>
                 <button class = "contentBoxPanelOptionsBut conBoxPanelOptionsButStyle" id = "addCalendarBox">Kalender</button>
@@ -99,14 +99,14 @@
             <div id="contextBoxPanel">
                 <div id="smallContextBoxPanel"></div>
                 <div id="contextBoxEditPanel">
-                    <button class = "moveButton" id = "upButton">up</button>
-                    <button class = "moveButton" id = "rightButton">right</button>
-                    <button class = "moveButton" id = "downButton">down</button>
-                    <button class = "moveButton" id = "leftButton">left</button>
-                    <button id = "deleteButton">delete</button>
-                    <button id = "closeButton">close</button>
+                    <button class = "moveButton" id = "upButton">▲</button>
+                    <button class = "moveButton" id = "leftButton">◄</button>
+                    <button class = "moveButton" id = "rightButton">►</button>
+                    <button class = "moveButton" id = "downButton">▼</button>
+                    <button class = "deleteButton" id = "deleteButton">Box löschen</button>
                 </div>
              </div>
+            <button class = "closeButton" id = "closeButton">App schließen</button>
         </div>
 
         <!--form window for compliment-->
@@ -121,5 +121,6 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script src="js/SM_App.js"></script>
         <link rel="stylesheet" type="text/css" href="css/SM_App.css">
+        </section>
     </body>
 </html>

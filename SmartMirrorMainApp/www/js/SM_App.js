@@ -126,7 +126,13 @@ function forInitFuncs(){
         });
         $("#closeButton").click(function() {
             sendFuncToIndexConn({'function':'closeButton'});
+            $("#ipConnectWindow").show();
+            $(".contextBoxOptionsPanel").hide();
+            $("#editMirrorWindow").hide();
+            $("#contextBoxEditPanel").hide();
+            $("#form").hide();
             navigator.app.exitApp();
+
         });
         $("#addComplimentsBox").click(function() {
             $(".contextBoxOptionsPanel").hide();

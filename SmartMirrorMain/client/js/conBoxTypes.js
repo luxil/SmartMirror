@@ -99,9 +99,10 @@ function makeConBoxTypes() {
 
 
         var div = $contentBox;
-        div.append($("<code>").text(name));
-        div.append($("<br>"));
-        div.append($("<code>").text(compliment));
+        div.html(name + '</Br>' + compliment);
+        /* div.append($("<code>").text(name));
+         div.append($("<br>"));
+         div.append($("<code>").text(compliment));*/
     }
     //fügt der Box die Kalenderinformationen hinzu
     function addCalendarBox() {
@@ -132,13 +133,27 @@ function makeConBoxTypes() {
                         var event = calendarEvents[i];
                         if(event[10]=='T'){
                             //formatiere datum, uhrzeit, eventname
-                            event = event.substring(0,10) + ' ' + event.substring(11,19) + event.substring(25,event.length);
+                            var tag = event.substring(8,10) + ".";
+                            var monat = event.substring(5,7) + ".";
+                            var jahrkz = event.substring(2,4);
+                            var leerzeichen = "&nbsp;&nbsp;";
+                            event = tag + monat + jahrkz + leerzeichen + event.substring(11,16) + event.substring(25,event.length);
                         }
-                        div.append($("<code>").text(event));
-                        div.append($("<br>"));
+                        else if (i!=1){
+                            //formatiere datum, uhrzeit, eventname
+                            var tag = event.substring(8,10) + ".";
+                            var monat = event.substring(5,7) + ".";
+                            var jahrkz = event.substring(2,4);
+                            var leerzeichen = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+                            event = tag + monat + jahrkz + leerzeichen + event.substring(11,event.length);
+
+                        }
+                        // div.append("<p>Dienstag</p>");
+                        div.append("<p>" + event + "</p>");
+                        // div.append($("<code>").text(event));
+                        // div.append($("<br>"));
                     }
                 }
-                //div.scrollTop(div.scrollTop()+10000);
                 sockjs.close();
             };
 
@@ -186,7 +201,7 @@ function makeConBoxTypes() {
                     beschr = "Wenige Wolken";
                 }
                 if (beschr == "scattered clouds"){
-                    beschrr = "Vereinzelt Bewölkt";
+                    beschr = "Vereinzelt Bewölkt";
                 }
                 if (beschr == "broken clouds"){
                     beschr = "Aufgerissene Bewölkung";
@@ -213,13 +228,14 @@ function makeConBoxTypes() {
                 icon = icon.replace("\"","");
                 var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
 
-                div.append($("<code>").text(city));
-                div.append($("<br>"));
-                div.append($("<code>").text(tempCels + "°"));
-                div.append($(icohtml));
-                div.append($("<br>"));
-                div.append($("<code>").text(beschr));
-                div.append($("<br>"));
+                div.html(city + '</Br>' + tempCels + "°" + icohtml + '</Br>' + beschr + '</Br>');
+                /*div.append($("<code>").text(city));
+                 div.append($("<br>"));
+                 div.append($("<code>").text(tempCels + "°"));
+                 div.append($(icohtml));
+                 div.append($("<br>"));
+                 div.append($("<code>").text(beschr));
+                 div.append($("<br>"));*/
             });
         }
     }
