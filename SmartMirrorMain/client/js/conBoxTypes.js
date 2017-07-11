@@ -148,10 +148,7 @@ function makeConBoxTypes() {
                             event = tag + monat + jahrkz + leerzeichen + event.substring(11,event.length);
 
                         }
-                        // div.append("<p>Dienstag</p>");
                         div.append("<p>" + event + "</p>");
-                        // div.append($("<code>").text(event));
-                        // div.append($("<br>"));
                     }
                 }
                 sockjs.close();

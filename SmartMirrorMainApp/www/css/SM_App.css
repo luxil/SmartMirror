@@ -224,7 +224,24 @@ body {
     padding: 20px;
 }
 
+ .smallContextBox{
+     font-size: 150%;
+     color: white !important;
+    /*height: 200% !important;*/
+     width: 2% !important;
+     border-width:2vh 2vw 2vh 2vw;
+ }
+ .ui-btn-inner{
+     padding-top:105px !important;
+ }
+
 section{
     height:95vh;
     width: 100vw;
 }
+
+#smallContextBoxPanel{
+    height: 200%;
+}
+
+#smallContextBoxPanel .smallContextBox .ui-btn{background-color:red !important; width:500px !important; color:#fff !important;}

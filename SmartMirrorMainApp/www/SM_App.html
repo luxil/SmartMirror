@@ -34,14 +34,10 @@
 
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
-        <!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">-->
-        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8;" lang="de" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/SM_App.css">
         <title>Hello World</title>
-
-        <!-- Include meta tag to ensure proper rendering and touch zooming -->
-        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
         <!-- Include jQuery Mobile stylesheets -->
         <!--<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">-->
@@ -70,6 +66,8 @@
 
         <script src="js/External_Libs/angular.min.js"></script>
 
+
+
     </head>
     <body>
         <section>
@@ -88,7 +86,8 @@
         <!--editMirrorWindow-->
         <div id="editMirrorWindow" >
             <h3></h3> <!--Schriftzug SMirror-->
-            <button class="addContentButton">Boxen hinzufügen</button>
+            <button class="addContentButton">Boxen hinzufuegen</button>
+
             <div class="contextBoxOptionsPanel">
                 <button class ="contentBoxPanelOptionsBut conBoxPanelOptionsButStyle ui-mini ui-shadow" id = "addWatchBox">Zeit</button>
                 <button class = "contentBoxPanelOptionsBut conBoxPanelOptionsButStyle" id = "addCalendarBox">Kalender</button>
@@ -103,10 +102,11 @@
                     <button class = "moveButton" id = "leftButton">◄</button>
                     <button class = "moveButton" id = "rightButton">►</button>
                     <button class = "moveButton" id = "downButton">▼</button>
-                    <button class = "deleteButton" id = "deleteButton">Box löschen</button>
+                    <button class = "deleteButton" id = "deleteButton">Box loeschen</button>
                 </div>
              </div>
-            <button class = "closeButton" id = "closeButton">App schließen</button>
+
+            <button class = "closeButton" id = "closeButton">App schliessen</button>
         </div>
 
         <!--form window for compliment-->
@@ -119,8 +119,14 @@
         </form>
 
         <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/MainApp_WithServer_Communication.js"></script>
         <script src="js/SM_App.js"></script>
+        <script src="js/editMirrorWindow.js"></script>
+        <script src="js/formWindow.js"></script>
+        <script src="js/ipConnectWindow.js"></script>
+
         <link rel="stylesheet" type="text/css" href="css/SM_App.css">
+
         </section>
     </body>
 </html>

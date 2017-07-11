@@ -3,10 +3,12 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/SMKomplimenteApp/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/SMKomplimenteFenster/node_modules/cordova-android/spec/e2e/fixtures/cordova-plugin-fake/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/SMKomplimenteFenster/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/SmartMirrorAppProject/node_modules/cordova-android/spec/e2e/fixtures/cordova-plugin-fake/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/SmartMirrorAppProject/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/SmartMirrorMainApp/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>

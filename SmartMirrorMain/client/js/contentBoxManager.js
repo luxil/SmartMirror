@@ -9,7 +9,7 @@ var contentBoxManager = makeContentBoxes();
 function makeContentBoxes() {
     var aC_ButtonIndex = 0;
     //Farben der ContentBoxen
-    var colors = ["red", "blue", "green", "yellow", "cyan", "coral", "grey"];
+    var colors = ["red", "blue", "green", "yellow", "cyan", "coral", "grey", "brown"];
     var activeBoxes = [];
     var selConBonIndex;
     var cBoxes = [];

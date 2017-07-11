@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ea734b-f6c3-434b-9e40-295fd9171728" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SMKomplimenteApp/www/js/MainApp_WithServer_Communication.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SMKomplimenteApp/www/js/editMirrorWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SMKomplimenteApp/www/js/formWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SMKomplimenteApp/www/js/ipConnectWindow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SmartMirror.iml" afterPath="$PROJECT_DIR$/.idea/SmartMirror.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMKomplimenteApp/www/SM_App.html" afterPath="$PROJECT_DIR$/SMKomplimenteApp/www/SM_App.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMKomplimenteApp/www/js/SM_App.js" afterPath="$PROJECT_DIR$/SMKomplimenteApp/www/js/SM_App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorMain/client/js/conBoxTypes.js" afterPath="$PROJECT_DIR$/SmartMirrorMain/client/js/conBoxTypes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorMain/client/js/contentBoxManager.js" afterPath="$PROJECT_DIR$/SmartMirrorMain/client/js/contentBoxManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorMainApp/www/SM_App.html" afterPath="$PROJECT_DIR$/SmartMirrorMainApp/www/SM_App.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorMainApp/www/css/SM_App.css" afterPath="$PROJECT_DIR$/SmartMirrorMainApp/www/css/SM_App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartMirrorMainApp/www/js/SM_App.js" afterPath="$PROJECT_DIR$/SmartMirrorMainApp/www/js/SM_App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,61 +34,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-191">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="design.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/css/design.css">
+      <file leaf-file-name="clientSM_WithServer_Communication.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/clientSM_WithServer_Communication.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding>
-                <element signature="e#0#44#0" expanded="false" />
+                <element signature="e#45#129#0" expanded="false" />
+                <element signature="n#!!block;n#resetServerConnections#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+                <element signature="n#!!block;n#communicationWithServer#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+                <element signature="e#1196#1367#0" expanded="false" />
+                <element signature="e#1485#2981#0" expanded="false" />
+                <element signature="e#2459#2632#0" expanded="false" />
+                <element signature="e#3020#3065#0" expanded="false" />
+                <element signature="n#!!block;n#sendFuncToMobileConn#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
+                <element signature="n#!!block;n#safelyParseJSON#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conBoxTypes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/conBoxTypes.js">
+      <file leaf-file-name="MainApp_WithServer_Communication.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/MainApp_WithServer_Communication.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="141" column="37" lean-forward="false" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
+            <state relative-caret-position="123">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="28" />
               <folding>
-                <element signature="e#45#164#0" expanded="false" />
-                <element signature="n#!!block;n#addWatchBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
-                <element signature="n#!!block;n#addComplimentBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
-                <element signature="e#4341#4510#0" expanded="false" />
-                <element signature="e#10056#10101#0" expanded="false" />
-                <element signature="e#10253#10301#0" expanded="false" />
-                <element signature="e#10339#10386#0" expanded="false" />
+                <element signature="e#510#832#0" expanded="false" />
+                <element signature="n#!!block;n#editServerSmartMirror#0;n#!!block;n#makeMainAppWithServerCommunication#0" expanded="false" />
+                <element signature="n#!!block;n#sendFuncToIndexConn#0;n#!!block;n#makeMainAppWithServerCommunication#0" expanded="false" />
+                <element signature="n#!!block;n#safelyParseJSON#0;n#!!block;n#makeMainAppWithServerCommunication#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SM_App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/css/SM_App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="228" column="5" lean-forward="true" selection-start-line="228" selection-start-column="5" selection-end-line="228" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changeBoxFunctions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/changeBoxFunctions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="69" column="1" lean-forward="false" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+              <folding>
+                <element signature="e#45#108#0" expanded="false" />
+                <element signature="n#!!block;n#upButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+                <element signature="n#!!block;n#rightButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+                <element signature="n#!!block;n#downButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+                <element signature="n#!!block;n#leftButton#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+                <element signature="n#!!block;n#deleteContentBox#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+                <element signature="n#!!block;n#changeConBoxWithIndex#0;n#!!block;n#makeChangeBoxFunctions#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/SM_App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+              <folding>
+                <element signature="e#819#1647#0" expanded="false" />
+                <element signature="e#879#974#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formWindow.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/formWindow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#44#0" expanded="false" />
+                <element signature="e#238#1328#0" expanded="false" />
+                <element signature="n#!!block;n#showFormElement#0;n#!!block;n#makeFormWindow#0" expanded="false" />
+                <element signature="e#1579#1740#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SM_App.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/SM_App.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="121" column="8" lean-forward="true" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="70" />
+              <folding>
+                <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#form#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ipConnectWindow.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/ipConnectWindow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#44#0" expanded="false" />
+                <element signature="n#!!block;n#showIpConnectElement#0;n#!!block;n#makeIpConnectWindow#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,8 +156,8 @@
       <file leaf-file-name="contentBoxManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/contentBoxManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+            <state relative-caret-position="119">
+              <caret line="11" column="86" lean-forward="false" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
               <folding>
                 <element signature="e#45#144#0" expanded="false" />
                 <element signature="n#!!block;n#ContentBox#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
@@ -96,48 +167,31 @@
                 <element signature="n#!!block;n#getSelConBonIndex#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
                 <element signature="n#!!block;n#setSelConBonIndex#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
                 <element signature="n#!!block;n#closeEditMode#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
-                <element signature="e#2678#2766#0" expanded="false" />
-                <element signature="e#2824#2871#0" expanded="false" />
-                <element signature="e#2909#2956#0" expanded="false" />
-                <element signature="e#2998#3049#0" expanded="false" />
-                <element signature="e#3105#3170#0" expanded="false" />
-                <element signature="e#3209#3257#0" expanded="false" />
-                <element signature="e#3295#3342#0" expanded="false" />
+                <element signature="e#2687#2775#0" expanded="false" />
+                <element signature="e#2833#2880#0" expanded="false" />
+                <element signature="e#2918#2965#0" expanded="false" />
+                <element signature="e#3007#3058#0" expanded="false" />
+                <element signature="e#3114#3179#0" expanded="false" />
+                <element signature="e#3218#3266#0" expanded="false" />
+                <element signature="e#3304#3351#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server_kalender.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SmartMirrorMain/server_kalender.js">
+      <file leaf-file-name="editMirrorWindow.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/editMirrorWindow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="139" column="51" lean-forward="false" selection-start-line="139" selection-start-column="51" selection-end-line="139" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SM_App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/SM_App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="128" column="12" lean-forward="false" selection-start-line="128" selection-start-column="12" selection-end-line="132" selection-end-column="30" />
+            <state relative-caret-position="225">
+              <caret line="79" column="55" lean-forward="false" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
               <folding>
-                <element signature="e#982#1810#0" expanded="false" />
-                <element signature="e#1042#1137#0" expanded="false" />
-                <element signature="n#!!block;n#init#0" expanded="false" />
+                <element signature="e#0#44#0" expanded="false" />
+                <element signature="e#618#955#0" expanded="false" />
+                <element signature="e#1100#1360#0" expanded="false" />
+                <element signature="e#1561#1754#0" expanded="false" />
+                <element signature="n#!!block;n#buttonPressedFunc#0;n#!!block;n#makeEditMirrorWindow#0" expanded="false" />
+                <element signature="n#!!block;n#swipeUpDownFunc#0;n#!!block;n#makeEditMirrorWindow#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kalender.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/css/kalender.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="2" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -154,16 +208,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>smal</find>
-      <find>addcon</find>
-      <find>abso</find>
-      <find>editMo</find>
-      <find>addContentBox</find>
-      <find>index</find>
-      <find>indexed</find>
-      <find>indexEditMode()</find>
-      <find>conbon</find>
-      <find>conBonIndex</find>
       <find>aC_ButtonIndex</find>
       <find>colors</find>
       <find>boxActivated</find>
@@ -184,6 +228,16 @@
       <find>bl</find>
       <find>connectin</find>
       <find>p</find>
+      <find>conne</find>
+      <find>edit</find>
+      <find>editServerSmartMirror</find>
+      <find>refreshs</find>
+      <find>sendfu</find>
+      <find>edi</find>
+      <find>form</find>
+      <find>style</find>
+      <find>refre</find>
+      <find>refres</find>
     </findStrings>
     <replaceStrings>
       <replace>contentBoxes.indexEditMode()</replace>
@@ -227,13 +281,23 @@
         <option value="$PROJECT_DIR$/SmartMirrorMain/client/index.html" />
         <option value="$PROJECT_DIR$/SmartMirrorMain/client/js/clientSM_WithServer_Communication.js" />
         <option value="$PROJECT_DIR$/SmartMirrorMain/client/js/index.js" />
-        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/SM_App.html" />
-        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/css/SM_App.css" />
-        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/js/SM_App.js" />
-        <option value="$PROJECT_DIR$/SmartMirrorMain/client/js/contentBoxManager.js" />
         <option value="$PROJECT_DIR$/SmartMirrorMain/client/css/index.css" />
         <option value="$PROJECT_DIR$/SmartMirrorMain/server_kalender.js" />
         <option value="$PROJECT_DIR$/SmartMirrorMain/client/js/conBoxTypes.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/js/clientSMMainApp_WithServer_Communication.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/js/Layout.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/js/editWindow.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/js/windowManager.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/js/MainApp_WithServer_Communication.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/SM_App.html" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/js/SM_App.js" />
+        <option value="$PROJECT_DIR$/SMKomplimenteApp/www/SM_App.html" />
+        <option value="$PROJECT_DIR$/SMKomplimenteApp/www/js/formWindow.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/js/formWindow.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorMain/client/js/contentBoxManager.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/js/ipConnectWindow.js" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/css/SM_App.css" />
+        <option value="$PROJECT_DIR$/SmartMirrorMainApp/www/js/editMirrorWindow.js" />
       </list>
     </option>
   </component>
@@ -245,8 +309,10 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/SMKomplimenteApp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/SMKomplimenteApp/platforms/android/cordova/node_modules" />
     <handled-path value="$PROJECT_DIR$/SmartMirrorMain/node_modules" />
     <handled-path value="$PROJECT_DIR$/SmartMirrorMainApp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/SmartMirrorMainApp/platforms/android/cordova/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -269,6 +335,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -279,6 +346,108 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirrorMainApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirrorMainApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirrorMainApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirrorMainApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartMirrorMainApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External_css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,7 +507,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,6 +517,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Linh Do\Dropbox\UnikramVomTab\Projekte\SmartMirror\SMKomplimenteApp\www\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Linh Do\Dropbox\UnikramVomTab\Projekte\SmartMirror\NodeJS\Backup Files (kann man eigentlich löschen)" />
       <recent name="C:\Users\Linh Do\Dropbox\UnikramVomTab\Projekte\SmartMirror\NodeJS\client\css" />
@@ -467,11 +638,12 @@
       <workItem from="1498552002771" duration="699000" />
       <workItem from="1498569583901" duration="13150000" />
       <workItem from="1498652180129" duration="4569000" />
+      <workItem from="1499763332596" duration="10265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164812000" />
+    <option name="totallyTimeSpent" value="181516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -479,6 +651,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213313" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46972176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12632374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -486,21 +659,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24205749" sideWeight="0.5057283" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18931298" sideWeight="0.4942717" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24916944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12632374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24205749" sideWeight="0.5057283" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -547,112 +710,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/SmartMirrorMain/client/js/conBoxTypes.js</url>
-          <line>164</line>
-          <properties />
+          <line>161</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/SmartMirrorMain/client/js/changeBoxFunctions.js</url>
+          <line>42</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/SMKomplimenteApp/www/js/SM_App.js</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/SM_App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="265" column="0" lean-forward="false" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
-          <folding>
-            <element signature="e#982#1810#0" expanded="false" />
-            <element signature="e#1042#1137#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/clientSM_WithServer_Communication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="71" />
-          <folding>
-            <element signature="e#45#129#0" expanded="false" />
-            <element signature="n#!!block;n#resetServerConnections#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
-            <element signature="n#!!block;n#communicationWithServer#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
-            <element signature="e#1196#1367#0" expanded="false" />
-            <element signature="e#1485#2981#0" expanded="false" />
-            <element signature="e#2459#2632#0" expanded="false" />
-            <element signature="e#3020#3065#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToMobileConn#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/SM_App.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="63" lean-forward="false" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/Backup Files (kann man eigentlich löschen)/kalender.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/clientSM_WithServer_Communication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="165" column="42" lean-forward="false" selection-start-line="165" selection-start-column="42" selection-end-line="165" selection-end-column="42" />
-          <folding>
-            <element signature="e#45#129#0" expanded="false" />
-            <element signature="n#!!block;n#resetServerConnections#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
-            <element signature="n#!!block;n#communicationWithServer#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
-            <element signature="e#1196#1367#0" expanded="false" />
-            <element signature="e#1485#2981#0" expanded="false" />
-            <element signature="e#2459#2632#0" expanded="false" />
-            <element signature="e#3020#3065#0" expanded="false" />
-            <element signature="n#!!block;n#sendFuncToMobileConn#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
-            <element signature="n#!!block;n#safelyParseJSON#0;n#!!block;n#makeClientSM_WithServer_Communication#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/SM_App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="55" column="38" lean-forward="false" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-          <folding>
-            <element signature="e#982#1810#0" expanded="false" />
-            <element signature="e#1042#1137#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/Backup Files (kann man eigentlich löschen)/kalender.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/SM_App.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
@@ -776,24 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMKomplimenteApp/www/SM_App.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="80" column="58" lean-forward="false" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SMKomplimenteApp/www/js/SM_App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#2097#2983#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorMain/Backup Files (kann man eigentlich löschen)/nachrichten.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -821,17 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="172" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="172" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,23 +887,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/css/kalender.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/css/design.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/server_kalender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" column="51" lean-forward="false" selection-start-line="139" selection-start-column="51" selection-end-line="139" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/SM_App.html">
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="62" lean-forward="true" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+        <state relative-caret-position="340">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/windowManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/css/SM_App.css">
+    <entry file="file://$PROJECT_DIR$/SMKomplimenteApp/www/js/ipConnectWindow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMKomplimenteApp/www/js/editMirrorWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="79" column="20" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding>
+            <element signature="e#694#2712#0" expanded="false" />
+            <element signature="n#!!block;n#safelyParseJSON#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMKomplimenteApp/www/js/SM_App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#819#1647#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMKomplimenteApp/www/js/MainApp_WithServer_Communication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMKomplimenteApp/www/SM_App.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="117" column="70" lean-forward="false" selection-start-line="117" selection-start-column="70" selection-end-line="117" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMKomplimenteApp/www/js/formWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/conBoxTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="252" column="5" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="252" selection-end-column="5" />
+          <folding>
+            <element signature="e#45#164#0" expanded="false" />
+            <element signature="n#!!block;n#addWatchBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+            <element signature="n#!!block;n#addComplimentBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+            <element signature="n#!!block;n#addCalendarBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+            <element signature="e#4341#4510#0" expanded="false" />
+            <element signature="e#4557#6487#0" expanded="false" />
+            <element signature="e#4727#6441#0" expanded="false" />
+            <element signature="n#!!block;n#addWeatherBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
+            <element signature="e#9884#9929#0" expanded="false" />
+            <element signature="e#9981#10042#0" expanded="false" />
+            <element signature="e#10081#10129#0" expanded="false" />
+            <element signature="e#10167#10214#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -879,7 +1050,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/changeBoxFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
+        <state relative-caret-position="765">
           <caret line="69" column="1" lean-forward="false" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
           <folding>
             <element signature="e#45#108#0" expanded="false" />
@@ -893,78 +1064,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/css/kalender.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/css/design.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/SM_App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="128" column="12" lean-forward="false" selection-start-line="128" selection-start-column="12" selection-end-line="132" selection-end-column="30" />
-          <folding>
-            <element signature="e#982#1810#0" expanded="false" />
-            <element signature="e#1042#1137#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/server_kalender.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="139" column="51" lean-forward="false" selection-start-line="139" selection-start-column="51" selection-end-line="139" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/conBoxTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="141" column="37" lean-forward="false" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
-          <folding>
-            <element signature="e#45#164#0" expanded="false" />
-            <element signature="n#!!block;n#addWatchBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
-            <element signature="n#!!block;n#addComplimentBox#0;n#!!block;n#makeConBoxTypes#0" expanded="false" />
-            <element signature="e#4341#4510#0" expanded="false" />
-            <element signature="e#10056#10101#0" expanded="false" />
-            <element signature="e#10253#10301#0" expanded="false" />
-            <element signature="e#10339#10386#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/contentBoxManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="119">
+          <caret line="11" column="86" lean-forward="false" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
           <folding>
             <element signature="e#45#144#0" expanded="false" />
             <element signature="n#!!block;n#ContentBox#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
@@ -974,32 +1077,98 @@
             <element signature="n#!!block;n#getSelConBonIndex#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
             <element signature="n#!!block;n#setSelConBonIndex#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
             <element signature="n#!!block;n#closeEditMode#0;n#!!block;n#makeContentBoxes#0" expanded="false" />
-            <element signature="e#2678#2766#0" expanded="false" />
-            <element signature="e#2824#2871#0" expanded="false" />
-            <element signature="e#2909#2956#0" expanded="false" />
-            <element signature="e#2998#3049#0" expanded="false" />
-            <element signature="e#3105#3170#0" expanded="false" />
-            <element signature="e#3209#3257#0" expanded="false" />
-            <element signature="e#3295#3342#0" expanded="false" />
+            <element signature="e#2687#2775#0" expanded="false" />
+            <element signature="e#2833#2880#0" expanded="false" />
+            <element signature="e#2918#2965#0" expanded="false" />
+            <element signature="e#3007#3058#0" expanded="false" />
+            <element signature="e#3114#3179#0" expanded="false" />
+            <element signature="e#3218#3266#0" expanded="false" />
+            <element signature="e#3304#3351#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SmartMirrorMain/client/js/index.js">
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/SM_App.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="348">
+          <caret line="121" column="8" lean-forward="true" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="70" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/ipConnectWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
+            <element signature="n#!!block;n#showIpConnectElement#0;n#!!block;n#makeIpConnectWindow#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/client/js/index.js">
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/formWindow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3876">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+            <element signature="e#238#1328#0" expanded="false" />
+            <element signature="n#!!block;n#showFormElement#0;n#!!block;n#makeFormWindow#0" expanded="false" />
+            <element signature="e#1579#1740#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/MainApp_WithServer_Communication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#510#832#0" expanded="false" />
+            <element signature="n#!!block;n#editServerSmartMirror#0;n#!!block;n#makeMainAppWithServerCommunication#0" expanded="false" />
+            <element signature="n#!!block;n#sendFuncToIndexConn#0;n#!!block;n#makeMainAppWithServerCommunication#0" expanded="false" />
+            <element signature="n#!!block;n#safelyParseJSON#0;n#!!block;n#makeMainAppWithServerCommunication#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/SM_App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+          <folding>
+            <element signature="e#819#1647#0" expanded="false" />
+            <element signature="e#879#974#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/css/SM_App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="228" column="5" lean-forward="true" selection-start-line="228" selection-start-column="5" selection-end-line="228" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartMirrorMainApp/www/js/editMirrorWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="79" column="55" lean-forward="false" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+            <element signature="e#618#955#0" expanded="false" />
+            <element signature="e#1100#1360#0" expanded="false" />
+            <element signature="e#1561#1754#0" expanded="false" />
+            <element signature="n#!!block;n#buttonPressedFunc#0;n#!!block;n#makeEditMirrorWindow#0" expanded="false" />
+            <element signature="n#!!block;n#swipeUpDownFunc#0;n#!!block;n#makeEditMirrorWindow#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
