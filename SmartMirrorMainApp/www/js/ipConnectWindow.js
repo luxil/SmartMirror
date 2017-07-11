@@ -23,7 +23,9 @@ function makeIpConnectWindow(){
         $("#form").hide();
 
         //sorgt dafür, dass im Webbrowser die IP direkt aus der URL ausgelesen wird; funktioniert natürlich nur im Browser
-        $("#myInputField").val(window.location.hostname);
+        //$("#myInputField").val(window.location.hostname);
+        //
+        $("#myInputField").val("169.254.3.142");
     }
 
     return {
